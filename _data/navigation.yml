@@ -1,20 +1,9 @@
 #
 #   Navigation to the left › side: left
 #
-- title: Start
+- title: Accueil
   url: "/"
   side: left
-
-- title: "Dropdown Menu"
-  url: "#"
-  side: left
-  dropdown:
-  - title: "Dropdown Menu 1"
-    url: "#"
-  - title: "Dropdown Menu 2"
-    url: "#"
-  - title: "Dropdown Menu 3"
-    url: "#"
 
 - title: Blog
   url: "/blog/"
@@ -30,9 +19,9 @@
   url: "/info/"
   side: right
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# - title: "Search"
+#   url: "/search/"
+#   side: right
 
 - title: "Contact"
   url: "/contact/"
