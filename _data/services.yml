@@ -15,3 +15,7 @@
 - name: "sitemap.xml"
   url: "/sitemap.xml"
   title: "Sitemap for Google Webmaster Tools"
+
+- name: "Licences"
+  url: "/licences/"
+  title: "Licences"
