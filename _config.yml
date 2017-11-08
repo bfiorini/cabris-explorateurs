@@ -45,7 +45,10 @@ urlimg: '/images/'
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
-
+# Netlify
+netlify:
+  identity-enabled: true
+  cms-path: '/admin/'
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
