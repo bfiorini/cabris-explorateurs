@@ -8,6 +8,13 @@ teaser: >-
 categories:
   - escalade
   - grande-voie
+header:
+    image_fullwidth: header-buis.gif
+    caption: Camptocamp / CC by-sa
+    caption_url: https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud
+image:
+    homepage: header-buis.gif
+    thumb: header-buis.gif
 ---
 Benjamin ayant pris son vendredi, nous sommes partis deux jours à Buis-les-Baronnies, dans la Drôme. Apres trois heures de route, nous sommes arrivés le jeudi dans la soirée, pour dormir à l’hôtel du Lion d’Or (haha), dans l’optique de continuer à explorer cette belle falaise (eh oui, nous y étions déjà allé en septembre dernier pour fêter nos 1 an !). N.B. Suite à un malentendu sur le prix de la chambre, la propriétaire nous a remboursé de la différence. Un bon point pour le service !
 

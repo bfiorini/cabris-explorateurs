@@ -8,6 +8,13 @@ teaser: >-
 categories:
   - escalade
   - grande-voie
+header:
+    image_fullwidth: header-orpierre.jpg
+    caption: Orpierre Hautes-Alpes
+    caption_url: https://orpierre.collectivites.hautes-alpes.fr/
+image:
+    homepage: header-orpierre.jpg
+    thumb: header-orpierre.jpg
 ---
 Nous revoilà dans les Baronnies, pour aller visiter la fameuse ville d’Orpierre, et ses falaises  bien connues. L’idée nous a été donnée par Raymond lors de notre stage à l’UCPA cet été. 
 
