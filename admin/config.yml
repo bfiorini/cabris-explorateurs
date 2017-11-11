@@ -28,13 +28,13 @@ collections: # A list of collections the CMS should be able to edit
         widget: object
         fields:
         - {label: "Image", name: "image_fullwidth", widget: "image"}
-        - {label: "Caption Text", name: "caption", widget: "string"}
-        - {label: "Caption URL", name: "caption_url", widget: "string"}
+        - {label: "Caption Text", name: "caption", widget: "string", required: false}
+        - {label: "Caption URL", name: "caption_url", widget: "string", required: false}
       - name: image
         label: Image
         widget: object
         fields:
-        - {label: "Homepage", name: "homepage", widget: "image"}
+        - {label: "Homepage", name: "homepage", widget: "image", required: false}
         - {label: "Thumbnail", name: "thumb", widget: "image"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
