@@ -7,7 +7,7 @@ teaser: >-
   sur le Saint Julien à Buis les Baronnies...
 categories:
   - escalade
-  - grande-voie
+  - grande voie
 header:
     image_fullwidth: header-buis.gif
     caption: Camptocamp / CC by-sa
