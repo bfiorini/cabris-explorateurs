@@ -39,7 +39,7 @@ improve_content: https://github.com/bfiorini/feeling-responsive/edit/master
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: '/images/'
+# urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
@@ -108,7 +108,7 @@ defaults:
       path: '' 				# an empty string here means all files in the project
     values:
       header:
-        image_fullwidth: header-home.jpg
+        image_fullwidth: /images/header-home.jpg
   -
     scope:
       path: '' 				# an empty string here means all files in the project
