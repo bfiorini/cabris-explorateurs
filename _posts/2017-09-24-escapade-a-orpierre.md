@@ -10,12 +10,12 @@ categories:
   - escalade
   - grande voie
 header:
-    image_fullwidth: /images/uploads/header-orpierre.jpg
-    caption: Orpierre Hautes-Alpes
-    caption_url: https://orpierre.collectivites.hautes-alpes.fr/
+  caption: Orpierre Hautes-Alpes
+  caption_url: https://orpierre.collectivites.hautes-alpes.fr/
+  image_fullwidth: /images/uploads/header-orpierre.jpg
 image:
-    homepage: /images/uploads/header-orpierre.jpg
-    thumb: /images/uploads/header-orpierre.jpg
+  homepage: /images/uploads/header-orpierre.jpg
+  thumb: /images/uploads/header-orpierre.jpg
 ---
 Nous revoilà dans les Baronnies, pour aller visiter la fameuse ville d’Orpierre, et ses falaises  bien connues. L’idée nous a été donnée par Raymond lors de notre stage à l’UCPA cet été. 
 
