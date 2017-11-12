@@ -1,5 +1,6 @@
 ---
 layout: page
+author: alex
 title: Escapade à Orpierre
 subheadline: Hautes-Alpes
 teaser: >-

@@ -1,5 +1,6 @@
 ---
 layout: page
+author: alex
 title: 'Dôme de Bellefond : une aventure en deux temps '
 subheadline: Chartreuse
 teaser: >-

@@ -1,5 +1,6 @@
 ---
 layout: page
+author: alex
 title: Weekend à Buis-les-Baronnies
 subheadline: Drôme
 teaser: >-
