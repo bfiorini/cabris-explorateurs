@@ -11,7 +11,6 @@ rating: '3'
 description: >-
   L1: 5b+ pas très intéressante, un peu déversante au début.
 
-
   L2: 5c+ sur le fil de l'éperon, avec du gaz et des changements de murs
   magnifiques !
 ---

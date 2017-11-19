@@ -9,7 +9,11 @@
 {% endcomment %}
 
 {% assign area = include.area %}
-{% assign routes = site.routes | sort: 'title'  %}
+{% if area == NULL %}
+  {% assign routes = site.routes | sort: 'title'  %}
+{% else %}
+  {% assign routes = site.routes | where: 'area',area | sort: 'title'  %}
+{% endif %}
 
 <ul class="side-nav">
   {% for route in routes %}
