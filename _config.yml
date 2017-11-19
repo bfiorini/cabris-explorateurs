@@ -50,6 +50,18 @@ netlify:
   identity-enabled: true
   cms-path: '/admin/'
 
+# Collections
+collections:
+  routes:
+    output: true
+    permalink: /voies/:path
+  areas:
+    output: true
+    permalink: /sites/:path
+  regions:
+    output: false
+    permalink: /regions/:path
+
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
 #     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
@@ -123,6 +135,20 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       author: alex     # Default author for posts
+  -
+    scope:
+      path: ''
+      type: routes
+    values:
+      layout: page
+      header: no
+  -
+    scope:
+      path: ''
+      type: areas
+    values:
+      layout: area
+      header: no
 
 
 

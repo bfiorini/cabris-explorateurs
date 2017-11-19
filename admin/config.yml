@@ -10,14 +10,14 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads"
 public_folder: "/images/uploads/"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
+collections:
+  - name: post
+    label: Blog Post
+    folder: "_posts"
+    sort: "date:desc"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - name: author
         label: Author
@@ -44,5 +44,66 @@ collections: # A list of collections the CMS should be able to edit
         fields:
         - {label: "Homepage", name: "homepage", widget: "image", required: false}
         - {label: "Thumbnail", name: "thumb", widget: "image"}
-    meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+
+  - name: regions
+    label: Régions
+    folder: _regions
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: Nom, name: title, widget: string, tagname: h1}
+  - name: areas
+    label: Sites
+    folder: _areas
+    create: true
+    slug: '{{region}}-{{slug}}'
+    fields:
+      - {label: Nom, name: title, widget: string, tagname: h1}
+      - name: region
+        label: Région
+        widget: relation
+        collection: regions
+        searchFields: [title]
+        valueField: title
+      - {label: Description, name: description, widget: markdown}
+  - name: routes
+    label: Voies
+    folder: _routes
+    create: true
+    slug: '{{area}}-{{slug}}'
+    fields:
+      - {label: Nom, name: title, widget: string, tagname: h1}
+      - name: area
+        label: Site
+        widget: relation
+        collection: areas
+        searchFields: [title]
+        valueField: title
+      - {label: Cotation, name: difficulty, widget: string}
+      - {label: 'Hauteur (en mètres)', name: height, widget: number}
+      - {label: 'Nombre de longueurs', name: pitches, widget: string}
+      - label: Équipement
+        name: gear
+        widget: select
+        default: Rapproché
+        options:
+        - Rapproché
+        - Aéré
+        - Aéré à compléter
+        - Vétuste
+        - Terrain d'aventure
+      - {label: Durée, name: time, widget: string}
+      - label: Rocher
+        name: rock
+        widget: select
+        default: Calcaire
+        options:
+        - Calcaire
+        - Granite
+        - Poudingue
+        - Grès
+        - Gabbro
+        - Gneiss
+      - {label: note, name: rating, widget: number}
+      - {label: Description, name: description, widget: markdown, required: false}

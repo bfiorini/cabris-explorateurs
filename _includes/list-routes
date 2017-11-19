@@ -1,0 +1,37 @@
+{% comment %}
+*
+*   This include lets you loop through routes.
+*
+*   Examples:
+*     - all routes: {% include list-routes %}
+*     - with area filtering: {% include list-routes area='abc' %}
+*
+{% endcomment %}
+
+{% assign area = include.area %}
+{% if area == NULL %}
+  {% assign routes = site.routes | sort: 'title'  %}
+{% else %}
+  {% assign routes = site.routes | where: 'area',area | sort: 'title'  %}
+{% endif %}
+
+<ul class="side-nav">
+  {% for route in routes %}
+    {% unless route.published == false %}
+    <li>
+      <a href="{{ site.url }}{{ route.url }}">
+        {% if area == NULL %}
+        {{ route.area }}
+        &middot;
+        {% endif %}
+        {{ route.title }}
+        &middot;
+        {{ route.difficulty }}
+        &middot;
+        {{ route.pitches }} longueurs
+      </a>
+    </li>
+    {% endunless %}
+  {% endfor %}
+  <li>&nbsp;</li>
+</ul>
