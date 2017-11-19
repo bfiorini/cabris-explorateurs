@@ -9,8 +9,8 @@
 {% endcomment %}
 
 {% assign area = include.area %}
-
 {% assign routes = site.routes | sort: 'title'  %}
+
 <ul class="side-nav">
   {% for route in routes %}
     {% unless route.published == false %}
