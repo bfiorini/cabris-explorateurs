@@ -1,0 +1,33 @@
+{% comment %}
+*
+*   This include lets you loop through areas.
+*
+*   Examples:
+*     - all area: {% include list-areas %}
+*     - with region filtering: {% include list-area region='abc' %}
+*
+{% endcomment %}
+
+{% assign region = include.region %}
+{% if region == NULL %}
+  {% assign areas = site.areas | sort: 'title' | sort: 'region' %}
+{% else %}
+  {% assign areas = site.areas | where: 'region',region | sort: 'title' | sort: 'region' %}
+{% endif %}
+
+<ul class="side-nav">
+  {% for area in areas %}
+    {% unless area.published == false %}
+    <li>
+      <a href="{{ site.url }}{{ area.url }}">
+        {% if region == NULL %}
+        {{ area.region }} &middot; 
+        {% endif %}
+        {{ area.title }}
+      </a>
+    </li>
+    {% endunless %}
+  {% endfor %}
+  <li>&nbsp;</li>
+</ul>
+
