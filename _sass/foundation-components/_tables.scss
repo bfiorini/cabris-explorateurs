@@ -55,6 +55,9 @@ $table-layout: auto !default;
 $table-display: table-cell !default;
 $table-margin-bottom: rem-calc(20) !default;
 
+/// Default value for showing the header when using stacked tables.
+$show-header-for-stacked: false !default;
+
 
 //
 // @mixins
@@ -125,11 +128,46 @@ $table-margin-bottom: rem-calc(20) !default;
   tr td { display: $table-display; line-height: $table-line-height; }
 }
 
+/// Adds styles for a stacked table. Useful for small-screen layouts.
+/// @param {Boolean} $header [$show-header-for-stacked] - Show the first th of header when stacked.
+@mixin table-stack($header: $show-header-for-stacked) {
+  @if $header {
+    thead {
+      th {
+        display: block;
+      }
+    }
+  }
+  @else {
+    thead {
+      display: none;
+    }
+  }
+
+  tfoot {
+    display: none;
+  }
+
+  tr,
+  th,
+  td {
+    display: block;
+  }
+
+  td {
+    border-top: 0;
+  }
+}
 
 @include exports("table") {
   @if $include-html-table-classes {
     table {
       @include table;
+    }
+    @media #{$small-only} {
+      table.stack {
+        @include table-stack;
+      }
     }
   }
 }
