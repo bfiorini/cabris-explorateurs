@@ -22,13 +22,13 @@ Certain.e.s le savent déjà, nous avons le projet de nous acheter un van, pour 
 
 Nous nous sommes donc rappelé qu'en Corse, il y avait pas mal de vans Blacksheep. Alors, tout simplement, nous sommes allés voir sur leur [site ](https://www.blacksheep-van.com/)et nous avons choisi le van de nos rêves (le California Confort, pour ceux qui se poseraient la question). Deux lits, un sur le toit relevable et un sur la banquette pliable, une cuisine à l'intérieur, et un chauffage stationnaire. Même si on va dans le sud, mine de rien la nuit, ça caille. 
 
-![](/images/uploads/il fait froid mais on est heureux car c est l apero.jpg 'il fait froid mais on est heureux car c\'est l\'apéro')
+![](/images/uploads/il fait froid mais on est heureux car c est l apero.jpg 'il fait froid mais on est heureux car c'est l'apéro')
 
 Bon, il faut avouer que le début n'a pas été une franche victoire. A l'automne, ils vendent tous leurs vans, et pour la flotte d'hiver il ne reste que les invendus... En voyant notre van aux banquettes ravagées de taches indélébiles, aux portes de placard délabrées, et surtout avec le gaz qui ne marchait pas, on ne s'est tout de même pas démonté, on a négocié un jour de remboursement, et nous voilà sur la route de Die. Gonflés à bloc, et renseignés sur la durabilité des California.
 
 Lors d'un petit arrêt pique-nique (camembert avec vue et délicieux flans de la boulangerie en bas de chez nous, s'il vous plait), un monsieur vient nous voir en nous expliquant qu'il voulait voir le van pour l'acheter, et qu'il l'avait raté de peu car nous venions de partir avec. Il nous explique que l'autre van Blacksheep en vente était imprégné d'une odeur de cigarette froide. Charmant... Nous l'avons échappé belle. 
 
-![Il devrait ici y avoir la photo d'un camembert heureux.](/images/uploads/camembert heureux.jpg)
+![](/images/uploads/camembert heureux.jpg)
 
 Bref, nous voilà de retour sur la route et armés de la super app' Parc4night, nous repérons un petit parking champêtre vers Aubagne. 
 
