@@ -9,7 +9,7 @@ teaser: >-
 categories:
   - randonnée
 header:
-  caption: header-dome de bellefond
+  caption: ''
   image_fullwidth: /images/uploads/header - bellefond.jpg
 image:
   homepage: /images/uploads/header - bellefond.jpg
