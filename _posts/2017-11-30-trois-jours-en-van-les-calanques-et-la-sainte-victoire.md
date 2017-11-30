@@ -11,7 +11,7 @@ categories:
   - '#vanlife'
   - Calanques
 header:
-  caption: header-vanlife
+  caption: ''
   image_fullwidth: /images/uploads/header_calanques_vanlife.jpg
 image:
   homepage: /images/uploads/header_calanques_vanlife.jpg
@@ -28,7 +28,7 @@ Bon, il faut avouer que le début n'a pas été une franche victoire. A l'automn
 
 Lors d'un petit arrêt pique-nique (camembert avec vue et délicieux flans de la boulangerie en bas de chez nous, s'il vous plait), un monsieur vient nous voir en nous expliquant qu'il voulait voir le van pour l'acheter, et qu'il l'avait raté de peu car nous venions de partir avec. Il nous explique que l'autre van Blacksheep en vente était imprégné d'une odeur de cigarette froide. Charmant... Nous l'avons échappé belle. 
 
-LA AUSSI J'AURAIS BIEN MIS UNE PHOTO. CA AERERAIT.
+![il devrait y avoir une photo du camembert.](/images/uploads/20171123_150931.jpg)
 
 Bref, nous voilà de retour sur la route et armés de la super app' Parc4night, nous repérons un petit parking champêtre vers Aubagne. 
 
