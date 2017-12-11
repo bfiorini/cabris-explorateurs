@@ -3,8 +3,6 @@
 layout: page-fullwidth
 ---
 
-{% if page.description %}
-<p>{{ page.description | markdownify }}</p>
-{% endif %}
+<p>{{ page.content }}</p>
 
 {% include list-routes area=page.title %}
