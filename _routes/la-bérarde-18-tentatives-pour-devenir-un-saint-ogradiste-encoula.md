@@ -16,6 +16,6 @@ description: >-
   A l'ombre tôt, 1h d'approche dont 30 min bien raides - il faut être réveillé. 
 
 
-  Edelweiss en pagaille !
+  Edelweiss en pagaïe !
 ---
 
