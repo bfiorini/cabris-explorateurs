@@ -1,6 +1,6 @@
 ---
-title: Voie des Buis
-area: Presles
+title: Voie des Buis (Presles)
+area: Vercors
 difficulty: 5c(+)
 height: '300'
 pitches: '8'
