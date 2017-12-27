@@ -4,7 +4,7 @@ area: Vercors
 difficulty: '4'
 height: '0'
 pitches: '0'
-gear: Rapproché
+gear: Aéré à compléter
 time: '1h30 marche d''approche, 1h15 double brèche, 3h30 arêtes et 1h45 retour'
 rock: Calcaire
 rating: '2'
