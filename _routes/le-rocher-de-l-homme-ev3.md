@@ -8,5 +8,6 @@ gear: Rapproché
 time: ''
 rock: Gneiss
 rating: '1'
+description: 'Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.'
 ---
 
