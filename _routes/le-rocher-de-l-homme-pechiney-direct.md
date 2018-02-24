@@ -15,5 +15,8 @@ description: >-
 
   Dans tout le secteur, attention à ne pas faire tomber de pierres car le haut
   des voies est à l'aplomb des départs !
+
+
+  Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.
 ---
 
