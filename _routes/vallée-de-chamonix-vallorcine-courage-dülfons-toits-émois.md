@@ -1,6 +1,6 @@
 ---
 title: 'Vallorcine - Courage, dülfons ! + Toits émois'
-area: Aiguilles Rouges
+area: Vallée de Chamonix
 difficulty: 5c
 height: '100'
 pitches: '5'

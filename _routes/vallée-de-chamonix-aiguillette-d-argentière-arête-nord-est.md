@@ -1,6 +1,6 @@
 ---
 title: Aiguillette d'Argentière - Arête Nord-Est
-area: Aiguilles Rouges
+area: Vallée de Chamonix
 difficulty: 4c
 height: '30'
 pitches: '2'

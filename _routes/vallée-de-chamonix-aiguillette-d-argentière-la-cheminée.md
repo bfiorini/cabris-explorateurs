@@ -1,6 +1,6 @@
 ---
 title: 'Aiguillette d''Argentière - La cheminée '
-area: Aiguilles Rouges
+area: Vallée de Chamonix
 difficulty: 4c
 height: '25'
 pitches: '1'
