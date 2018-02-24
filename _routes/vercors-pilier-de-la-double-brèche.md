@@ -1,6 +1,6 @@
 ---
 title: Pilier de la Double Brèche
-area: Vercors
+area: Contreforts Est
 difficulty: 5c
 height: '200'
 pitches: '8'
