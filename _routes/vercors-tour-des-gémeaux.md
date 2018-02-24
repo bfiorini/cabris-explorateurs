@@ -1,5 +1,5 @@
 ---
-title: Tour des Gémeaux (Mont Aiguille)
+title: 'Tour des Gémeaux '
 area: Vercors
 difficulty: 5c
 height: '250'
