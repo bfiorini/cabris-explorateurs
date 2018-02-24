@@ -1,6 +1,6 @@
 ---
-title: 'Tour des Gémeaux '
-area: Vercors
+title: 'Mont Aiguille - Tour des Gémeaux '
+area: Contreforts Est
 difficulty: 5c
 height: '250'
 pitches: 5+5
