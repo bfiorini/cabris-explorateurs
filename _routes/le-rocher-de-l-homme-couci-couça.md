@@ -11,5 +11,8 @@ rating: 3
 description: >-
   Sur le fil de l'arête, puis joli passage aérien en début de L2, sensations
   dans le niveau.
+
+
+  Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.
 ---
 
