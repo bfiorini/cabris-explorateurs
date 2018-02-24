@@ -2,8 +2,8 @@
 title: Arêtes du Gerbier - Traversée N→S
 area: Contreforts Est
 difficulty: '4'
-height: '0'
-pitches: '0'
+height: '330'
+pitches: '1'
 gear: Aéré à compléter
 time: '1h30 marche d''approche, 1h15 double brèche, 3h30 arêtes et 1h45 retour'
 rock: Calcaire
@@ -14,9 +14,13 @@ description: >-
 
 
   Quelques passages un peu expo (notamment l'accès à la double brèche et un
-  passage au milieu de l'arête). 
+  passage au milieu de l'arête). Jolie vue. 
 
 
   Matériel : se fait en chaussures d'approche. Prendre sangles et dégaines.
+
+
+  Topo :
+  <https://www.camptocamp.org/routes/54152/fr/gerbier-traversee-des-aretes>
 ---
 
