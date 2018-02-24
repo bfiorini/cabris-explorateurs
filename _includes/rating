@@ -1,0 +1,7 @@
+{% comment %}
+*
+*   This print a number of stars equals to the provided rating.
+*
+{% endcomment %}
+{% assign rating = include.rating %}
+{% for i in (1..rating) %}<i id="icon-star" class="icon-star"></i>{% endfor %}

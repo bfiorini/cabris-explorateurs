@@ -45,7 +45,7 @@
       <td>{{ route.gear }}</td>
       <td>{{ route.time }}</td>
       <td>{{ route.rock }}</td>
-      <td>{{ route.rating }}</td>
+      <td>{% include rating rating=route.rating %}</td>
     </tr>
     {% endunless %}
     {% endfor %}
