@@ -7,7 +7,7 @@ pitches: '4'
 gear: Rapproché
 time: 1h20
 rock: Calcaire
-rating: 2
+rating: 1
 description: >-
   Jolie arête un peu exposée au vent. Un peu patiné sans être gênant.
   Panoramique. 
