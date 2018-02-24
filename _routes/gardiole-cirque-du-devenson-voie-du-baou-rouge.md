@@ -1,6 +1,6 @@
 ---
 title: Cirque du Devenson - Voie du Baou Rouge
-area: Gardiole
+area: Calanques de Marseille / Cassis
 difficulty: 5b/c
 height: '200'
 pitches: '7'
