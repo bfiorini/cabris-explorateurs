@@ -5,7 +5,7 @@ difficulty: 5c
 height: '250'
 pitches: 5+5
 gear: Aéré à compléter
-time: 6h
+time: ''
 rock: Calcaire
 rating: '2'
 description: >-
