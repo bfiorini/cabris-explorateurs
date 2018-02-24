@@ -17,5 +17,8 @@ description: >-
 
   Un peu de recherche d'itinéraire ; la marche de retour est assez longue
   (environ 1h15, avec une grosse descente).
+
+
+  Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.
 ---
 
