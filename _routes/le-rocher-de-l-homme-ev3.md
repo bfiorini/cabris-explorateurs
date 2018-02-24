@@ -5,7 +5,7 @@ difficulty: 5b+
 height: '90'
 pitches: '3'
 gear: Rapproché
-time: 1h30
+time: ''
 rock: Gneiss
 rating: '1'
 ---
