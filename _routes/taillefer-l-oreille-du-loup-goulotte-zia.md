@@ -1,7 +1,7 @@
 ---
 title: L'Oreille du Loup - Goulotte Zia
 area: Taillefer
-difficulty: 'AD (neige 50°, M2, 3+ rocher)'
+difficulty: 'AD (neige 50°, M2)'
 height: '400'
 pitches: 3-4
 gear: Terrain d'aventure
