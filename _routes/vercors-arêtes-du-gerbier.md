@@ -14,7 +14,7 @@ description: >-
 
 
   Quelques passages un peu expo (notamment l'accès à la double brèche et un
-  passage au milieu de l'arête). 
+  passage au milieu de l'arête). Jolie vue. 
 
 
   Matériel : se fait en chaussures d'approche. Prendre sangles et dégaines.
