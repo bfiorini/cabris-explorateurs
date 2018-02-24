@@ -1,4 +1,4 @@
 ---
-title: Mont-Blanc / Aiguilles Rouges
+title: Mont-Blanc / Vallée de Chamonix
 ---
 
