@@ -1,5 +1,5 @@
 ---
-title: Arêtes du Gerbier
+title: Arêtes du Gerbier - Traversée N→S
 area: Vercors
 difficulty: '4'
 height: '0'
