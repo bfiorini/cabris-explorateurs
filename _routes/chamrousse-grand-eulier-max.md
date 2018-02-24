@@ -14,5 +14,8 @@ description: >-
 
 
   Le rocher est bon ; super fissure en L3.
+
+
+  Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.
 ---
 
