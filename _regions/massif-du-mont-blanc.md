@@ -1,4 +1,4 @@
 ---
-title: Massif du Mont-Blanc
+title: Mont-Blanc / Aiguilles Rouges
 ---
 
