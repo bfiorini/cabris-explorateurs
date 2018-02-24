@@ -1,6 +1,6 @@
 ---
 title: Arêtes du Gerbier - Traversée N→S
-area: Vercors
+area: Contreforts Est
 difficulty: '4'
 height: '0'
 pitches: '0'
