@@ -29,7 +29,10 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Subheadline", name: "subheadline", widget: "string", tagname: "h2"}
       - {label: "Teaser", name: "teaser", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Body
+        name: body
+        widget: markdown
+        default: '{% include gallery %}'
       - {label: "Categories", name: "categories", widget: "list"}
       - name: header
         label: Header
@@ -45,6 +48,17 @@ collections:
         - {label: "Homepage", name: "homepage", widget: "image", required: false}
         - {label: "Thumbnail", name: "thumb", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - name: gallery
+        label: Gallery
+        widget: list
+        required: false
+        fields:
+            - label: Image
+              name: image_url
+              widget: image
+            - label: Caption
+              name: caption
+              required: false
 
   - name: regions
     label: Régions
