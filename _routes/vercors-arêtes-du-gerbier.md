@@ -18,5 +18,9 @@ description: >-
 
 
   Matériel : se fait en chaussures d'approche. Prendre sangles et dégaines.
+
+
+  Topo :
+  <https://www.camptocamp.org/routes/54152/fr/gerbier-traversee-des-aretes>
 ---
 
