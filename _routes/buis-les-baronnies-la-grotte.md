@@ -1,5 +1,5 @@
 ---
-title: La grotte
+title: La Grotte
 area: Buis les Baronnies
 difficulty: 6a
 height: '110'
