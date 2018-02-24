@@ -17,5 +17,8 @@ description: >-
 
 
   Edelweiss en pagaïe !
+
+
+  Topo : _Oisans Nouveau, Oisans Sauvage_, Livre Ouest, J.-M. Cambon, 2007.
 ---
 
