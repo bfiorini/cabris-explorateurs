@@ -5,7 +5,7 @@ difficulty: '4'
 height: '330'
 pitches: '1'
 gear: Aéré à compléter
-time: '1h30 marche d''approche, 1h15 double brèche, 3h30 arêtes et 1h45 retour'
+time: 8h
 rock: Calcaire
 rating: '2'
 description: >-
@@ -18,6 +18,17 @@ description: >-
 
 
   Matériel : se fait en chaussures d'approche. Prendre sangles et dégaines.
+
+
+  Détail horaire :
+
+  - 1h30 marche d'approche
+
+  - 1h15 double brèche
+
+  - 3h30 arêtes
+
+  - 1h45 retour
 
 
   Topo :
