@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 permalink: /voies/
-title: Liste des voies
+title: Toutes les voies
 ---
 {% include list-routes %}
 

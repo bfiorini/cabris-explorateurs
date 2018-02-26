@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /sites/
-title: Liste des sites
+title: Tous les sites
 ---
 
 {% include list-areas %}
