@@ -5,8 +5,8 @@ title: 'Une semaine à Montserrat : grimpe et décision d''acheter !'
 subheadline: 'Janvier à Montserrat : passer du T-shirt à la doudoune en un clin d''oeil'
 teaser: >-
   Fin janvier, l'idée d'acheter notre propre van nous fait de plus rêver... Mais
-  avant d'acheter, il faudrait déjà louer ! Alors nous voilà partis sur les
-  routes de Montserrat en Espagne, à la découverte du poudingue et à la
+  avant de se décider, il faut continuer à louer. Alors nous voilà partis sur
+  les routes de Montserrat en Espagne, à la découverte du poudingue et à la
   recherche de la chaleur.
 categories:
   - VANLIFE
