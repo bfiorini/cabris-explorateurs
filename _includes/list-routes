@@ -15,7 +15,7 @@
   {% assign routes = site.routes | where: 'area',area | sort: 'title'  %}
 {% endif %}
 
-<table class="hover stack expanded">
+<table id="list-routes" class="hover stack expanded">
   <thead>
     <tr>
       {% if area == NULL %}
@@ -45,7 +45,7 @@
       <td>{{ route.gear }}</td>
       <td>{{ route.time }}</td>
       <td>{{ route.rock }}</td>
-      <td class="rating">{% include rating rating=route.rating %}</td>
+      <td data-order="{{ route.rating }}">{% include rating rating=route.rating %}</td>
     </tr>
     {% endunless %}
     {% endfor %}

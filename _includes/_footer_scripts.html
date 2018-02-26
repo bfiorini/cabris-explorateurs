@@ -7,6 +7,21 @@ $('audio,video').mediaelementplayer();
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
 
+{% if page.dataTable == true %}
+<script type="text/javascript" src="{{ url }}/assets/datatables/datatables.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $('#{{ page.dataTableId }}').DataTable( {
+      "paging": false,
+      "info": false,
+      "language": {
+        "search": "{{ site.data.language.search }}"
+      }
+    } );
+  } );
+</script>
+{% endif %}
+
 
 {% if site.netlify.identity-enabled == true %}
 <!-- Netlify Identity Widget -->
