@@ -10,9 +10,9 @@
 
 {% assign area = include.area %}
 {% if area == NULL %}
-  {% assign routes = site.routes | sort: 'title'  %}
+  {% assign routes = site.routes | sort: 'area' %}
 {% else %}
-  {% assign routes = site.routes | where: 'area',area | sort: 'title'  %}
+  {% assign routes = site.routes | where: 'area', area | sort: 'title' %}
 {% endif %}
 
 <table id="list-routes" class="hover stack expanded">
