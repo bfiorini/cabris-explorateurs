@@ -2,7 +2,7 @@
 layout: page
 author: alex
 title: 'Une semaine à Montserrat : grimpe et décision d''acheter !'
-subheadline: 'Janvier à Montserrat : passer du T-shirt à la doudoune en un clin d''oeil'
+subheadline: 'Janvier à Montserrat : 2ème expérience en van pour grimper du poudingue'
 teaser: >-
   Fin janvier, l'idée d'acheter notre propre van nous fait de plus rêver... Mais
   avant de se décider, il faut louer à nouveau, après avoir loué un van (trop
@@ -42,8 +42,6 @@ gallery:
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
     image_url: /images/uploads/vermell_brouillard.jpg
 ---
-{% include gallery %}
-
 Vous vous souvenez quand nous sommes partis dans les calanques en [Décembre](https://trader-program-60878.netlify.com/vanlife/calanques/trois-jours-en-van-les-calanques-et-la-sainte-victoire/), pour essayer un van sur deux jours ? Nous avions été séduits, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec un 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
 Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper. Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir Montserrat et ses tours de poudingue tant racontées. 
@@ -69,3 +67,5 @@ Le dernier jour de grimpe, retour sur les parois Sud, au spot de Vermell del Xin
 La dernière nuit, c'est une pluie torrentielle qui nous a réveillé... puis de la neige fondue au petit déj ! Retour sous la pluie, le long des côtes au rocher noir et déchiqueté vers Banyuls et Collioure, petite halte aux étangs de Narbonne pour faire coucou aux flamands roses, et (snif !) arrivée à Chambéry pour rendre le van. 
 
 L'histoire ne s'arrêtera pas là, qu'on se le dise... Parce que tout ça nous a bien décidé à acheter !
+
+{% include gallery %}
