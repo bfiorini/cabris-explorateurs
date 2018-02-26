@@ -28,7 +28,7 @@
       <th>Équipement</th>
       <th>Durée</th>
       <th>Rocher</th>
-      <th>Note</th>
+      <th class="rating">Note</th>
     </tr>
   </thead>
   <tbody>
@@ -45,7 +45,7 @@
       <td>{{ route.gear }}</td>
       <td>{{ route.time }}</td>
       <td>{{ route.rock }}</td>
-      <td>{% include rating rating=route.rating %}</td>
+      <td class="rating">{% include rating rating=route.rating %}</td>
     </tr>
     {% endunless %}
     {% endfor %}
