@@ -19,12 +19,29 @@ image:
   thumb: /images/uploads/couverture.jpg
 date: '2018-02-26 02:56:44'
 gallery:
+  - caption: Oh-oh... Le voyage aurait-il mal commencé ?
+    image_url: /images/uploads/notre pauvre pneu.jpg
+  - caption: >-
+      Benjamin en mission de sauvetage de notre pneu crevé... Malheureusement le
+      kit anti-crevaison ne marchait pas. C'est fun de crever sous la pluie
+      glacée de janvier !
+    image_url: /images/uploads/reparation pneu.jpg
   - caption: >-
       Réveil au bord des étangs de Narbonne... un lever de soleil enchanteur, le
       chant des oiseaux et le clapotis de l'eau.
     image_url: /images/uploads/lever_de_soleil_a_narbonne petit.jpg
+  - caption: Site de couenne à Collbató (Cam nou barris)
+    image_url: /images/uploads/collbato_1.jpg
+  - caption: Les parois de la face Nord
+    image_url: /images/uploads/parois_nord.jpg
+  - caption: 'Coucher de soleil côté Nord, avec un des monastères en contrebas'
+    image_url: /images/uploads/coucher_parois_nord.jpg
+  - caption: 'La cheminée de la très jolie voie Arlequí (V+), a Vermell del Xincarró '
+    image_url: /images/uploads/cheminee_vermell_del_xincarro.jpg
+  - caption: Super ambiance à Vermell del Xincarró dans le brouillard
+    image_url: /images/uploads/vermell_brouillard.jpg
 ---
-Vous vous souvenez quand nous sommes partis dans les calanques en Décembre, pour essayer un van sur deux jours ? Nous avions été séduits, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec un 5m40 de long, 2m60 de haut, le Burstner 540 loué chez Alpes Evasion à Chambéry.
+Vous vous souvenez quand nous sommes partis dans les calanques en [Décembre](https://trader-program-60878.netlify.com/vanlife/calanques/trois-jours-en-van-les-calanques-et-la-sainte-victoire/), pour essayer un van sur deux jours ? Nous avions été séduits, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec un 5m40 de long, 2m60 de haut, le Burstner 540 loué chez Alpes Evasion à Chambéry.
 
 Seulement, fin janvier, c'est pas le moment idéal pour aller grimper. Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir Montserrat et ses tours de poudingue tant racontées. 
 
@@ -42,4 +59,10 @@ Arrivés à Montserrat, nous nous sommes posés au-dessus d'El Bruc, dans le par
 
 Juste au-dessus de notre petit parking goudronné et plat, un autre spot de grimpe, Paret de la Codolosa. Rien de bien fou : assez facile, pas mal de végétation et de cailloux prêts à tomber... un peu perturbant quand on se rappel que le poudingue, c'est juste des galets coincés dans un rocher assez poudreux... Mais un peu de grimpe par temps chaud et ensoleillé, ça ne se refuse jamais ! 
 
-Pour la suite de la semaine, nous sommes allés faire un tour vers les parois Nord. Ce sont des immenses falaises à couper le souffle, bien à l'abri pour les chaudes journées d'été...
+Pour la suite de la semaine, nous sommes allés faire un tour vers les parois Nord. Ce sont d'immenses falaises à couper le souffle, bien à l'abri pour les chaudes journées d'été...
+
+Pour notre dernier jour de grimpe, retour sur les parois Sud, au spot de Vermell del Xincarro. Super rocher, rouge, fissures et cheminées, le tout dans une ambiance magique dans le brouillard... Une très belle journée. 
+
+La dernière nuit, c'est une pluie torrentielle qui nous a réveillé... puis de la neige fondue au petit déj ! Retour sous la pluie, le long des côtes vers Collioure et Banyuls, petite halte aux étangs de Narbonne pour faire coucou aux flamands roses, et (snif !) arrivée à Chambéry pour rendre le van. 
+
+L'histoire ne s'arrêtera pas là, qu'on se le dise...
