@@ -14,7 +14,7 @@ categories:
   - ESPAGNE
 header:
   caption: Montserrat
-  image_fullwidth: /images/uploads/montserrat_overview.jpg
+  image_fullwidth: /images/uploads/couverture header.jpg
 image:
   homepage: /images/uploads/couverture.jpg
   thumb: /images/uploads/couverture.jpg
