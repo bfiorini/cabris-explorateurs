@@ -8,6 +8,4 @@
 
 {% assign datetime = include.value %}
 
-<time datetime="{{ datetime | date_to_xmlschema }}" itemprop="datePublished">
-  {{ datetime | date: "%Y-%m-%d" }}
-</time>
+<time datetime="{{ datetime | date_to_xmlschema }}" itemprop="datePublished">{{ datetime | date: "%Y-%m-%d" }}</time>

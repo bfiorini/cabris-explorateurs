@@ -11,6 +11,6 @@
 
 {% if author %}
 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <span itemprop="name">{{ author.name }}</span>
+  <span itemprop="name">{{ author.name }}</span>
 </span>
 {% endif %}
