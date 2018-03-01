@@ -1,0 +1,11 @@
+{% comment %}
+*
+*   This include prints a list of categories.
+*
+*   Example: {% include categories values=post.categories %}
+*
+{% endcomment %}
+
+{% assign categories = include.values %}
+
+{{ categories | join: ', ' }}

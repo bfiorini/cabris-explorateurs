@@ -9,12 +9,10 @@
 
 {% for post in paginator.posts %}
 
-{% assign author = site.data.authors[post.author] %}
-
   <div class="row">
     <div class="small-12 columns b60">
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="subheader">par {{ author.name }} &middot; {{ post.date | date_to_long_string }} &middot; {{ post.categories | join: ', ' }}</p>
+      <p class="subheader">{{ site.data.language.by }} {% include author id=post.author %} &middot; {% include datetime value=post.date %} &middot; {% include categories values=post.categories %}</p>
       <p>
         {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
