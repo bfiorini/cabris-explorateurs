@@ -10,8 +10,8 @@ teaser: >-
   de Montserrat en Espagne, à la découverte du poudingue et à la recherche de la
   chaleur.
 categories:
-  - VANLIFE
-  - ESPAGNE
+  - vanlife
+  - escalade
 header:
   caption: Montserrat
   image_fullwidth: /images/uploads/couverture header.jpg

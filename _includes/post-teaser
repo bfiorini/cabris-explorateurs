@@ -1,0 +1,30 @@
+{% comment %}
+*
+*   This include prints a teaser and thumbnail image for a post. 
+*
+*   Example: {% include post-teaser value=post %}
+*
+{% endcomment %}
+
+{% assign post=include.value %}
+{% capture post-url %}{{ site.url }}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+
+<div class="row">
+  <div class="small-12 columns b60">
+    <h2><a href="{{ post-url }}">{{ post.title }}</a></h2>
+    <p class="subheader">{{ site.data.language.by }} {% include author id=post.author %} &middot; {% include datetime value=post.date %} &middot; {% include categories values=post.categories %}</p>
+    <p>
+      {% if post.image.thumb %}
+      <a href="{{ post-url }}" title="{{ post.title | escape_once }}">
+        <img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ post.title escape_once }}">
+      </a>
+      {% endif %}
+
+      {% if post.meta_description %}
+      {{ post.meta_description | strip_html | escape }}
+      {% elsif post.teaser %}
+      {{ post.teaser | strip_html | escape }}
+      {% endif %}
+    </p>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->

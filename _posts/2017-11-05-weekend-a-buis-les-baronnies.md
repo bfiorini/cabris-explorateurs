@@ -8,7 +8,6 @@ teaser: >-
   sur le Saint Julien à Buis les Baronnies...
 categories:
   - escalade
-  - grande voie
 header:
   caption: Camptocamp / CC by-sa
   caption_url: https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud

@@ -8,8 +8,7 @@ teaser: >-
   testons. Ce weekend, nous sommes partis trois jours au volant d'un VW
   California Blacksheep, à la rencontre de nouvelles sensations.
 categories:
-  - Vanlife
-  - Calanques
+  - vanlife
 header:
   caption: ''
   image_fullwidth: /images/uploads/header_calanques_vanlife.jpg

@@ -8,7 +8,6 @@ teaser: >-
   dans les Hautes-Alpes. Un haut lieu de l'escalade...
 categories:
   - escalade
-  - grande voie
 header:
   caption: Orpierre Hautes-Alpes
   caption_url: https://orpierre.collectivites.hautes-alpes.fr/

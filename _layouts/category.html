@@ -1,0 +1,12 @@
+---
+layout: default
+format: blog-index
+noindex: true
+---
+<div class="row">
+	<div class="medium-8 medium-offset-2 columns t30">
+  {% for post in site.categories[page.title] %}
+  {% include post-teaser value=post %}
+  {% endfor %}
+	</div>
+</div>

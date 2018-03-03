@@ -8,8 +8,7 @@ teaser: >-
   quelques jours à Chamonix. Nous en avons profité pour aller faire une petite
   sortie en ski de randonnée.
 categories:
-  - Ski de rando
-  - Chamonix
+  - ski
 header:
   caption: ''
   image_fullwidth: /images/uploads/img_20171224_131758.jpg
