@@ -79,6 +79,10 @@ body.video cite { color: #fff; }
     background-color: $primary-color;
 }
 #masthead-with-text {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     font-size: rem-calc(54);
     font-family: $header-font-family;
