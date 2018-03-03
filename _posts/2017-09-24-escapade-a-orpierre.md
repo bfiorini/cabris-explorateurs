@@ -2,7 +2,6 @@
 layout: page
 author: alex
 title: Escapade à Orpierre
-subheadline: Hautes-Alpes
 teaser: >-
   Fin Septembre, nous avons profité d'un long weekend pour découvrir Orpierre,
   dans les Hautes-Alpes. Un haut lieu de l'escalade...

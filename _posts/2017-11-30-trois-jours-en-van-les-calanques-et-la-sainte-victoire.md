@@ -2,7 +2,6 @@
 layout: page
 author: alex
 title: 'Trois jours en van : les Calanques et la Sainte-Victoire'
-subheadline: '#vanlife, intro'
 teaser: >-
   Nous avançons dans notre projet d'acheter un van, et donc, petit à petit, nous
   testons. Ce weekend, nous sommes partis trois jours au volant d'un VW

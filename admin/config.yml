@@ -27,7 +27,6 @@ collections:
         - alex
         - bfiorini
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Subheadline", name: "subheadline", widget: "string", tagname: "h2"}
       - {label: "Teaser", name: "teaser", widget: "string"}
       - label: Body
         name: body

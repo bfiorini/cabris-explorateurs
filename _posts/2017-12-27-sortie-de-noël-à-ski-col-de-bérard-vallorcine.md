@@ -2,7 +2,6 @@
 layout: page
 author: alex
 title: 'Sortie de Noël à ski : col de Bérard, Vallorcine'
-subheadline: Chamonix
 teaser: >-
   Noël et les fêtes, c'est aussi l'occasion de changer de montagne, et de passer
   quelques jours à Chamonix. Nous en avons profité pour aller faire une petite

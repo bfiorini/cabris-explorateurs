@@ -2,7 +2,6 @@
 layout: page
 author: alex
 title: 'Dôme de Bellefond : une aventure en deux temps '
-subheadline: Chartreuse
 teaser: >-
   Deux tentatives pour aller de la Dent de Crolles au Dôme de Bellefond. Un joli
   sentier des crêtes très peu fréquenté avec un joli passage en cheminée. 

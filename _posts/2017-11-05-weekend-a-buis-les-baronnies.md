@@ -2,7 +2,6 @@
 layout: page
 author: alex
 title: Weekend à Buis-les-Baronnies
-subheadline: Drôme
 teaser: >-
   Profitons d'un vendredi chômé et du beau temps pour chercher un peu de chaleur
   sur le Saint Julien à Buis les Baronnies...
