@@ -65,5 +65,3 @@ Le dernier jour de grimpe, retour sur les parois Sud, au spot de Vermell del Xin
 La dernière nuit, c'est une pluie torrentielle qui nous a réveillé... puis de la neige fondue au petit déj ! Retour sous la pluie, le long des côtes au rocher noir et déchiqueté vers Banyuls et Collioure, petite halte aux étangs de Narbonne pour faire coucou aux flamands roses, et (snif !) arrivée à Chambéry pour rendre le van.
 
 L'histoire ne s'arrêtera pas là, qu'on se le dise... Parce que tout ça nous a bien décidé à acheter !
-
-{% include gallery %}
