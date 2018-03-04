@@ -282,5 +282,5 @@ mini_magick:
   thumbnail:
     source: images/uploads
     destination: /images/thumb
-    resize: "150"
+    thumbnail: "150"
 
