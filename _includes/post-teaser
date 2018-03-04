@@ -14,9 +14,11 @@
     <h2><a href="{{ post-url }}">{{ post.title }}</a></h2>
     <p class="subheader">{{ site.data.language.by }} {% include author id=post.author %} &middot; {% include datetime value=post.date %} &middot; {% include categories values=post.categories %}</p>
     <p>
-      {% if post.image.thumb %}
+      {% if post.image.homepage %}
+      {% assign split_url = post.image.homepage | split: '/' %}
+      {% capture thumb_url %}{{ site.mini_magick.thumbnail.destination }}/{{ split_url.last }}{% endcapture %}
       <a href="{{ post-url }}" title="{{ post.title | escape_once }}">
-        <img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ post.title escape_once }}">
+        <img src="{{ site.urlimg }}{{ thumb_url }}" class="alignleft" width="150" height="150" alt="{{ post.title escape_once }}">
       </a>
       {% endif %}
 

@@ -13,7 +13,6 @@ header:
   image_fullwidth: /images/uploads/header-buis.gif
 image:
   homepage: /images/uploads/header-buis.gif
-  thumb: /images/uploads/header-buis.gif
 ---
 Benjamin ayant pris son vendredi, nous sommes partis deux jours à Buis-les-Baronnies, dans la Drôme. Apres trois heures de route, nous sommes arrivés le jeudi dans la soirée, pour dormir à l’hôtel du Lion d’Or (haha), dans l’optique de continuer à explorer cette belle falaise (eh oui, nous y étions déjà allé en septembre dernier pour fêter nos 1 an !). N.B. Suite à un malentendu sur le prix de la chambre, la propriétaire nous a remboursé de la différence. Un bon point pour le service !
 

@@ -13,10 +13,9 @@ categories:
   - escalade
 header:
   caption: Montserrat
-  image_fullwidth: /images/uploads/couverture header.jpg
+  image_fullwidth: /images/uploads/20180121_164902.jpg
 image:
-  homepage: /images/uploads/couverture.jpg
-  thumb: /images/uploads/couverture.jpg
+  homepage: /images/uploads/20180121_164902.jpg
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Oh-oh... Le voyage aurait-il mal commencé ?
