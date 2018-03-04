@@ -71,6 +71,7 @@ collections:
 #
 pagination:
   enabled: true
+  debug: false
   per_page: 5
   permalink: '/page/:num/'
   sort_field: 'date'
