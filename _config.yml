@@ -62,21 +62,20 @@ collections:
     output: false
     permalink: /regions/:path
 
-#       ____              _             __  _
-#      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
-#     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
-#    / ____/ /_/ / /_/ / / / / / /_/ / /_/ / /_/ / / / /
-#   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
-#               /____/
-#
+# Plugin: Pagination (jekyll-paginate-v2)
 pagination:
   enabled: true
   debug: false
   per_page: 5
   permalink: '/page/:num/'
+  title: ':title - Page :num'
+  limit: 0
   sort_field: 'date'
   sort_reverse: true
 
+# Plugin: AutoPages (jekyll-paginate-v2)
+autopages:
+  enabled: false
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
