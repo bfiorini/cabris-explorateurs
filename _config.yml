@@ -29,6 +29,7 @@ author: bfiorini
 url: ''
 baseurl: ''
 
+
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/bfiorini/feeling-responsive/edit/master
@@ -83,7 +84,6 @@ permalink: /:categories/:title/
 highlight: rouge
 plugins:
   - jekyll-paginate-v2
-  - jekyll-minimagick
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
@@ -94,6 +94,13 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    #- _assets
+    - gulpfile.babel.js
+    - gulp-tasks
+    - node_modules
+    - package.json
+    - package-lock.json
+    - images
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -280,11 +287,4 @@ sass:
 
 # tawkto_embed_uri:
 #
-
-# Images
-mini_magick:
-  thumbnail:
-    source: images/uploads
-    destination: /images/thumb
-    thumbnail: "150"
 
