@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bfiorini/feeling-responsive#readme",
   "devDependencies": {
+    "autoprefixer": "^8.1.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
@@ -25,10 +26,19 @@
     "gulp": "^4.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-changed": "^3.2.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-postcss": "^7.0.1",
     "gulp-responsive": "^2.9.0",
     "gulp-sass": "^3.1.0",
+    "gulp-size": "^3.0.0",
     "minimist": "^1.2.0",
     "shelljs": "^0.8.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 9"
+  ]
 }

@@ -6,6 +6,11 @@ import responsive from 'gulp-responsive'
 import { getEnv } from './gulp-tasks/utils'
 import changed from 'gulp-changed'
 import sass from 'gulp-sass'
+import size from 'gulp-size'
+import postcss from 'gulp-postcss'
+import autoprefixer from 'autoprefixer'
+import cssnano from 'gulp-cssnano'
+import when from 'gulp-if'
 
 const env = getEnv()
 
@@ -18,17 +23,23 @@ const paths = {
     htmlFiles: '**/*.+(html|xml|xsl|txt)',
     includesFiles: '_includes/*',
     ymlFiles: '**/*.yml',
+    assetsImg: 'assets/img',
+    assetsStyles: 'assets/styles',
+    assetsFonts: 'assets/fonts',
+    assetsJs: 'assets/js',
   },
   images: {
     files: 'images/**/*.*',
   },
   styles: {
     folder: '_assets/styles',
-    files: '_assets/styles/**/*.*',
+    files: '_assets/styles/**/*.scss',
   },
   site: {
-    images: '_site/images/',
-    styles: '_site/assets/styles/'
+    img: '_site/images',
+    styles: '_site/assets/styles',
+    fonts: '_site/assets/fonts',
+    js: '_site/assets/js'
   }
 };
 
@@ -48,7 +59,7 @@ const buildJekyll = (cb) => {
 /* Images */
 const buildImages = () => gulp
   .src(paths.images.files)
-  .pipe(changed(paths.site.images))
+  .pipe(changed(paths.site.img))
   .pipe(responsive({
     '**/*.*': [{
       width: 20,
@@ -63,19 +74,28 @@ const buildImages = () => gulp
   }, {
       quality: 80,
       progressive: true,
-      errorOnEnlargement: false,
       withMetadata: false,
+      errorOnEnlargement: false,
       errorOnUnusedConfig: false
     }))
-  .pipe(gulp.dest(paths.site.images))
+  .pipe(gulp.dest(paths.site.img))
+  .pipe(when(env.dev, browsersync.stream()))
+
+const cleanImages = () => del([paths.site.img])
 
 
 /* Styles */
 const buildStyles = () => gulp
   .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss'])
-  .pipe(sass({precision: 10}).on('error', sass.logError))
+  .pipe(sass({ precision: 10 }).on('error', sass.logError))
+  .pipe(postcss([autoprefixer({ grid: true })]))
+  .pipe(when(!env.dev, when('*.css', cssnano({ autoprefixer: false }))))
+  .pipe(size({ showFiles: true }))
   .pipe(gulp.dest(paths.site.styles))
-  .pipe(browsersync.stream());
+  .pipe(gulp.dest(paths.jekyll.assetsStyles))
+  .pipe(when(env.dev, browsersync.stream()))
+
+const cleanStyles = () => del([paths.site.styles, paths.jekyll.assetsStyles])
 
 
 /* Server */
@@ -101,15 +121,19 @@ const startServer = () => {
     paths.jekyll.ymlFiles,
     paths.jekyll.includesFiles,
     paths.jekyll.notSite,
-  ], gulp.series(buildJekyll, buildImages, buildStyles, reload))
+  ], gulp.series(buildJekyll, buildImages, reload))
   /* Watch images */
   gulp.watch([
     paths.images.files
   ], gulp.series(buildImages, reload))
+  /* Watch styles */
+  gulp.watch([
+    paths.styles.files
+  ], gulp.series(buildStyles, reload))
 }
 
 /* Main */
-const clean = gulp.parallel(cleanJekyll)
+const clean = gulp.parallel(cleanJekyll, cleanStyles, cleanImages)
 clean.description = 'clean all'
 
 const build = gulp.series(clean, buildJekyll, buildStyles, buildImages)
