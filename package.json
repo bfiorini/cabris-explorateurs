@@ -1,5 +1,5 @@
 {
-  "name": "feeling-responsive",
+  "name": "cabris-explorateurs",
   "version": "1.0.0",
   "description": "my blog",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bfiorini/feeling-responsive.git"
+    "url": "git+https://github.com/bfiorini/cabris-explorateurs.git"
   },
   "author": "bfiorini",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bfiorini/feeling-responsive/issues"
+    "url": "https://github.com/bfiorini/cabris-explorateurs/issues"
   },
-  "homepage": "https://github.com/bfiorini/feeling-responsive#readme",
+  "homepage": "https://github.com/bfiorini/cabris-explorateurs#readme",
   "devDependencies": {
     "autoprefixer": "^8.1.0",
     "babel-cli": "^6.26.0",
