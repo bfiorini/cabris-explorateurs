@@ -40,5 +40,8 @@
     "last 2 versions",
     "> 5%",
     "IE 9"
-  ]
+  ],
+  "peerDependencies": {
+    "babel-core": "^6.26.0"
+  }
 }
