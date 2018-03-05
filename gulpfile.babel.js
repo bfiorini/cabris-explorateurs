@@ -5,6 +5,7 @@ import browsersync from 'browser-sync'
 import responsive from 'gulp-responsive'
 import { getEnv } from './gulp-tasks/utils'
 import changed from 'gulp-changed'
+import sass from 'gulp-sass'
 
 const env = getEnv()
 
@@ -21,8 +22,13 @@ const paths = {
   images: {
     files: 'images/**/*.*',
   },
+  styles: {
+    folder: '_assets/styles',
+    files: '_assets/styles/**/*.*',
+  },
   site: {
     images: '_site/images/',
+    styles: '_site/assets/styles/'
   }
 };
 
@@ -37,6 +43,7 @@ const buildJekyll = (cb) => {
     shell.exec('bundle exec jekyll build')
   cb()
 }
+
 
 /* Images */
 const buildImages = () => gulp
@@ -62,6 +69,15 @@ const buildImages = () => gulp
     }))
   .pipe(gulp.dest(paths.site.images))
 
+
+/* Styles */
+const buildStyles = () => gulp
+  .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss'])
+  .pipe(sass({precision: 10}).on('error', sass.logError))
+  .pipe(gulp.dest(paths.site.styles))
+  .pipe(browsersync.stream());
+
+
 /* Server */
 const reload = (cb) => {
   browsersync.reload()
@@ -85,7 +101,7 @@ const startServer = () => {
     paths.jekyll.ymlFiles,
     paths.jekyll.includesFiles,
     paths.jekyll.notSite,
-  ], gulp.series(buildJekyll, buildImages, reload))
+  ], gulp.series(buildJekyll, buildImages, buildStyles, reload))
   /* Watch images */
   gulp.watch([
     paths.images.files
@@ -96,7 +112,7 @@ const startServer = () => {
 const clean = gulp.parallel(cleanJekyll)
 clean.description = 'clean all'
 
-const build = gulp.series(clean, buildJekyll, buildImages)
+const build = gulp.series(clean, buildJekyll, buildStyles, buildImages)
 build.description = 'build all sources'
 
 const serve = gulp.series(build, startServer)

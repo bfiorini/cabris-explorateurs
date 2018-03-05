@@ -94,7 +94,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
-    #- _assets
+    - _assets
     - gulpfile.babel.js
     - gulp-tasks
     - node_modules
@@ -254,9 +254,9 @@ msapplication_tilecolor:                '#fabb00'
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
 #
 
-sass:
-    sass_dir: _sass
-    style: :compressed
+# sass:
+#     sass_dir: _sass
+#     style: :compressed
 
 
 #       ___                __      __  _

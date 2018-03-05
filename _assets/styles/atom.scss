@@ -1,7 +1,3 @@
----
-sitemap:
-  exclude: true
----
 @charset "utf-8";
 
 @import "functions.scss";
@@ -23,7 +19,7 @@ $include-html-classes: false;
 	font-family: $body-font-family;
 }
 
-channel {
+feed {
 	> title {
 		text-align: center;
 		color: lighten($primary-color, 25%);
@@ -31,11 +27,11 @@ channel {
 		font-size: $font-size-h1 * 1.5;
 		font-weight: bolder;
 		&::before {
-			content: 'RSS Feed for ';
+			content: 'Atom Feed for ';
 			font-weight: initial;
 		}
 		&::after {
-			content: "This RSS feed is meant to be used by RSS reader applications and websites.";
+			content: "This Atom feed is meant to be used by RSS reader applications and websites.";
 			display: block;
 			padding: 1em;
 			background-color: $alert-color;
@@ -46,13 +42,17 @@ channel {
 		}
 	}
 	
-	> description,
-	> link {
+	> id,
+	> updated,
+	> subtitle,
+	> author,
+	> link,
+	> generator {
 		display: none;
 	}
 }
 
-item {
+entry {
 	padding: 1em 0;
 	border-bottom: 1px solid invert($body-bg);
 	&:last-child {
@@ -66,24 +66,25 @@ item {
 		margin-bottom: 0.5em;
 	}
 
-	> link {
+	> link::after {
+		content: attr(href);
 		color: $primary-color;
 	}
 
-	> pubDate {
+	> updated {
 		color: $grey-5;
 		font-size: small;
 	}
 
-	> description {
+	> summary {
 		margin-top: 1em;
-		overflow: hidden;
-		white-space: nowrap;
-		text-overflow:ellipsis;
 	}
 
-	> guid,
-	> category {
+	> id,
+	> author,
+	> category,
+	> published,
+	> content {
 		display: none;
 	}
 }
