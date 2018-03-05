@@ -27,6 +27,7 @@ const paths = {
     assetsStyles: 'assets/styles',
     assetsFonts: 'assets/fonts',
     assetsJs: 'assets/js',
+    assetsIcons: 'assets/icons'
   },
   images: {
     files: 'images/**/*.*',
@@ -36,10 +37,11 @@ const paths = {
     files: '_assets/styles/**/*.scss',
   },
   site: {
-    img: '_site/images',
+    img: '_site/assets/img',
     styles: '_site/assets/styles',
     fonts: '_site/assets/fonts',
-    js: '_site/assets/js'
+    js: '_site/assets/js',
+    icons: '_site/assets/icons'
   }
 };
 
@@ -57,9 +59,11 @@ const buildJekyll = (cb) => {
 
 
 /* Images */
+const cleanImages = () => del([paths.site.img, paths.jekyll.assetsImg])
+
 const buildImages = () => gulp
   .src(paths.images.files)
-  .pipe(changed(paths.site.img))
+  .pipe(changed(paths.jekyll.assetsImg))
   .pipe(responsive({
     '**/*.*': [{
       width: 20,
@@ -79,12 +83,13 @@ const buildImages = () => gulp
       errorOnUnusedConfig: false
     }))
   .pipe(gulp.dest(paths.site.img))
+  .pipe(gulp.dest(paths.jekyll.assetsImg))
   .pipe(when(env.dev, browsersync.stream()))
-
-const cleanImages = () => del([paths.site.img])
 
 
 /* Styles */
+const cleanStyles = () => del([paths.site.styles, paths.jekyll.assetsStyles])
+
 const buildStyles = () => gulp
   .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss'])
   .pipe(sass({ precision: 10 }).on('error', sass.logError))
@@ -94,8 +99,6 @@ const buildStyles = () => gulp
   .pipe(gulp.dest(paths.site.styles))
   .pipe(gulp.dest(paths.jekyll.assetsStyles))
   .pipe(when(env.dev, browsersync.stream()))
-
-const cleanStyles = () => del([paths.site.styles, paths.jekyll.assetsStyles])
 
 
 /* Server */
@@ -121,7 +124,7 @@ const startServer = () => {
     paths.jekyll.ymlFiles,
     paths.jekyll.includesFiles,
     paths.jekyll.notSite,
-  ], gulp.series(buildJekyll, buildImages, reload))
+  ], gulp.series(buildJekyll, reload))
   /* Watch images */
   gulp.watch([
     paths.images.files

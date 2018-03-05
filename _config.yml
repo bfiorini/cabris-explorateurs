@@ -55,13 +55,13 @@ netlify:
 collections:
   routes:
     output: true
-    permalink: /voies/:path
+    permalink: /voies/:path:output_ext
   areas:
     output: true
-    permalink: /sites/:path
+    permalink: /sites/:path:output_ext
   regions:
     output: false
-    permalink: /regions/:path
+    permalink: /regions/:path:output_ext
 
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
@@ -101,6 +101,7 @@ exclude:
     - package.json
     - package-lock.json
     - images
+    - netlify.toml
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -131,7 +132,7 @@ defaults:
       path: '' 				# an empty string here means all files in the project
     values:
       header:
-        image_fullwidth: /images/header-home.jpg
+        image_fullwidth: /assets/img/header-home.jpg
   -
     scope:
       path: '' 				# an empty string here means all files in the project
@@ -160,18 +161,6 @@ defaults:
     values:
       layout: area
       header: no
-
-
-
-#       _   __            _             __  _
-#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-#     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
-#    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-#                       /____/
-#
-#  Open _data/navigation.yml to adjust the left and right topbar navigation
-#
 
 
 
