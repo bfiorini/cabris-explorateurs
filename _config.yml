@@ -1,17 +1,11 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
-#      _____ _ __          _____      __  __  _
-#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
-#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
-#                                                 /____/
+# Jekyll config file
 #
-# Title of your website
-title: 'Meuh'
+
+title: 'Les Cabris Explorateurs'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Benjalex partent en vadrouille'
+slogan: 'Les cabris explorent'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Escalades, grandes voies et randonnées par Alexandra et Benjamin'
@@ -44,7 +38,7 @@ improve_content: https://github.com/bfiorini/feeling-responsive/edit/master
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+# logo: "logo.png"
 
 # Netlify
 netlify:
@@ -132,6 +126,7 @@ defaults:
       path: '' 				# an empty string here means all files in the project
     values:
       header:
+        title: Les Cabris Explorateurs
         image_fullwidth: /assets/img/header-home.jpg
   -
     scope:

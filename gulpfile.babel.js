@@ -18,7 +18,7 @@ const env = getEnv()
 const paths = {
   jekyll: {
     site: '_site/',
-    notSite: '!_site/**/*.*',
+    doNotWatch: '!(_site|node_modules|.git)/**',
     mdFiles: '**/*.+(md|MD|markdown|MARKDOWN)',
     htmlFiles: '**/*.+(html|xml|xsl|txt)',
     includesFiles: '_includes/*',
@@ -132,7 +132,7 @@ const startServer = () => {
     paths.jekyll.htmlFiles,
     paths.jekyll.ymlFiles,
     paths.jekyll.includesFiles,
-    paths.jekyll.notSite,
+    paths.jekyll.doNotWatch,
   ], gulp.series(buildJekyll, reload))
   /* Watch images */
   gulp.watch([

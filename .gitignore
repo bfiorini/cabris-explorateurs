@@ -4,3 +4,5 @@ _site/
 *.swp
 .jekyll-metadata
 node_modules/
+/assets/img/
+/assets/styles/
