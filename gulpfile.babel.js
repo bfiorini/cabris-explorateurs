@@ -69,8 +69,17 @@ const buildImages = () => gulp
       width: 20,
       rename: { suffix: '-lq' },
     }, {
-      width: '150',
+      width: 150,
       rename: { suffix: '-thumb' },
+    }, {
+      width: 320,
+      rename: { suffix: '-320' },
+    }, {
+      width: 768,
+      rename: { suffix: '-768' },
+    }, {
+      width: 1024,
+      rename: { suffix: '-1024' },
     }, {
       width: '100%',
       rename: { suffix: '' },
