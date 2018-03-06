@@ -40,10 +40,6 @@ improve_content: https://github.com/bfiorini/cabris-explorateurs/edit/master
 # Logo size is 600x80 pixels
 # logo: "logo.png"
 
-# Netlify
-netlify:
-  identity-enabled: true
-  cms-path: '/admin/'
 
 # Collections
 collections:
