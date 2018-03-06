@@ -27,7 +27,7 @@ yarn
 
 ## Usage
 
-By default, every command is compile for production.
+By default, every command builds for production environment (assets optimized), unless the flag `--dev` is provided.
 
 ### `gulp`
 Identical to `gulp build`
