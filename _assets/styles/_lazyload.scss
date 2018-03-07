@@ -1,0 +1,29 @@
+.no-js img.lazyload {
+    display: none;
+}
+
+img {
+    /* lazysizes plugin */
+    &[data-sizes="auto"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+.blur-up {
+    filter: blur(10px);
+    transition: filter 400ms;
+}
+
+.blur-up.lazyloaded {
+    filter: blur(0);
+}
+
+.fade-in {
+    opacity: 0.25;
+    transition: opacity 400ms;
+}
+
+.fade-in.lazyloaded {
+    opacity: 1;
+}

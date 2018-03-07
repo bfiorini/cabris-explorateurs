@@ -23,6 +23,7 @@ const paths = {
     htmlFiles: '**/*.+(html|xml|xsl|txt)',
     includesFiles: '_includes/*',
     ymlFiles: '**/*.yml',
+    pluginsFiles: '_plugins/**',
     assetsImg: 'assets/img',
     assetsStyles: 'assets/styles',
     assetsFonts: 'assets/fonts',
@@ -132,6 +133,7 @@ const startServer = () => {
     paths.jekyll.htmlFiles,
     paths.jekyll.ymlFiles,
     paths.jekyll.includesFiles,
+    paths.jekyll.pluginsFiles,
     paths.jekyll.doNotWatch,
   ], gulp.series(buildJekyll, reload))
   /* Watch images */
