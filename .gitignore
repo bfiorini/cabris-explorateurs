@@ -6,3 +6,4 @@ _site/
 node_modules/
 /assets/img/
 /assets/styles/
+/assets/js/

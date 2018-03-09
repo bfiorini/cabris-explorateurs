@@ -11,6 +11,8 @@ import postcss from 'gulp-postcss'
 import autoprefixer from 'autoprefixer'
 import cleancss from 'gulp-clean-css'
 import when from 'gulp-if'
+import uglify from 'gulp-uglify'
+import concat from 'gulp-concat'
 
 const env = getEnv()
 
@@ -30,14 +32,18 @@ const paths = {
     assetsJs: 'assets/js',
     assetsIcons: 'assets/icons'
   },
+  js: {
+    folder: '_assets/js',
+    files: '_assets/js/**'
+  },
   images: {
     folder: '_assets/img',
-    files: '_assets/img/**/*.*',
-    uploadedFiles: 'images/**/*.*',
+    files: '_assets/img/**',
+    uploadedFiles: 'images/**',
   },
   styles: {
     folder: '_assets/styles',
-    files: '_assets/styles/**/*.*',
+    files: '_assets/styles/**',
   },
   site: {
     img: '_site/assets/img',
@@ -107,13 +113,30 @@ const resizeImages = () => gulp
 const buildImages = gulp.parallel(copyImages, resizeImages)
 
 
+/* JavaScript */
+const cleanJs = () => del([paths.site.js, paths.jekyll.assetsJs])
+
+const buildJs = () => gulp
+  .src([paths.js.folder + '/**/*.js'])
+  .pipe(when('**/gallery/*.js', concat('gallery.js')))
+  .pipe(when('**/main/*.js', concat('main.js')))
+  .pipe(when(!env.dev, uglify()))
+  .pipe(size({ showFiles: true }))
+  .pipe(gulp.dest(paths.site.js))
+  .pipe(gulp.dest(paths.jekyll.assetsJs))
+  .pipe(when(env.dev, browsersync.stream()))
+
+
 /* Styles */
 const cleanStyles = () => del([paths.site.styles, paths.jekyll.assetsStyles])
 
 const buildStyles = () => gulp
-  .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss', paths.styles.folder + '/**/*.css'])
+  .src([
+    paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss',
+    paths.styles.folder + '/**/*.css'])
   .pipe(sass({ precision: 10 }).on('error', sass.logError))
   .pipe(postcss([autoprefixer({ grid: true })]))
+  .pipe(when('**/gallery/*.css', concat('gallery.css')))
   .pipe(when(!env.dev, when('*.css', cleancss())))
   .pipe(size({ showFiles: true }))
   .pipe(gulp.dest(paths.site.styles))
@@ -154,13 +177,17 @@ const startServer = () => {
   gulp.watch([
     paths.styles.files
   ], gulp.series(buildStyles, reload))
+  /* Watch JS */
+  gulp.watch([
+    paths.js.files
+  ], gulp.series(buildJs, reload))
 }
 
 /* Main */
-const clean = gulp.parallel(cleanJekyll, cleanStyles, cleanImages)
+const clean = gulp.parallel(cleanJekyll, cleanStyles, cleanJs, cleanImages)
 clean.description = 'clean all'
 
-const build = gulp.series(clean, buildJekyll, buildStyles, buildImages)
+const build = gulp.series(clean, buildJekyll, buildStyles, buildJs, buildImages)
 build.description = 'build all sources'
 
 const serve = gulp.series(build, startServer)

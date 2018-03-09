@@ -1,15 +1,10 @@
-<script src="{{ url }}/assets/js/modernizr.min.js" async></script>
-
-
 {% if page.mediaplayer == true %}
 <script>
 $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
-
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/lazysizes.min.js" async></script>
+<script src="{{ url }}/assets/js/main.js"></script>
 
 {% if page.dataTable == true %}
 <script type="text/javascript" src="{{ url }}/assets/datatables/datatables.min.js"></script>
@@ -26,19 +21,8 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
-{% if page.gallery.size > 0 %}
-<script type="text/javascript" src="{{ url }}/assets/js/lightgallery.min.js"></script>
-<script type="text/javascript" src="{{ url }}/assets/js/jquery.justifiedGallery.min.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(document).ready(function() {
-    $("article").lightGallery({
-      selector: 'a[href*="/assets/img/"]'
-    });
-    $("#gallery").justifiedGallery({
-      captions: false
-    });
-  });
-</script>
+{% if page.gallery.size > 0 or page.layout == 'page' %}
+<script type="text/javascript" src="{{ url }}/assets/js/gallery.js"></script>
 {% endif %}
 
 

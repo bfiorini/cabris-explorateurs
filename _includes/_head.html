@@ -84,9 +84,8 @@
   <link rel="stylesheet" href="{{ url }}/assets/datatables/datatables.min.css">
   {% endif %}
 
-  {% if page.gallery.size > 0 %}
-  <link rel="stylesheet" href="{{ url }}/assets/styles/lightgallery.css">
-  <link rel="stylesheet" href="{{ url }}/assets/styles/justifiedGallery.css">
+  {% if page.gallery.size > 0 or page.layout == 'page' %}
+  <link rel="stylesheet" href="{{ url }}/assets/styles/gallery.css">
   {% endif %}
 
   {% include _favicon.html %}
