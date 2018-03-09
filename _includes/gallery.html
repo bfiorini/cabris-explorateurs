@@ -19,18 +19,27 @@
 *
 *   6. Add the include whereever you want in your content like this:
 *
-*   {% include gallery %}
+*   {% include gallery.html %}
 *
 *   Check out the example page › http://phlow.github.io/feeling-responsive/design/gallery/
 *
 {% endcomment %}
 <div>
-	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+	<ul class="clearing-thumbs small-block-grid-4">
 		{% for item in page.gallery %}
 		{% capture url %}{{ item.image_url }}{% endcapture %}
-		{% assign split_url = url | split: '.' %}
-		{% capture thumb_url %}{{ split_url.[0] }}-thumb.{{split_url[1]}}{% endcapture %}
-		<li><a href="{{ site.urlimg }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ thumb_url }}" alt="{{ item.caption }}"></a></li>
+		{% assign f = url | split: '.' %}
+		{% capture thumb_url %}{{ f[0] }}-gthumb.{{ f[1] }}{% endcapture %}
+		<li>
+			<a href="{{ site.urlimg }}{{ item.image_url }}">
+				<img
+          {% if item.caption %}
+          data-caption="{{ item.caption }}"
+          {% endif %}
+					src="{{ site.urlimg }}{{ thumb_url }}"
+					alt="{{ item.caption }}">
+			</a>
+		</li>
 		{% endfor %}
 	</ul>
 </div>

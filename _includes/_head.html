@@ -81,7 +81,11 @@
   {% endif %}
 
   {% if page.dataTable == true %}
-    <link rel="stylesheet" href="{{ url }}/assets/datatables/datatables.min.css">
+  <link rel="stylesheet" href="{{ url }}/assets/datatables/datatables.min.css">
+  {% endif %}
+
+  {% if page.gallery.size > 0 %}
+  <link rel="stylesheet" href="{{ url }}/assets/styles/lightgallery.css">
   {% endif %}
 
   {% include _favicon.html %}

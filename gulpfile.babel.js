@@ -31,11 +31,13 @@ const paths = {
     assetsIcons: 'assets/icons'
   },
   images: {
-    files: 'images/**/*.*',
+    folder: '_assets/img',
+    files: '_assets/img/**/*.*',
+    uploadedFiles: 'images/**/*.*',
   },
   styles: {
     folder: '_assets/styles',
-    files: '_assets/styles/**/*.scss',
+    files: '_assets/styles/**/*.*',
   },
   site: {
     img: '_site/assets/img',
@@ -62,13 +64,22 @@ const buildJekyll = (cb) => {
 /* Images */
 const cleanImages = () => del([paths.site.img, paths.jekyll.assetsImg])
 
-const buildImages = () => gulp
-  .src(paths.images.files)
+const copyImages = () => gulp
+  .src([paths.images.files])
+  .pipe(gulp.dest(paths.site.img))
+  .pipe(gulp.dest(paths.jekyll.assetsImg))
+  .pipe(when(env.dev, browsersync.stream()))
+
+const resizeImages = () => gulp
+  .src(paths.images.uploadedFiles)
   .pipe(changed(paths.jekyll.assetsImg))
   .pipe(responsive({
     '**/*.*': [{
       width: 20,
       rename: { suffix: '-lq' },
+    }, {
+      height: 150,
+      rename: { suffix: '-gthumb' },
     }, {
       width: 150,
       rename: { suffix: '-thumb' },
@@ -96,12 +107,14 @@ const buildImages = () => gulp
   .pipe(gulp.dest(paths.jekyll.assetsImg))
   .pipe(when(env.dev, browsersync.stream()))
 
+const buildImages = gulp.parallel(copyImages, resizeImages)
+
 
 /* Styles */
 const cleanStyles = () => del([paths.site.styles, paths.jekyll.assetsStyles])
 
 const buildStyles = () => gulp
-  .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss'])
+  .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss', paths.styles.folder + '/**/*.css'])
   .pipe(sass({ precision: 10 }).on('error', sass.logError))
   .pipe(postcss([autoprefixer({ grid: true })]))
   .pipe(when(!env.dev, when('*.css', cssnano({ autoprefixer: false }))))
@@ -109,7 +122,6 @@ const buildStyles = () => gulp
   .pipe(gulp.dest(paths.site.styles))
   .pipe(gulp.dest(paths.jekyll.assetsStyles))
   .pipe(when(env.dev, browsersync.stream()))
-
 
 /* Server */
 const reload = (cb) => {
@@ -138,7 +150,8 @@ const startServer = () => {
   ], gulp.series(buildJekyll, reload))
   /* Watch images */
   gulp.watch([
-    paths.images.files
+    paths.images.files,
+    paths.images.uploadedFiles
   ], gulp.series(buildImages, reload))
   /* Watch styles */
   gulp.watch([
