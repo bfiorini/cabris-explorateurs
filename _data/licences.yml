@@ -12,3 +12,9 @@
 
 - name: "Built on Foundation"
   url: "http://foundation.zurb.com/"
+
+- name: "Justified Gallery"
+  url: "http://miromannino.github.io/Justified-Gallery/"
+
+- name: "jQuery lightgallery"
+  url: "http://sachinchoolur.github.io/lightGallery/"
