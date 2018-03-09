@@ -78,9 +78,6 @@ const resizeImages = () => gulp
       width: 20,
       rename: { suffix: '-lq' },
     }, {
-      height: 150,
-      rename: { suffix: '-gthumb' },
-    }, {
       width: 150,
       rename: { suffix: '-thumb' },
     }, {

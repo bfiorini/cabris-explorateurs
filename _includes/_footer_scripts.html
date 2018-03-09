@@ -28,10 +28,14 @@ $('audio,video').mediaelementplayer();
 
 {% if page.gallery.size > 0 %}
 <script type="text/javascript" src="{{ url }}/assets/js/lightgallery.min.js"></script>
+<script type="text/javascript" src="{{ url }}/assets/js/jquery.justifiedGallery.min.js"></script>
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function() {
-    $(".gallery").lightGallery({
+    $("article").lightGallery({
       selector: 'a[href*="/assets/img/"]'
+    });
+    $("#gallery").justifiedGallery({
+      captions: false
     });
   });
 </script>
