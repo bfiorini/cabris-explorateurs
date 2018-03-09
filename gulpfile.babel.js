@@ -9,7 +9,7 @@ import sass from 'gulp-sass'
 import size from 'gulp-size'
 import postcss from 'gulp-postcss'
 import autoprefixer from 'autoprefixer'
-import cssnano from 'gulp-cssnano'
+import cleancss from 'gulp-clean-css'
 import when from 'gulp-if'
 
 const env = getEnv()
@@ -114,7 +114,7 @@ const buildStyles = () => gulp
   .src([paths.styles.folder + '/+(styles_feeling_responsive|atom|rss).scss', paths.styles.folder + '/**/*.css'])
   .pipe(sass({ precision: 10 }).on('error', sass.logError))
   .pipe(postcss([autoprefixer({ grid: true })]))
-  .pipe(when(!env.dev, when('*.css', cssnano({ autoprefixer: false }))))
+  .pipe(when(!env.dev, when('*.css', cleancss())))
   .pipe(size({ showFiles: true }))
   .pipe(gulp.dest(paths.site.styles))
   .pipe(gulp.dest(paths.jekyll.assetsStyles))
