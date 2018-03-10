@@ -5,7 +5,7 @@ layout: page-fullwidth
 #
 subheadline: ""
 title: ""
-teaser: ""
+excerpt: ""
 categories:
   - 
 tags:

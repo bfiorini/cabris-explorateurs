@@ -2,7 +2,7 @@
 layout: page
 author: alex
 title: 'Une semaine à Montserrat : grimpe et décision d''acheter !'
-teaser: >-
+excerpt: >-
   Fin janvier, l'idée d'acheter notre propre van nous fait de plus rêver... Mais
   avant de se décider, il faut louer à nouveau, après avoir loué un van (trop
   petit) en Décembre dans les Calanques. Alors nous voilà partis sur les routes

@@ -2,7 +2,7 @@
 layout: page
 title: "Licences"
 subheadline: ""
-teaser: "Merci"
+excerpt: "Merci"
 permalink: "/licences/"
 ---
 

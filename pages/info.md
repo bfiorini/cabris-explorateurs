@@ -2,6 +2,6 @@
 layout: page
 title: "Info"
 subheadline: ""
-teaser: ""
+excerpt: ""
 permalink: /info/
 ---

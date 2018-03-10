@@ -3,7 +3,7 @@ layout: page
 title: "Contact"
 meta_title: "Contact"
 subheadline: ""
-teaser: ""
+excerpt: "Page de contact"
 sitemap: false
 permalink: "/contact-success/"
 ---

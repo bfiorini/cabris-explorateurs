@@ -5,7 +5,7 @@ layout: video
 #
 subheadline: ""
 title: ""
-teaser: ""
+excerpt: ""
 categories:
   - 
 tags:

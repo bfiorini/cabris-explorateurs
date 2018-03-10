@@ -5,7 +5,7 @@ layout: page
 #
 subheadline: ""
 title: ""
-teaser: ""
+excerpt: ""
 meta_description:
 permalink:
 categories:

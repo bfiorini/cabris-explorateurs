@@ -58,7 +58,7 @@ permalink: /atom.xml
 					{% endif %}
 				</author>
 			{% endif %}
-			<summary>{{ post.teaser | xml_escape }}</summary>
+			<summary>{{ post.excerpt | xml_escape }}</summary>
 			<content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.content | xml_escape }}</content>
 
 			{% for category in post.categories %}

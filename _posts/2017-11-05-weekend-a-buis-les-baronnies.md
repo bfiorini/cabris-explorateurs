@@ -2,7 +2,7 @@
 layout: page
 author: alex
 title: Weekend à Buis-les-Baronnies
-teaser: >-
+excerpt: >-
   Profitons d'un vendredi chômé et du beau temps pour chercher un peu de chaleur
   sur le Saint Julien à Buis les Baronnies...
 categories:
