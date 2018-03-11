@@ -100,7 +100,7 @@ const resizeImages = () => gulp
       rename: { suffix: '' },
     }]
   }, {
-      quality: 80,
+      quality: 85,
       progressive: true,
       withMetadata: false,
       errorOnEnlargement: false,
