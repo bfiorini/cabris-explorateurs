@@ -2,54 +2,32 @@
 layout: default
 format: frontpage
 ---
-
-{% comment %}
-*
-* First check, if there are any posts at all
-*
-{% endcomment %}
+<div class="row">
+  <h3 class="text-center">
+    {{ site.data.language.more_articles | widont }}
+  </h3>
+</div>
 
 {% unless site.posts == empty %}
-    <div class="row t30 b20 homepage">
-        <div class="small-12 columns">
-            {% for post in site.posts limit:1 %}
-            {% if post.image.homepage %}
-            <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                    {% assign f = post.image.homepage | split: '.' %}
-                    {% include responsive_picture.html file=post.image.homepage alt=post.title %}
-                </a>
-            </p>
-            {% if post.image.caption_url and post.image.caption %}
-            <p class="text-right caption">
-                <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
-            </p>
-            {% endif %}
-            {% else post.image.homepage == NULL %}
-            <h2>{{ site.data.language.new_blog_entries }}</h2>
-            {% endif %}
-            {% endfor %}
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-
-
-    <div class="row">
-        <div class="medium-6 columns">
-            {% for post in site.posts limit:1 %}
-            <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt | strip_html | escape }}</p>
-            <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}">
-                    <strong>{{ site.data.language.read_more }}</strong>
-                </a>
-            </p>
-            {% endfor %}
-        </div><!-- /.medium-6.columns -->
-
-
-        <div class="medium-6 columns">
-            <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='3' offset='1' %}
-        </div><!-- /.medium-6.columns -->
-    </div><!-- /.row -->
+<div class="row">
+  {% for post in site.posts limit:6 %}
+  {% assign post_image = post.image.homepage %}
+  <div class="small-12 medium-4 columns homepage-block cover tr30">
+    <a href="{{ post.url | relative_url }}" title="{{ post.title | escape_once }}">
+      <div class="homepage-block-image">
+        {% include responsive_picture.html file=post_image alt=post.title %}
+      </div>
+      <div class="homepage-block-inner text-center">
+        {{ post.title | widont }}
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
 {% endunless %}
+
+<div class="row text-center tr30">
+  <a class="button small radius" href="/blog">
+    <strong>{{ site.data.language.archive }} ›</strong>
+  </a>
+</div>
