@@ -17,7 +17,7 @@
           {% capture isActive %}
           {% if link.url != '/' and page.url contains link.url %}
           active
-          {% elsif page.url == '/index.html' and link.url == '/' %}
+          {% elsif link.url == '/' and page.url == '/index.html' %}
           active
           {% endif %}
           {% endcapture %}
