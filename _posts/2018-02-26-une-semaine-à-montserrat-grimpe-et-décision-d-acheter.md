@@ -3,11 +3,11 @@ layout: page
 author: alex
 title: 'Montserrat, Espagne : coup de soleil ou averse de neige ?'
 excerpt: >-
-  Fin janvier, l'idée d'acheter notre propre van nous fait de plus rêver... Mais
-  avant de se décider, il faut louer à nouveau, après avoir loué un van (trop
-  petit) en Décembre dans les Calanques. Alors nous voilà partis sur les routes
-  de Montserrat en Espagne, à la découverte du poudingue et à la recherche de la
-  chaleur.
+  Fin janvier, l'idée d'acheter notre propre van nous fait de plus en plus
+  rêver... Mais avant de se décider, il faut louer à nouveau, après avoir loué
+  un van (trop petit) en Décembre dans les Calanques. Alors nous voilà partis
+  sur les routes de Montserrat en Espagne, à la découverte du poudingue et à la
+  recherche de la chaleur.
 categories:
   - vanlife
   - escalade
@@ -34,7 +34,7 @@ gallery:
   - caption: Les parois de la face Nord
     image_url: /assets/img/parois_nord_original.jpg
   - caption: 'Coucher de soleil côté Nord, avec un des monastères en contrebas'
-    image_url: /assets/img/coucher_parois_nord.jpg
+    image_url: /assets/img/coucher_soleil_parois_nord.jpg
   - caption: 'La cheminée de la très jolie voie Arlequí (V+), a Vermell del Xincarró '
     image_url: /assets/img/montserrat_cheminee_vermell.jpg
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
