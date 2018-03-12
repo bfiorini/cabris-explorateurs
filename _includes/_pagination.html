@@ -7,7 +7,7 @@
 {% endcomment %}
 
 {% for post in paginator.posts %}
-{% include post-teaser value=post %}
+{% include entry.html %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}

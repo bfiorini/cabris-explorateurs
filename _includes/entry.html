@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="small-12 columns b60 entry">
+    <h2 class="entry-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title | widont}}</a>
+    </h2>
+    <p class="entry-meta">
+      {{ site.data.language.by }} {% include author id=post.author %} &middot; {% include datetime value=post.date %} &middot; {% include categories values=post.categories %}
+    </p>
+
+    {% if post.image.homepage %}
+    {% assign f = post.image.homepage | split: '.' %}
+    {% assign title = post.title | escape_once %}
+    <a href="{{ post.url | relative_url }}" title="{{ title }}">
+      <noscript>
+        <img src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}" class="entry-image" alt="{{ title }}">
+      </noscript>
+      <img src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
+        data-src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}"
+        alt="{{ title }}" class="entry-image lazyload fade-in">
+    </a>
+    {% endif %}
+
+    <div class="entry-excerpt">
+      <p>{{ post.excerpt | strip_html | escape }}</p>
+    </div>
+  </div>
+</div>
