@@ -1,13 +1,35 @@
 /* Blog entries */
 
 .entry {
+  @include clearfix;
+  margin-bottom: 2rem;
+
+  .entry-title {
+    word-wrap: break-word;
+
+    a {
+      text-decoration: none;
+      border: 0;
+      font-weight: normal;
+    }
+  }
+
   .entry-meta {
     @include subheader;
   }
+
   .entry-image {
+    margin: 15px auto;
     width: 150px;
     max-height: 150px;
-    float: left;
-    margin: 5px 15px 5px 0;
+
+    @media #{$medium-up} {
+      margin: 5px 15px 5px 0;
+      float: left;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }
