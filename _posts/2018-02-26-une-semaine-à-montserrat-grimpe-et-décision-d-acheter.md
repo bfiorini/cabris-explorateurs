@@ -1,7 +1,7 @@
 ---
 layout: page
 author: alex
-title: 'Une semaine à Montserrat : grimpe et décision d''acheter !'
+title: 'Montserrat, Espagne : coup de soleil ou averse de neige ?'
 excerpt: >-
   Fin janvier, l'idée d'acheter notre propre van nous fait de plus rêver... Mais
   avant de se décider, il faut louer à nouveau, après avoir loué un van (trop
