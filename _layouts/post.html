@@ -1,0 +1,31 @@
+---
+layout: default
+format: post
+---
+
+{% include post-intro.html %}
+
+<div class="row">
+  <div class="medium-8 columns medium-offset-2 end">
+    <article itemscope itemtype="http://schema.org/Article">
+
+      {% if page.excerpt %}
+      <p class="excerpt" itemprop="description">
+        {{ page.excerpt }}
+      </p>
+      {% endif %}
+
+      <div itemprop="articleSection">
+      {{ content }}
+      </div>
+
+      {% if page.gallery.size > 0 %}
+      {% include gallery.html %}
+      {% endif %}
+
+      {% if page.show_meta == true %}
+      {% include _meta_information.html %}
+      {% endif %}
+    </article>
+  </div>
+</div>

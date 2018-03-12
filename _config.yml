@@ -79,20 +79,21 @@ excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
     - LICENSE
     - README.md
     - INSTALL.md
-    - _assets
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - package-lock.json
+    - yarn.lock
     - gulpfile.babel.js
     - gulp-tasks
     - node_modules
-    - package.json
-    - package-lock.json
-    - images
+    - .sass-cache
     - netlify.toml
+    - _assets
+    - images
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -120,25 +121,27 @@ compress_html:
 defaults:
   -
     scope:
-      path: '' 				# an empty string here means all files in the project
+      path: ''
     values:
-      header:
-        title: Les Cabris Explorateurs
-        image_fullwidth: /assets/img/header-home.jpg
-  -
-    scope:
-      path: '' 				# an empty string here means all files in the project
-      type: 'pages'
-    values:
-      show_meta: false 	# Hide metadata for all pages
-      author: bfiorini     # Default author for pages
+      title: Les Cabris Explorateurs
+      image:
+        featured: /assets/img/header-home.jpg
+        cover: true
   -
     scope:
       path: ''
-      type: 'posts'
+      type: 'pages'
     values:
-      show_meta: true   # Show metadata for all posts
-      author: alex     # Default author for posts
+      show_meta: false
+      author: bfiorini
+  -
+    scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+      show_meta: true
+      author: alex
   -
     scope:
       path: ''

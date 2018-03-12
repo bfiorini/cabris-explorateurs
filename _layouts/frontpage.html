@@ -2,6 +2,9 @@
 layout: default
 format: frontpage
 ---
+
+{% include _fronthead.html %}
+
 <div class="row">
   <h3 class="text-center">
     {{ site.data.language.more_articles | widont }}
@@ -11,7 +14,7 @@ format: frontpage
 {% unless site.posts == empty %}
 <div class="row">
   {% for post in site.posts limit:6 %}
-  {% assign post_image = post.image.homepage %}
+  {% assign post_image = post.image.featured %}
   <div class="small-12 medium-4 columns homepage-block cover tr30">
     <a href="{{ post.url | relative_url }}" title="{{ post.title | escape_once }}">
       <div class="homepage-block-image">

@@ -1,0 +1,39 @@
+{% assign featured_image = page.image.featured %}
+<header class="post-intro {% if featured_image and page.image.cover %}cover{% endif %}">
+  {% if featured_image %}
+  <div class="post-intro-image">
+    {% assign f = featured_image | split: '.' %}
+    <noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}"></noscript>
+    <img data-sizes="auto"
+          src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
+          data-srcset="{{ f[0] | relative_url }}-lq.{{ f[1] }} 20w,
+                      {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
+                      {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
+                      {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
+                      {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
+          alt="{{ page.title }}"
+          class="lazyload blur-up">
+    {% if page.image.caption and page.image.caption != '' %}
+    <div class="image-caption">
+      <small>{{ page.image.caption | markdownify | remove: '<p>' | remove: '</p>' }}</small>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="post-intro-inner">
+    <div class="post-intro-text row">
+      <h1 class="post-intro-title columns small-12">
+        {{ page.title | default: site.title | markdownify | strip_html | widont }}
+      </h1>
+      {% if page.show_meta %}
+      <div class="post-intro-meta columns small-12">
+        <span class="pr20 icon-edit">{% include author id=page.author %}</span>
+        {% if page.date %}
+        <span class="pr20 icon-calendar">{% include datetime value=page.date %}</span>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</header>

@@ -1,5 +1,4 @@
 ---
-layout: page
 author: alex
 title: 'Montserrat, Espagne : entre coup de soleil et averse de neige'
 excerpt: >-
@@ -11,11 +10,10 @@ excerpt: >-
 categories:
   - vanlife
   - escalade
-header:
-  caption: Montserrat
-  image_fullwidth: /assets/img/20180121_164902.jpg
 image:
-  homepage: /assets/img/20180121_164902.jpg
+  featured: /assets/img/20180121_164902.jpg
+  caption: ''
+  cover: true
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Aïe... Le voyage aurait-il mal commencé ?

@@ -1,0 +1,115 @@
+.post-intro {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  .post-intro-image {
+    position: relative;
+    display: block;
+    margin-bottom: 3rem;
+    padding-top: percentage(1/4);
+    width: 100%;
+    min-height: 200px;
+    img {
+      position: absolute;
+      display: block;
+      object-fit: cover;
+      font-family: "object-fit: cover"; // lazysizes object fit polyfill
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+    .image-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 15;
+      padding: 2px 5px 2px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .post-intro-text {
+    position: relative;
+    text-rendering: optimizeLegibility;
+    font-family: $header-font-family;
+
+    .post-intro-title {
+      line-height: 1;
+    }
+    @media #{$small-only} {
+      .post-intro-title {
+        font-size: 1.9rem;
+      }
+    }
+
+    .post-intro-meta {
+      display: block;
+    }
+  }
+}
+
+/* Cover */
+.post-intro {
+  &.cover {
+    color: #fff;
+    min-height: 200px;
+    padding-top: percentage(1/4);
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 5;
+      height: 100%;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        hsla(0, 0, 0, 0.4)
+      )
+    }
+
+    .post-intro-image {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .post-intro-inner {
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 1rem;
+
+      .post-intro-text {
+        color: #fff;
+        text-shadow: 0 2px 3px rgba(0,0,0,.4);
+
+        .post-intro-title {
+          color: #fff;
+        }
+
+        @media #{$small-only} {
+          .post-intro-meta {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

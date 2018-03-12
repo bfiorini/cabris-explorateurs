@@ -1,5 +1,4 @@
 ---
-layout: page
 author: alex
 title: Escapade à Orpierre
 excerpt: >-
@@ -7,12 +6,10 @@ excerpt: >-
   dans les Hautes-Alpes. Un haut lieu de l'escalade...
 categories:
   - escalade
-header:
-  caption: Orpierre Hautes-Alpes
-  caption_url: https://orpierre.collectivites.hautes-alpes.fr/
-  image_fullwidth: /assets/img/header-orpierre.jpg
 image:
-  homepage: /assets/img/header-orpierre.jpg
+  featured: /assets/img/header-orpierre.jpg
+  caption: '[Orpierre Hautes-Alpes](https://orpierre.collectivites.hautes-alpes.fr/)'
+  cover: true
 ---
 Nous revoilà dans les Baronnies, pour aller visiter la fameuse ville d’Orpierre, et ses falaises  bien connues. L’idée nous a été donnée par Raymond lors de notre stage à l’UCPA cet été. 
 

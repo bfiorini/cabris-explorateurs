@@ -1,0 +1,31 @@
+.fronthead {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  min-height: 200px;
+  padding-top: percentage(1/4);
+  background: url(/assets/img/header-home.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .fronthead-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 0;
+    font-size: rem-calc(54);
+    font-family: $header-font-family;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  }
+  @media #{$small-only} {
+    .fronthead-text {
+      font-size: 1.9rem;
+    }
+  }
+}
