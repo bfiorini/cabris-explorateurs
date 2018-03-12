@@ -1,5 +1,4 @@
 ---
-layout: page
 author: alex
 title: 'Sortie de Noël à ski : col de Bérard, Vallorcine'
 excerpt: >-
@@ -8,11 +7,10 @@ excerpt: >-
   sortie en ski de randonnée.
 categories:
   - ski
-header:
-  caption: ''
-  image_fullwidth: /assets/img/img_20171224_131758.jpg
 image:
-  homepage: /assets/img/img_20171224_131758.jpg
+  featured: /assets/img/img_20171224_131758.jpg
+  caption: ''
+  cover: false
 date: '2017-12-27 10:13:22'
 ---
 Après avoir profité des itinéraire de ski de rando "officiels" de Charamillon, nous sommes partis à la recherche de quelque chose de facile, avec de la bonne neige non encore transformée. Le vallon de Bérard semblait tout indiqué, avec des balades allant sur des versants orientés entre Nord Est et plein Est. L'idée, après avoir regardé le bulletin d'avalanche du jour, était de voir si les pentes étaient suffisamment skiées pour qu'on s'y aventure. 

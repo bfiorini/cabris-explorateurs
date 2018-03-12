@@ -1,5 +1,4 @@
 ---
-layout: page
 author: alex
 title: Weekend à Buis-les-Baronnies
 excerpt: >-
@@ -7,12 +6,10 @@ excerpt: >-
   sur le Saint Julien à Buis les Baronnies...
 categories:
   - escalade
-header:
-  caption: Camptocamp / CC by-sa
-  caption_url: https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud
-  image_fullwidth: /assets/img/header-buis.jpg
 image:
-  homepage: /assets/img/header-buis.jpg
+  featured: /assets/img/header-buis.jpg
+  caption: '[Camptocamp / CC by-sa](https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud)'
+  cover: true
 ---
 Benjamin ayant pris son vendredi, nous sommes partis deux jours à Buis-les-Baronnies, dans la Drôme. Apres trois heures de route, nous sommes arrivés le jeudi dans la soirée, pour dormir à l’hôtel du Lion d’Or (haha), dans l’optique de continuer à explorer cette belle falaise (eh oui, nous y étions déjà allé en septembre dernier pour fêter nos 1 an !). N.B. Suite à un malentendu sur le prix de la chambre, la propriétaire nous a remboursé de la différence. Un bon point pour le service !
 
