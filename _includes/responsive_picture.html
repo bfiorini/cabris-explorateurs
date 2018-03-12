@@ -8,7 +8,7 @@
 {%- assign file = include.file -%}
 {%- assign f = file | split: '.' -%}
 {%- assign alt = include.alt -%}
-<noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}"></noscript>
+<noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}" alt="{{ alt | escape_once }}"></noscript>
 <img data-sizes="auto" 
     src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
     data-srcset="{{ f[0] | relative_url }}-lq.{{ f[1] }} 20w,
@@ -17,4 +17,4 @@
         {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
         {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
         {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
-    alt="{{ alt | escape_once }}" class="lazyload blur-up">
+    alt="{{ alt | escape_once }}" class="lazyload fade-in">
