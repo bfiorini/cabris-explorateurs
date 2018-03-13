@@ -1,13 +1,13 @@
 ---
 layout: page
 author: alex
-title: 'Montserrat, Espagne : coup de soleil ou averse de neige ?'
+title: 'Montserrat, Espagne : entre coup de soleil et averse de neige'
 excerpt: >-
-  Fin janvier, l'idée d'acheter notre propre van nous fait de plus en plus
-  rêver... Mais avant de se décider, il faut louer à nouveau, après avoir loué
-  un van (trop petit) en Décembre dans les Calanques. Alors nous voilà partis
-  sur les routes de Montserrat en Espagne, à la découverte du poudingue et à la
-  recherche de la chaleur.
+  Fin janvier, l'idée d'acheter notre propre van pour partir sur les routes
+  d'Europe nous fait de plus en plus rêver... Mais avant de nous décider, nous
+  voulons louer à nouveau, après avoir essayé un van trop petit en Décembre dans
+  les Calanques. Alors nous voilà partis sur les routes de Montserrat en
+  Espagne, à la découverte du poudingue et à la recherche de la chaleur.
 categories:
   - vanlife
   - escalade
@@ -40,13 +40,13 @@ gallery:
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
     image_url: /assets/img/montserra_vermell_brouillard.jpg
 ---
-Vous vous souvenez quand nous sommes partis dans les calanques en \[Décembre]({{ site.baseurl }}{% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}), pour essayer un van sur deux jours ? Nous avions été séduits, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec un 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
+En \[Décembre] 2017, nous avions loué un van pour un long weekend et aller dans les Calanques ({{ site.baseurl }}{% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}). Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
-Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper. Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir \[Montserrat]({{ site.baseurl }}{% link _areas/espagne-montserrat.md %}) et ses tours de poudingue tant racontées.
+Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper dans nos régions... Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir \[Montserrat]({{ site.baseurl }}{% link _areas/espagne-montserrat.md %}) et ses tours de poudingue tant racontées.
 
 Les jours étant courts et Alexandra un peu blessée, l'escalade a été assez limitée : face Sud uniquement, et couennes. Mais il y a déjà largement de quoi faire ! Des falaises en folie, une multitude d'aiguilles, de tours, de recoins, de dévers, et même quelques fissures et cheminées.
 
-Le début du voyage a été un peu cahoteux : 80km après le départ, sur une aire d'autoroute, nous nous sommes aperçus que nous avions un pneu crevé ! Plus de peur que de mal heureusement, car le pneu était réparable. Ouf, parce que les pneus de Fiat Ducato sont apparemment uniquement sur commande... Ça aurait été un peu dommage de perdre deux ou trois jours sur une semaine de vacances.
+Le début du voyage a été un peu cahoteux : 80km après le départ, sur une aire d'autoroute, nous nous sommes aperçus que nous avions un pneu crevé ! Plus de peur que de mal, car le pneu était réparable. Et heureusement, parce que les pneus de Fiat Ducato sont apparemment uniquement sur commande... Ça aurait été un peu dommage de perdre deux ou trois jours sur une semaine de vacances.
 
 Pour couper le trajet, nous avions prévu de nous installer au bord des étangs près de Narbonne. Au matin, un magnifique lever de soleil nous a aidé à sentir que ça y est, c'était bien les vacances... Quelques flamants roses se baladaient tranquillement dans l'eau, bref, un pur bonheur.
 
