@@ -19,26 +19,26 @@ image:
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Oh-oh... Le voyage aurait-il mal commencé ?
-    image_url: /assets/img/notre pauvre pneu.jpg
+    image_url: /assets/img/img_20180120_134413.jpg
   - caption: >-
       Benjamin en mission de sauvetage de notre pneu crevé... Malheureusement le
       kit anti-crevaison ne marchait pas. C'est fun de crever sous la pluie
       glacée de janvier !
-    image_url: /assets/img/reparation pneu.jpg
+    image_url: /assets/img/benjamin_repare_pneu.jpg
   - caption: >-
       Réveil au bord des étangs de Narbonne... un lever de soleil enchanteur, le
       chant des oiseaux et le clapotis de l'eau.
-    image_url: /assets/img/lever_de_soleil_a_narbonne petit.jpg
+    image_url: /assets/img/lever_de_soleil_a_narbonne.jpg
   - caption: Site de couenne à Collbató (Cam nou barris)
-    image_url: /assets/img/collbato_1.jpg
+    image_url: /assets/img/couenne_collbato.jpg
   - caption: Les parois de la face Nord
-    image_url: /assets/img/parois_nord.jpg
+    image_url: /assets/img/parois_nord_original.jpg
   - caption: 'Coucher de soleil côté Nord, avec un des monastères en contrebas'
-    image_url: /assets/img/coucher_parois_nord.jpg
+    image_url: /assets/img/coucher_soleil_parois_nord.jpg
   - caption: 'La cheminée de la très jolie voie Arlequí (V+), a Vermell del Xincarró '
-    image_url: /assets/img/cheminee_vermell_del_xincarro.jpg
+    image_url: /assets/img/montserrat_cheminee_vermell.jpg
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
-    image_url: /assets/img/vermell_brouillard.jpg
+    image_url: /assets/img/montserra_vermell_brouillard.jpg
 ---
 Vous vous souvenez quand nous sommes partis dans les calanques en [Décembre]({{ site.baseurl }}{% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}), pour essayer un van sur deux jours ? Nous avions été séduits, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec un 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
@@ -52,7 +52,7 @@ Pour couper le trajet, nous avions prévu de nous installer au bord des étangs 
 
 Arrivés à Montserrat, nous nous sommes posés au-dessus d'El Bruc, dans le parking d'un Office du Tourisme avec toilettes sèches - grand luxe.
 
-![Notre petit coin ](/assets/img/el bruc petit.jpg)
+![Notre petit coin](/assets/img/notre_petit_coin.jpg)
 
  Première journée de grimpe à Collbató, secteur Cam Nou Barris : voies en une longueur, très sympa pour une rencontre avec le rocher local. Ensuite, nous avons changé de spot pour la nuit, pour nous poser près d'une grande aire de pique nique dont la route d'accès était fermée la nuit. Concrètement, cela voulait juste dire que la Guardia Civil passait à 22h pour nous notifier la fermeture de la route, et nous donner leur numéro de téléphone au cas où on voudrait sortir et que la barrière était fermée. Très cool ces espagnols !
 
