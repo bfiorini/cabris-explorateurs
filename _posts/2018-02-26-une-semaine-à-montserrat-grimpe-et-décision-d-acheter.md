@@ -40,9 +40,9 @@ gallery:
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
     image_url: /assets/img/montserra_vermell_brouillard.jpg
 ---
-En [Décembre]({% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md | relative_url %}) 2017, nous avions loué un van pour un long weekend et aller dans les Calanques . Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
+En [Décembre]({% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}) 2017, nous avions loué un van pour un long weekend et aller dans les Calanques . Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
-Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper dans nos régions... Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir [Montserrat]({% link _areas/espagne-montserrat.md | relative_url %}) et ses tours de poudingue tant racontées.
+Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper dans nos régions... Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir [Montserrat]({% link _areas/espagne-montserrat.md %}) et ses tours de poudingue tant racontées.
 
 Les jours étant courts et Alexandra un peu blessée, l'escalade a été assez limitée : face Sud uniquement, et couennes. Mais il y a déjà largement de quoi faire ! Des falaises en folie, une multitude d'aiguilles, de tours, de recoins, de dévers, et même quelques fissures et cheminées.
 
