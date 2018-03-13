@@ -40,9 +40,9 @@ gallery:
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
     image_url: /assets/img/montserra_vermell_brouillard.jpg
 ---
-En [Décembre]({% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}) 2017, nous avions loué un van pour un long weekend et aller dans les Calanques . Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
+En \[Décembre] 2017, nous avions loué un van pour un long weekend et aller dans les Calanques ({{ site.baseurl }}{% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}). Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
-Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper dans nos régions... Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir [Montserrat]({% link _areas/espagne-montserrat.md %}) et ses tours de poudingue tant racontées.
+Seulement, fin janvier, ce n'est pas le moment idéal pour aller grimper dans nos régions... Qu'à cela ne tienne, descendons vers le Sud, toujours plus au Sud ! Découvrir \[Montserrat]({{ site.baseurl }}{% link _areas/espagne-montserrat.md %}) et ses tours de poudingue tant racontées.
 
 Les jours étant courts et Alexandra un peu blessée, l'escalade a été assez limitée : face Sud uniquement, et couennes. Mais il y a déjà largement de quoi faire ! Des falaises en folie, une multitude d'aiguilles, de tours, de recoins, de dévers, et même quelques fissures et cheminées.
 
@@ -52,16 +52,16 @@ Pour couper le trajet, nous avions prévu de nous installer au bord des étangs 
 
 Arrivés à Montserrat, nous nous sommes posés au-dessus d'El Bruc, dans le parking d'un Office du Tourisme avec toilettes sèches - grand luxe.
 
-![Notre petit coin](/assets/img/notre_petit_coin.jpg)
+![Notre petit coin ](/assets/img/notre_petit_coin.jpg)
 
  Première journée de grimpe à Collbató, secteur Cam Nou Barris : voies en une longueur, très sympa pour une rencontre avec le rocher local. Ensuite, nous avons changé de spot pour la nuit, pour nous poser près d'une grande aire de pique nique dont la route d'accès était fermée la nuit. Concrètement, cela voulait juste dire que la Guardia Civil passait à 22h pour nous notifier la fermeture de la route, et nous donner leur numéro de téléphone au cas où on voudrait sortir et que la barrière était fermée. Très cool ces espagnols !
 
-Juste au-dessus de notre petit parking goudronné et plat, un autre spot de grimpe, Paret de la Codolosa. Rien de bien fou : assez facile, pas mal de végétation et de cailloux prêts à tomber... un peu perturbant quand on se rappel que le poudingue, c'est juste des galets coincés dans un rocher aggloméré de cailloux plus fins... Mais un peu de grimpe par temps chaud et ensoleillé, ça ne se refuse jamais !
+Juste au-dessus de notre petit parking goudronné et plat, un autre spot de grimpe, Paret de la Codolosa. Rien de bien fou : assez facile, pas mal de végétation et de cailloux prêts à tomber... un peu perturbant quand on se rappel que le poudingue, ce sont juste des galets coincés dans un rocher aggloméré de cailloux plus fins... Mais un peu de grimpe par temps chaud et ensoleillé, ça ne se refuse jamais !
 
 Nous sommes ensuite allés faire un tour vers les parois Nord. Ce sont d'immenses falaises à couper le souffle, bien à l'abri pour les chaudes journées d'été...
 
 Le dernier jour de grimpe, retour sur les parois Sud, au spot de Vermell del Xincarro. Super rocher, rouge, fissures et cheminées, le tout dans une ambiance magique dans le brouillard... Une très belle journée.
 
-La dernière nuit, c'est une pluie torrentielle qui nous a réveillé... puis de la neige fondue au petit déj ! Retour sous la pluie, le long des côtes au rocher noir et déchiqueté vers Banyuls et Collioure, petite halte aux étangs de Narbonne pour faire coucou aux flamands roses, et (snif !) arrivée à Chambéry pour rendre le van.
+Et la dernière nuit, c'est une pluie torrentielle qui nous a réveillé... puis de la neige fondue au petit déj ! Retour sous la pluie, le long des côtes au rocher noir et déchiqueté vers Banyuls et Collioure, petite halte aux étangs de Narbonne pour faire coucou aux flamands roses, et (snif !) arrivée à Chambéry pour rendre le van.
 
 L'histoire ne s'arrêtera pas là, qu'on se le dise... Parce que tout ça nous a bien décidé à acheter !
