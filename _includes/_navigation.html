@@ -1,4 +1,4 @@
-<div id="navigation" class="fixed">
+<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
@@ -17,7 +17,9 @@
           {% capture isActive %}
           {% if link.url != '/' and page.url contains link.url %}
           active
-          {% elsif link.url == '/' and page.url == '/index.html' %}
+          {% elsif link.url == '/' and page.url == '/' %}
+          active
+          {% elsif link.url == '/blog/' and page.collection == 'posts' %}
           active
           {% endif %}
           {% endcapture %}

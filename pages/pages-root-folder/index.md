@@ -1,4 +1,4 @@
 ---
 layout: frontpage
-permalink: /index.html
+permalink: /
 ---
