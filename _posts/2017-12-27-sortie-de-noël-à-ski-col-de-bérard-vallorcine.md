@@ -8,9 +8,9 @@ excerpt: >-
 categories:
   - ski
 image:
-  featured: /assets/img/img_20171224_131758.jpg
   caption: ''
-  cover: false
+  cover: true
+  featured: /assets/img/img_20171224_131758.jpg
 date: '2017-12-27 10:13:22'
 ---
 Après avoir profité des itinéraire de ski de rando "officiels" de Charamillon, nous sommes partis à la recherche de quelque chose de facile, avec de la bonne neige non encore transformée. Le vallon de Bérard semblait tout indiqué, avec des balades allant sur des versants orientés entre Nord Est et plein Est. L'idée, après avoir regardé le bulletin d'avalanche du jour, était de voir si les pentes étaient suffisamment skiées pour qu'on s'y aventure. 
