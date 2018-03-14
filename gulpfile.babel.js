@@ -90,6 +90,9 @@ const resizeImages = () => gulp
       width: 320,
       rename: { suffix: '-320' },
     }, {
+      width: 480,
+      rename: { suffix: '-480' }
+    }, {
       width: 768,
       rename: { suffix: '-768' },
     }, {
