@@ -80,7 +80,7 @@ const resizeImages = () => gulp
   .src(paths.images.uploadedFiles)
   .pipe(changed(paths.jekyll.assetsImg))
   .pipe(responsive({
-    '**/*.*': [{
+    '**/*.{png,jpg}': [{
       width: 20,
       rename: { suffix: '-lq' },
     }, {
