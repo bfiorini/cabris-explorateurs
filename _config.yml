@@ -125,7 +125,7 @@ defaults:
     values:
       title: Les Cabris Explorateurs
       image:
-        featured: /assets/img/header-home.jpg
+        featured: /assets/img/header-home-1920.jpg
         cover: true
   -
     scope:

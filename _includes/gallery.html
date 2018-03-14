@@ -26,12 +26,13 @@
 {% endcomment %}
 <div id="gallery">
   {% for item in page.gallery %}
-  {% capture url %}{{ item.image_url }}{% endcapture %}
-  {% assign f = url | split: '.' %}
-  {% capture thumb_url %}{{ f[0] }}-thumb.{{ f[1] }}{% endcapture %}
-    <a href="{{ site.urlimg }}{{ item.image_url }}">
-      <img
-        src="{{ site.urlimg }}{{ thumb_url }}"
+  {%- assign f = item.image_url | split: '.' -%}
+    <a href="{{ f[0] | relative_url }}.{{ f[1] }}"
+      data-srcset="{{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
+        {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
+        {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
+        {{ f[0] | relative_url }}-1920.{{ f[1] }} 1920w">
+      <img src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}"
         alt="{{ item.caption }}">
     </a>
   {% endfor %}
