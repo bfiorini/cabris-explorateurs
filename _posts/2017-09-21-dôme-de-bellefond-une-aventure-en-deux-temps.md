@@ -1,5 +1,4 @@
 ---
-layout: page
 author: alex
 title: 'Dôme de Bellefond : une aventure en deux temps '
 excerpt: >-
@@ -8,7 +7,7 @@ excerpt: >-
 categories:
   - randonnée
 image:
-  featured: /assets/img/header - bellefond.jpg
+  featured: /assets/img/header-bellefond.jpg
   caption: ''
   cover: true
 date: '2017-10-19 12:00:00'
