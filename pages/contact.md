@@ -19,7 +19,9 @@ permalink: "/contact/"
   <p>
     <label>Message: <textarea rows="8" name="message" required></textarea></label>
   </p>
-  <div netlify-recaptcha></div>
+  <p>
+    <div netlify-recaptcha></div>
+  </p>
   <p>
     <button type="submit">Envoyer</button>
   </p>
