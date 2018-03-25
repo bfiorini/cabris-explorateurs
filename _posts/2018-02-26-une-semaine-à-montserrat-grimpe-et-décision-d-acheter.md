@@ -1,12 +1,12 @@
 ---
 author: alex
-title: Soleil et neige à Montserrat (Espagne)
+title: 'Soleil et neige à Montserrat, Espagne'
 excerpt: >-
   Fin janvier, l'idée d'acheter notre propre van pour partir sur les routes
-  d'Europe nous fait de plus en plus rêver... Mais avant de nous décider, nous
-  voulons louer à nouveau, après avoir essayé un van trop petit en Décembre dans
-  les Calanques. Alors nous voilà partis sur les routes de Montserrat en
-  Espagne, à la découverte du poudingue et à la recherche de la chaleur.
+  d'Europe nous fait de plus en plus rêver... Nous voulons d'abord louer à
+  nouveau, après avoir essayé un van trop petit en Décembre dans les Calanques.
+  Nous voilà donc partis sur les routes de Montserrat en Espagne, à la
+  découverte du poudingue et à la recherche de la chaleur.
 categories:
   - vanlife
   - escalade
