@@ -11,7 +11,7 @@ format: post
 
       {% if page.excerpt %}
       <p class="excerpt" itemprop="description">
-        {{ page.excerpt }}
+        {{ page.excerpt| markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
       {% endif %}
 

@@ -1,9 +1,9 @@
 ---
 author: alex
 title: Préparatifs de voyage
-excerpt: |-
-  De l'idée au départ... Où en sommes-nous ? 
-
+excerpt: >-
+  De l'idée au départ... Où en sommes-nous ?  
+  
   Dernière mise à jour : 25 mars 2018
 categories:
   - Vanlife
@@ -20,7 +20,7 @@ gallery:
       Le décollage des autocollants d'origine : armés d'un sèche-cheveux pour
       amollir la colle, et de dissolvant pour éliminer les traces récalcitrantes
     image_url: /assets/img/decollage2.jpg
-  - caption: 'Quelque part entre Niort et Clermont Ferrand... L''homme et la bête. '
+  - caption: 'Quelque part entre Niort et Clermont Ferrand... L''homme et la bête.'
     image_url: /assets/img/retour_grenoble.jpg
   - caption: >-
       Le premier trajet, c'est aussi les premières réparations... Benjamin est

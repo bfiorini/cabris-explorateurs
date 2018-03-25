@@ -25,6 +25,8 @@
   </footer>
 
   <section class="entry-excerpt">
-    <p>{{ post.excerpt | strip_html | escape }}</p>
+    <p>
+      {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+    </p>
   </section>
 </article>
