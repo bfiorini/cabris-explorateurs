@@ -1,6 +1,6 @@
 ---
 author: alex
-title: 'Montserrat, Espagne : entre coup de soleil et averse de neige'
+title: Soleil et neige à Montserrat (Espagne)
 excerpt: >-
   Fin janvier, l'idée d'acheter notre propre van pour partir sur les routes
   d'Europe nous fait de plus en plus rêver... Mais avant de nous décider, nous
@@ -11,9 +11,9 @@ categories:
   - vanlife
   - escalade
 image:
-  featured: /assets/img/20180121_164902.jpg
   caption: ''
   cover: true
+  featured: /assets/img/20180121_164902.jpg
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Aïe... Le voyage aurait-il mal commencé ?
