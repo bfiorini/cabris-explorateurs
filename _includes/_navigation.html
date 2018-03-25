@@ -1,5 +1,5 @@
 <div id="navigation" class="sticky">
-  <nav class="top-bar" role="navigation" data-topbar>
+  <nav class="top-bar" role="navigation" data-topbar itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Menu">
     <ul class="title-area">
       <li class="name">
         <h1 class="show-for-small-only">
@@ -24,20 +24,30 @@
           {% endif %}
           {% endcapture %}
 
-          {% if link.dropdown == nil %}
-            <li class="{{ isActive }}"><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | absolute_url }}">{{ link.title | escape }}</a></li>
-            <li class="divider"></li>
-          {% else %}
-            <li class="has-dropdown {{ isActive}}">
-              <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | absolute_url}}">{{ link.title | escape }}</a>
-                <ul class="dropdown">
-                  {% for dropdown_link in link.dropdown %}
-                    <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_link.url | absolute_url}}">{{ dropdown_link.title | escape }}</a></li>
-                  {% endfor %}
-                </ul>
-            </li>
-            <li class="divider"></li>
+          {% capture hasDropdown %}
+          {% if link.dropdown != nil %}
+          has-dropdown
           {% endif %}
+          {% endcapture %}
+
+          <li class="{{ hasDropdown }} {{ isActive}}">
+            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | absolute_url }}" itemprop="url">
+              <span itemprop="name">{{ link.title | escape }}</span>
+            </a>
+
+            {% if link.dropdown != nil %}
+            <ul class="dropdown">
+              {% for dropdown_link in link.dropdown %}
+                <li>
+                  <a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_link.url | absolute_url }}" itemprop="url">
+                    <span itemprop="name">{{ dropdown_link.title | escape }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          <li class="divider"></li>
         {% endfor %}
       </ul>
       {% endfor %}
