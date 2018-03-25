@@ -31,7 +31,7 @@
           {% endcapture %}
 
           <li class="{{ hasDropdown }} {{ isActive}}">
-            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | absolute_url }}" itemprop="url">
+            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | relative_url }}" itemprop="url">
               <span itemprop="name">{{ link.title | escape }}</span>
             </a>
 
@@ -39,7 +39,7 @@
             <ul class="dropdown">
               {% for dropdown_link in link.dropdown %}
                 <li>
-                  <a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_link.url | absolute_url }}" itemprop="url">
+                  <a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_link.url | relative_url }}" itemprop="url">
                     <span itemprop="name">{{ dropdown_link.title | escape }}</span>
                   </a>
                 </li>
