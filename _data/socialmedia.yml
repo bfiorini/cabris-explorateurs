@@ -1,7 +1,12 @@
-- name: GitHub
-  url: https://github.com/bfiorini
-  class: icon-github
-  title: "GitHub profile"
+- name: Feed
+  url: /feed.xml
+  class: icon-rss
+  title: ""
+
+# - name: GitHub
+#   url: https://github.com/bfiorini
+#   class: icon-github
+#   title: "GitHub profile"
 
 # - name: YouTube
 #   url: http://www.youtube.com/
