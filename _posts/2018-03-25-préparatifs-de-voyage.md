@@ -27,10 +27,6 @@ gallery:
   - caption: 'Quelque part entre Niort et Clermont Ferrand... L''homme et la bête. '
     image_url: /assets/img/retour_grenoble.jpg
   - caption: >-
-      Col de Saint Thomas. Sur le panneau : Ici commence l'Auvergne, ici finit
-      la France... 
-    image_url: /assets/img/ici-finit-la-france.jpg
-  - caption: >-
       Le premier trajet, c'est aussi les premières réparations... Benjamin est
       profondément impliqué pour trouver les raisons du non-fonctionnement
       soudain de la pompe à eau. 
@@ -40,9 +36,9 @@ gallery:
 
 En mars 2017, je me suis fait licencier de mon travail à Genève. Un mal pour un bien, car je regardais depuis longtemps du côté des entreprises grenobloises... Nous sommes ensuite partis en juin pour un road-trip de 3 semaines aux Etats-Unis (avec pour objectif visiter les parcs nationaux de l'Utah, ainsi que Yosemite). A cette époque, l'idée d'un long voyage se dessinait, mais je ne voulais pas trop partir loin, ne voulant pas m'éloigner de ma famille... 
 
-Puis à notre retour, les aléas de la vie ont fait que cette idée de voyage est devenue plus séduisante, mais que le départ ne pouvait pas être immédiat... En octobre/novembre, l'idée a ressurgi, et l'idée du voyage en fourgon est née d'un article partagé par Benjamin, qui parlait d'une famille de nomades. 
+Puis à notre retour, les aléas de la vie ont rendu l'idée de voyage plus séduisante, mais le départ ne pouvait pas être immédiat... En octobre, l'idée a ressurgi, et l'idée du voyage en fourgon est née d'un [article ](https://www.fourgonlesite.com/van-lifestyle/1499-la-vie-en-fourgon-7-une-famille-sur-la-route/)partagé par Benjamin, racontant l'histoire d'une famille de nomades. 
 
-L'idée a petit à petit fait son bonhomme de chemin. Nous lisions de plus en plus d'articles, de blogs sur le sujet. Partir, pourquoi pas, mais comment ? Et combien de temps ? Les contraintes n'étaient pas les mêmes pour nous deux : d'un côté pour moi, pas de travail, une réorientation probable, un chômage qui s'arrêtait au bout de quelques mois. De l'autre côté, pour Benjamin un travail sympa dans une chouette ville, et pas de certitude de vouloir partir à long terme en van. 
+L'idée a petit à petit fait son bonhomme de chemin. Nous lisions de plus en plus d'articles, de blogs sur le sujet. Partir, pourquoi pas, mais comment ? Et combien de temps ? Les contraintes n'étaient pas les mêmes pour nous deux : d'un côté pour moi, pas de travail, une réorientation probable, un chômage qui s'arrêtait au bout de quelques mois. De l'autre côté, pour Benjamin un travail sympa dans une chouette ville, et pas de certitude de vouloir partir à long terme en van. Ce qui était sûr, c'était que l'idée de partir nous donnait des papillons dans le ventre. Ça méritait de creuser. 
 
 ## Novembre 2017 : visite de concessionnaires
 
@@ -54,7 +50,7 @@ J'ai profité de mon temps libre pour aller d'un concessionnaire à l'autre, voi
 
 ![Première location ](/assets/img/header_calanques_vanlife.jpg)
 
-L'idée se concrétise. Première étape : louer un van pour quelques jours, histoire de voir si ça pourrait vraiment nous convernir, ou si c'était une jolie idée sur le papier, mais terrible en réalité. C'est ainsi que nous sommes partis pour les [Calanques de Marseille](https://www.cabris-explorateurs.com/vanlife/trois-jours-en-van-les-calanques-et-la-sainte-victoire/). Pas un franc succès (van un peu petit à notre goût pour une vie à temps plein avec tout le matos, froid, et gros rhume pour nous deux en rentrant), mais pas un dégoût non plus. Plutôt une envie d'aller voir plus loin.  
+L'idée se concrétise. Première étape : louer un van pour quelques jours, histoire de voir si ça pourrait vraiment nous convernir, ou si c'était une jolie idée sur le papier, mais terrible en réalité. C'est ainsi que nous sommes partis pour les [Calanques de Marseille](https://www.cabris-explorateurs.com/vanlife/trois-jours-en-van-les-calanques-et-la-sainte-victoire/). Pas un franc succès : le van était un peu trop petit à notre goût pour une vie à temps plein avec tout le matos, on a eu froid, et gros rhume pour nous deux en rentrant. Ça ne nous a pas dégoûté pour autant. Plutôt donné l'envie d'aller voir plus loin.  
 
 ## Janvier 2018 : essai concluant d'un "grand" fourgon (sur Ducato) pour une semaine
 
