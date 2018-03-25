@@ -21,7 +21,7 @@
   .entry-image {
     margin: 15px auto;
     width: 150px;
-    max-height: 150px;
+    max-height: 113px;
 
     @media #{$medium-up} {
       margin: 5px 15px 5px 0;
@@ -35,6 +35,9 @@
 
     img {
       width: 100%;
+      max-height: 113px;
+      object-fit: cover;
+      font-family: "object-fit: cover"; // lazysizes object fit polyfill
     }
   }
 }
