@@ -14,16 +14,4 @@
 
     <span>{% for tag in page.tags %}<span class="icon-price-tag pr10">{{tag}}</span>{% endfor %}</span>
   </p>
-
-  {% if page.collection == "posts" %}
-  <div id="post-nav">
-    {% if page.previous.url %}
-    <a class="button small radius prev left small-5" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-    <a class="button small radius next right small-5" href="{{ page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
-    {% endif %}
-  </div>
-  {% endif %}
-
-</div><!--  /.page-meta -->
+</div>
