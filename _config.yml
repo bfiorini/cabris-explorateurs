@@ -33,7 +33,7 @@ improve_content: https://github.com/bfiorini/cabris-explorateurs/edit/master
 # Collections
 collections:
   routes:
-    output: true
+    output: false
     permalink: /voies/:path:output_ext
   areas:
     output: true
