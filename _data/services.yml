@@ -2,6 +2,14 @@
   url: "/contact/"
   title: "Contact"
 
+- name: "RSS"
+  url: "/feed.xml"
+  title: "Subscribe to RSS Feed"
+
+- name: "Atom"
+  url: "/atom.xml"
+  title: "Subscribe to Atom Feed"
+
 - name: "Licences"
   url: "/licences/"
   title: "Licences"
