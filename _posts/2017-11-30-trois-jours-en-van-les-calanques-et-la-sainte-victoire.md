@@ -8,9 +8,9 @@ excerpt: >-
 categories:
   - vanlife
 image:
-  featured: /assets/img/header_calanques_vanlife.jpg
   caption: ''
   cover: true
+  featured: /assets/img/header_calanques_vanlife.jpg
 date: '2017-11-30 11:08:20'
 ---
 Certain.e.s le savent déjà, nous avons le projet de nous acheter un van, pour partir en toute liberté à la découverte de nouveaux horizons. De renseignement en lecture, de lecture en discussion, de blog en forum, nous avons fini par découvrir que la première étape, c'était de louer pour essayer. Parce que paraît-il, on finit parfois par se rendre compte au bout de deux nuits que sur le papier c'était bien joli, mais qu'en fait, ça le fait pas, mais pas du tout. 
@@ -27,7 +27,7 @@ Lors d'un petit arrêt pique-nique (camembert avec vue et délicieux flans de la
 
 Bref, nous voilà de retour sur la route et armés de la super app' Parc4night, nous repérons un petit parking champêtre vers Aubagne. 
 
-Au menu : Vendredi, grimpe sur un joli petit mur dans la calanque de Port-Miou. Samedi, Balade dans les calanques magnifique, depuis Port-Miou jusqu'à dominer En-Vau, superbe. Samedi après-midi, départ pour la Sainte Victoire, où on trouve un joli sport au pied de la montagne, et balade le dimanche par un vent à décorner les boeufs, voire à les faire s'envoler. Plus de détails sur les pages dédiées ! 
+Au menu : Vendredi, grimpe sur un joli petit mur dans la calanque de Port-Miou. Samedi, Balade dans les calanques magnifique, depuis Port-Miou jusqu'à dominer En-Vau, superbe. Samedi après-midi, départ pour la Sainte Victoire, où on trouve un joli sport au pied de la montagne, et balade le dimanche par un vent à décorner les boeufs, voire à les faire s'envoler. 
 
 ![crapahutage au-dessus d'En Vau](/assets/img/crapahutage.jpg)
 
@@ -59,7 +59,7 @@ C'est peut être évident, mais au final, se dire qu'on arrive direct au chaud, 
 
 #### Septième leçon : Ne pas se laver et avoir des toilettes en pleine nature, c'est gérable.
 
-Bon, il faut juste nuancer : en hiver, quand on ne fait pas des efforts intenses qui nous laissent bien transpirants, l'absence de douche n'est pas gênante pour quelques jours. En revanche pour les toilettes, ça se complique quand c'est le matin et qu'il fait bien froid dehors, ou que d'un coup le parking est envahi de promeneurs. Ça peut vite devenir moins marrant. 
+Bon, il faut juste nuancer : en hiver, quand on ne fait pas d'effort intense qui nous laisse bien transpirants, l'absence de douche n'est pas gênante pour quelques jours. En revanche pour les toilettes, ça se complique quand c'est le matin et qu'il fait bien froid dehors, ou que d'un coup le parking est envahi de promeneurs. Ça peut vite devenir moins marrant. 
 
 Conclusion : un van comme ça pour partir en weekend, c'est idéal. Le California a plein de détails super bien pensés (des lumières un peu partout, des rangements aussi...), et le toit relevable fait qu'on a largement assez de place pour se tenir debout pour faire la vaisselle et la cuisine, mais c'est moins discret quand tu es en ville sur un parking. Par contre, si tu veux partir plus d'un weekend ou d'une semaine, ça me semble un peu petit... 
 
