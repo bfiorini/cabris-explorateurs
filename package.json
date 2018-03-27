@@ -6,7 +6,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "bundle update & yarn upgrade"
+    "update": "bundle update && yarn upgrade",
+    "postinstall": "bundle install"
   },
   "repository": {
     "type": "git",
