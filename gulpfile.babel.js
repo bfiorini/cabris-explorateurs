@@ -199,23 +199,10 @@ build.description = 'build all sources'
 const serve = gulp.series(build, startServer)
 serve.description = 'serve and watch'
 
-/* Update dependencies */
-const updateBundle = (cb) => {
-  shell.exec('bundle update')
-  cb()
-}
-const updateYarn = (cb) => {
-  shell.exec('yarn upgrade')
-  cb()
-}
-const update = gulp.series(clean, updateBundle, updateYarn)
-update.description = 'clean and update dependencies (bundle, yarn)'
-
 export {
   clean,
   build,
-  serve,
-  update
+  serve
 }
 
 const defaultTasks = env.dev
