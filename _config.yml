@@ -85,6 +85,10 @@ exclude:
   - netlify.toml
   - _assets
   - images
+  - assets/fonts/svg-files-for-custom-font
+  - assets/fonts/.fontcustom-manifest.json
+  - assets/fonts/fontcustom.yml
+  - assets/fonts/iconfont-preview.html
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
