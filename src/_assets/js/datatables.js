@@ -1,5 +1,5 @@
 import 'datatables.net-zf';
-import '../../../node_modules/datatables.net-zf/css/dataTables.foundation.css';
+import 'datatables.net-zf/css/dataTables.foundation.css';
 
 $(document).ready(function () {
   $('#datatables').DataTable({

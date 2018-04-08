@@ -2,8 +2,8 @@ import 'lightgallery';
 import 'lg-zoom';
 import 'justifiedGallery';
 
-import '../../../node_modules/lightgallery/dist/css/lightgallery.css';
-import '../../../node_modules/justifiedGallery/dist/css/justifiedGallery.css';
+import 'lightgallery/dist/css/lightgallery.css';
+import 'justifiedGallery/dist/css/justifiedGallery.css';
 
 $(document).ready(function () {
   // Copy data-srcset from image to parent link
