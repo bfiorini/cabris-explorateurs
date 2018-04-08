@@ -19,7 +19,7 @@
   {% for area in areas %}
     {% unless area.published == false %}
     <li>
-      <a href="{{ site.url }}{{ area.url }}">
+      <a href="{{ area.url | relative_url }}">
         {% if region == NULL %}
         {{ area.region }} &middot; 
         {% endif %}

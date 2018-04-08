@@ -33,13 +33,13 @@ improve_content: https://github.com/bfiorini/cabris-explorateurs/edit/master
 collections:
   routes:
     output: false
-    permalink: /voies/:path:output_ext
+    permalink: /voies/:path/
   areas:
     output: true
-    permalink: /sites/:path:output_ext
+    permalink: /sites/:path/
   regions:
     output: false
-    permalink: /regions/:path:output_ext
+    permalink: /regions/:path/
 
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
