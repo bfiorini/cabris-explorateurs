@@ -4,9 +4,6 @@
 
 title: 'Les Cabris Explorateurs'
 
-# The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Les cabris explorent'
-
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Escalades, grandes voies et randonnées par Alexandra et Benjamin'
 
@@ -17,8 +14,8 @@ credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll<
 # See > authors.yml
 author: bfiorini
 
-# This URL is the main address for absolute links. Don't include a slash at the end.
-#
+# This URL is the main address for absolute links.
+# Don't include a slash at the end.
 url: 'https://www.cabris-explorateurs.com'
 baseurl: ''
 
