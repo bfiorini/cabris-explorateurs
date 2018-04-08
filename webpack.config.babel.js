@@ -9,7 +9,9 @@ export default {
   entry: {
     main: path.resolve(__dirname, 'src/_assets/js/main.js'),
     gallery: path.resolve(__dirname, 'src/_assets/js/gallery.js'),
-    datatables: path.resolve(__dirname, 'src/_assets/js/datatables.js')
+    datatables: path.resolve(__dirname, 'src/_assets/js/datatables.js'),
+    rss: path.resolve(__dirname, 'src/_assets/styles/rss.scss'),
+    atom: path.resolve(__dirname, 'src/_assets/styles/atom.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist/assets/'),
@@ -62,18 +64,12 @@ export default {
       jQuery: 'jquery'
     }),
     new CopyWebpackPlugin([{
-        from: path.resolve(__dirname, 'src/_assets/xslt'),
-        to: path.resolve(__dirname, 'dist/assets/xslt')
-      },
-      {
-        from: path.resolve(__dirname, 'src/_assets/icons'),
-        to: path.resolve(__dirname, 'dist/assets/icons')
-      },
-      {
-        from: path.resolve(__dirname, 'src/_assets/js/modernizr.js'),
-        to: path.resolve(__dirname, 'dist/assets/js/')
-      }
-    ]),
+      from: path.resolve(__dirname, 'src/_assets/icons'),
+      to: path.resolve(__dirname, 'dist/assets/icons')
+    }, {
+      from: path.resolve(__dirname, 'src/_assets/js/modernizr.js'),
+      to: path.resolve(__dirname, 'dist/assets/js/')
+    }]),
     new ExtractTextPlugin({
       filename: 'css/[name].css',
       allChunks: true
