@@ -3,7 +3,9 @@ layout: page
 title: "Contact"
 meta_title: "Contact"
 subheadline: ""
-excerpt: "Page de contact"
+excerpt: >-
+  Une question, des commentaires, ou juste envie de nous faire coucou ?
+  Ecrivez-nous !
 permalink: "/contact/"
 ---
 <form name="contact" action="/contact-success/" netlify netlify-honeypot="bot-field">
