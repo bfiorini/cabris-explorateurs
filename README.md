@@ -21,18 +21,15 @@ sudo apt-get update && sudo apt-get install yarn
 
 **Step 4.** Install dependencies
 ```shell
-sudo npm install -g gulp-cli
 yarn
 ```
 
 ## Usage
 
-By default, every command builds for production environment (assets optimized), unless the flag `--dev` is provided.
+See `package.json` NPM scripts.
 
-### `gulp`
-Identical to `gulp build`
-### `gulp --dev`
-Identical to `gulp serve --dev`
-### `gulp build [--dev]`
-### `gulp serve [--dev]`
-### `gulp clean`
+### `yarn build`
+### `yarn start`
+### `yarn clean`
+### `yarn update`
+...
