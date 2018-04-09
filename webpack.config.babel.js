@@ -3,7 +3,7 @@ import CopyWebpackPlugin from 'copy-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import path from 'path'
-
+import autoprefixer from 'autoprefixer'
 
 export default {
   entry: {
@@ -33,6 +33,14 @@ export default {
         fallback: 'style-loader',
         use: [{
           loader: 'css-loader'
+        }, {
+          loader: 'postcss-loader',
+          options: {
+            ident: 'postcss',
+            plugins: [
+              autoprefixer()
+            ]
+          }
         }, {
           loader: 'sass-loader'
         }]
