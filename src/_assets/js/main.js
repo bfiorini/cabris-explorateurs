@@ -1,5 +1,9 @@
 import 'fastclick';
-import 'foundation-sites/js/foundation.min.js';
+import 'foundation-sites/js/foundation/foundation';
+import 'foundation-sites/js/foundation/foundation.alert';
+import 'foundation-sites/js/foundation/foundation.accordion';
+import 'foundation-sites/js/foundation/foundation.dropdown';
+import 'foundation-sites/js/foundation/foundation.topbar';
 import 'lazysizes';
 import 'lazysizes/plugins/object-fit/ls.object-fit';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
