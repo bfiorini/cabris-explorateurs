@@ -2,5 +2,8 @@
   publish = "dist/"
   command = "yarn build"
 
+[build.environment]
+  YARN_VERSION = 1.5.1
+
 [context.production.environment]
   JEKYLL_ENV = "production"
