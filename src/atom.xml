@@ -5,7 +5,7 @@ permalink: /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="{{ 'atom.xslt' | absolute_url }}" ?>
-<?xml-stylesheet type="text/css" href="{{ '/assets/styles/atom.css' | absolute_url }}" ?>
+<?xml-stylesheet type="text/css" href="{{ site.data.assets['atom.css'] | absolute_url }}" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>{{ '/' | absolute_url | xml_escape }}</id>
 	<title>{{ site.title | xml_escape }}</title>

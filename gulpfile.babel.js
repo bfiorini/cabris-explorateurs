@@ -64,7 +64,7 @@ const watchImages = () => gulp
 const clean = gulp.parallel(cleanImages)
 clean.description = 'clean all'
 
-const build = gulp.series(clean, buildImages, copyImages)
+const build = gulp.series(buildImages, copyImages)
 build.description = 'build all sources'
 
 const watch = gulp.series(build, watchImages)

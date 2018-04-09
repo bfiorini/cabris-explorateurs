@@ -6,3 +6,4 @@ dist
 node_modules
 yarn-error.log
 .img-cache
+src/_data/assets.json

@@ -2,6 +2,7 @@ import webpack from 'webpack'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import ManifestPlugin from 'webpack-manifest-plugin'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
 
@@ -15,7 +16,8 @@ export default {
   },
   output: {
     path: path.resolve(__dirname, 'dist/assets/'),
-    filename: 'js/[name].js',
+    filename: 'js/[name].[chunkhash].js',
+    publicPath: '/assets/'
   },
   module: {
     rules: [{
@@ -51,7 +53,6 @@ export default {
         loader: 'file-loader',
         options: {
           name: 'fonts/[name].[ext]',
-          publicPath: '../',
         }
       }]
     }, {
@@ -60,10 +61,23 @@ export default {
         loader: 'file-loader',
         options: {
           name: 'img/[name].[ext]',
-          publicPath: '../',
         }
       }]
     }]
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          name: 'commons',
+          chunks: 'initial',
+          minChunks: 2
+        }
+      }
+    },
+    runtimeChunk: {
+      name: 'manifest',
+    },
   },
   plugins: [
     //new CleanWebpackPlugin('dist/assets'),
@@ -78,9 +92,13 @@ export default {
       from: path.resolve(__dirname, 'src/_assets/js/modernizr.js'),
       to: path.resolve(__dirname, 'dist/assets/js/')
     }]),
+    new webpack.HashedModuleIdsPlugin(),
     new ExtractTextPlugin({
-      filename: 'css/[name].css',
+      filename: 'css/[name].[chunkhash].css',
       allChunks: true
-    })
+    }),
+    new ManifestPlugin({
+      fileName: '../../src/_data/assets.json'
+    }),
   ]
 }

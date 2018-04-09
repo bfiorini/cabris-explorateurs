@@ -1,3 +1,4 @@
+import 'picturefill';
 import 'lightgallery';
 import 'lg-zoom';
 import 'justifiedGallery';
