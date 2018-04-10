@@ -5,7 +5,7 @@ excerpt: >-
   Fin Septembre, nous avons profité d'un long weekend pour découvrir Orpierre,
   dans les Hautes-Alpes. Un haut lieu de l'escalade...
 categories:
-  - escalade
+  - Escalade
 image:
   featured: /assets/img/header-orpierre.jpg
   caption: '[Orpierre Hautes-Alpes](https://orpierre.collectivites.hautes-alpes.fr/)'

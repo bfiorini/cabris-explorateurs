@@ -5,7 +5,7 @@ excerpt: >-
   Profitons d'un vendredi chômé et du beau temps pour chercher un peu de chaleur
   sur le Saint Julien à Buis les Baronnies...
 categories:
-  - escalade
+  - Escalade
 image:
   featured: /assets/img/header-buis.jpg
   caption: '[Camptocamp / CC by-sa](https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud)'

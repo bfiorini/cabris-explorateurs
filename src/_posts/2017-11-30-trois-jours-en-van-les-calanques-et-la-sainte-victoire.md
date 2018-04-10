@@ -6,7 +6,7 @@ excerpt: >-
   testons. Ce weekend, nous sommes partis trois jours au volant d'un VW
   California Blacksheep, à la rencontre de nouvelles sensations.
 categories:
-  - vanlife
+  - Vanlife
 image:
   caption: ''
   cover: true

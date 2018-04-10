@@ -5,7 +5,7 @@ excerpt: >-
   Deux tentatives pour aller de la Dent de Crolles au Dôme de Bellefond. Un joli
   sentier des crêtes très peu fréquenté avec un joli passage en cheminée. 
 categories:
-  - randonnée
+  - Randonnée
 image:
   caption: ''
   cover: true

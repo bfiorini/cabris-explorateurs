@@ -6,7 +6,7 @@ excerpt: >-
   quelques jours à Chamonix. Nous en avons profité pour aller faire une petite
   sortie en ski de randonnée.
 categories:
-  - ski
+  - Randonnée
 image:
   caption: ''
   cover: true

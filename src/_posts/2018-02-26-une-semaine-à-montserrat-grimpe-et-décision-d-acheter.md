@@ -8,8 +8,8 @@ excerpt: >-
   Nous voilà donc partis sur les routes de Montserrat en Espagne, à la
   découverte du poudingue et à la recherche de la chaleur.
 categories:
-  - vanlife
-  - escalade
+  - Vanlife
+  - Escalade
 image:
   caption: ''
   cover: true

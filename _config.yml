@@ -50,8 +50,19 @@ pagination:
   sort_reverse: true
 
 # Plugin: AutoPages (jekyll-paginate-v2)
+category_base_path: '/blog/category/'
 autopages:
-  enabled: false
+  enabled: true
+  categories:
+    enabled: true
+    layouts:
+      - 'autopage_category.html'
+    title: ':cat'
+    permalink: '/blog/category/:cat'
+  collections:
+    enabled: false
+  tags:
+    enabled: false
 
 # Jekyll configuration
 markdown: kramdown
