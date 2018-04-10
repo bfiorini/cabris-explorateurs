@@ -88,9 +88,6 @@ export default {
     new CopyWebpackPlugin([{
       from: path.resolve(__dirname, 'src/_assets/icons'),
       to: path.resolve(__dirname, 'dist/assets/icons')
-    }, {
-      from: path.resolve(__dirname, 'node_modules/foundation-sites/js/vendor/modernizr.js'),
-      to: path.resolve(__dirname, 'dist/assets/js/')
     }]),
     new webpack.HashedModuleIdsPlugin(),
     new ExtractTextPlugin({
