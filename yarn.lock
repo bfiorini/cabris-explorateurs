@@ -1910,14 +1910,29 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-datatables.net-zf@^1.10.16:
+datatables.net-responsive-zf@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/datatables.net-responsive-zf/-/datatables.net-responsive-zf-2.2.1.tgz#f7a1b8b167dc97ff72d198dcec951248e29044c7"
+  dependencies:
+    datatables.net-responsive "2.2.1"
+    datatables.net-zf "^1.10.15"
+    jquery ">=1.7"
+
+datatables.net-responsive@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/datatables.net-responsive/-/datatables.net-responsive-2.2.1.tgz#0cb29bc822516c635d87649682fcd86ba1847fed"
+  dependencies:
+    datatables.net "^1.10.15"
+    jquery ">=1.7"
+
+datatables.net-zf@^1.10.15, datatables.net-zf@^1.10.16:
   version "1.10.16"
   resolved "https://registry.yarnpkg.com/datatables.net-zf/-/datatables.net-zf-1.10.16.tgz#56a5840523927140b693a85d63df1990a065c1b9"
   dependencies:
     datatables.net "1.10.16"
     jquery ">=1.7"
 
-datatables.net@1.10.16:
+datatables.net@1.10.16, datatables.net@^1.10.15:
   version "1.10.16"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.16.tgz#4b052d1082824261b68eed9d22741b711d3d2469"
   dependencies:

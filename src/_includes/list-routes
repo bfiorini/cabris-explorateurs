@@ -15,7 +15,7 @@
   {% assign routes = site.routes | where: 'area', area | sort: 'title' %}
 {% endif %}
 
-<table id="datatables" class="hover stack expanded">
+<table id="datatables" class="display expanded responsive">
   <thead>
     <tr>
       {% if area == NULL %}
