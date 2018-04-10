@@ -20,7 +20,7 @@ const buildImages = () => gulp
   .pipe(changed(paths.images.cache))
   .pipe(responsive({
     '**/*.{png,jpg}': [{
-      width: 20,
+      width: 40,
       rename: { suffix: '-lq' },
     }, {
       width: 150,
@@ -35,8 +35,17 @@ const buildImages = () => gulp
       width: 768,
       rename: { suffix: '-768' },
     }, {
+      width: 640,
+      rename: { suffix: '-640' },
+    }, {
       width: 1024,
       rename: { suffix: '-1024' },
+    }, {
+      width: 1440,
+      rename: { suffix: '-1440' },
+    }, {
+      width: 1600,
+      rename: { suffix: '-1600' },
     }, {
       width: 1920,
       rename: { suffix: '-1920' },
