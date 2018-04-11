@@ -52,6 +52,10 @@ body.video cite { color: #fff; }
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
     }
+
+    .top-bar .title-area .name h1 a {
+        width: auto;
+    }
 }
 
 
