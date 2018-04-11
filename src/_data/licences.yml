@@ -13,8 +13,11 @@
 - name: "Built on Foundation"
   url: "http://foundation.zurb.com/"
 
+- name: "lazySizes"
+  url: "http://afarkas.github.io/lazysizes/"
+
 - name: "Justified Gallery"
   url: "http://miromannino.github.io/Justified-Gallery/"
 
-- name: "jQuery lightgallery"
+- name: "jQuery lightGallery"
   url: "http://sachinchoolur.github.io/lightGallery/"
