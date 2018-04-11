@@ -6,7 +6,7 @@ format: post
 {% include post-intro.html %}
 
 <div class="row">
-  <div class="medium-8 columns medium-offset-2 end">
+  <div class="medium-10 medium-offset-1 columns end">
     <article itemscope itemtype="http://schema.org/Article">
 
       {% if page.excerpt %}
@@ -15,7 +15,7 @@ format: post
       </p>
       {% endif %}
 
-      <div itemprop="articleSection">
+      <div itemprop="articleBody">
       {{ content }}
       </div>
 
@@ -23,9 +23,10 @@ format: post
       {% include gallery.html %}
       {% endif %}
 
-      {% if page.show_meta == true %}
-      {% include _meta_information.html %}
-      {% endif %}
+      <footer>
+        {% include _meta_information.html %}
+        {% include related.html %}
+      </footer>
     </article>
     {% include post-pager.html %}
   </div>
