@@ -3,8 +3,7 @@ import 'lightgallery';
 import 'lg-zoom';
 import 'justifiedGallery';
 
-import 'lightgallery/dist/css/lightgallery.css';
-import 'justifiedGallery/dist/css/justifiedGallery.css';
+import '../styles/gallery.scss';
 
 $(document).ready(function () {
   // Copy data-srcset from image to parent link

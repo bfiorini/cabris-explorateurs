@@ -1,7 +1,7 @@
 import 'datatables.net-zf';
 import 'datatables.net-responsive-zf'
-import 'datatables.net-zf/css/dataTables.foundation.css';
-import 'datatables.net-responsive-zf/css/responsive.foundation.css'
+
+import '../styles/datatables.scss';
 
 $(document).ready(function () {
   $('#datatables').DataTable({

@@ -10,7 +10,7 @@ import 'lazysizes/plugins/object-fit/ls.object-fit';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import 'lazysizes/plugins/respimg/ls.respimg';
 
-import '../styles/styles_feeling_responsive.scss';
+import '../styles/main.scss';
 
 // Polyfill for Foundation 5 to work with jQuery 3
 // https://stackoverflow.com/a/41262100
