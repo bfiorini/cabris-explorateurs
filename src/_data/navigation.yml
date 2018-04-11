@@ -9,10 +9,11 @@
   url: '/blog/'
   side: left
 
-- title: Voies
-  url: '/voies/'
+- title: Escalade
   side: left
   dropdown:
+  - title: Par voies
+    url: '/voies/'
   - title: Par sites
     url: '/sites/'
 

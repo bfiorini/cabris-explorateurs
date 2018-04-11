@@ -1,12 +1,14 @@
 <div id="navigation" class="sticky">
-  <nav class="top-bar" data-topbar itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Menu">
+  <nav class="top-bar" data-topbar
+    data-options="scrolltop: false; mobile_show_parent_link: false; custom_back_text: false"
+    itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Menu">
     <ul class="title-area">
       <li class="name">
         <h1 class="show-for-small-only">
           <a href="{{ '/' | absolute_url }}" class="icon-tree"> {{ site.title }}</a>
         </h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#" title="Menu"><span></span></a></li>
     </ul>
     <section class="top-bar-section">
       {% assign sides = site.data.navigation | group_by:"side" | sort:"name" %}
@@ -30,16 +32,20 @@
           {% endif %}
           {% endcapture %}
 
+          {% assign link_url = link.url | relative_url | default: '#' %}
+
           <li class="{{ hasDropdown }} {{ isActive}}">
-            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link.url | relative_url }}" itemprop="url">
+            <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ link_url }}" itemprop="url">
               <span itemprop="name">{{ link.title | escape }}</span>
             </a>
 
             {% if link.dropdown != nil %}
             <ul class="dropdown">
               {% for dropdown_link in link.dropdown %}
+
+                {% assign dropdown_url = dropdown_link.url | relative_url | default: '#' %}
                 <li>
-                  <a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_link.url | relative_url }}" itemprop="url">
+                  <a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_url }}" itemprop="url">
                     <span itemprop="name">{{ dropdown_link.title | escape }}</span>
                   </a>
                 </li>
