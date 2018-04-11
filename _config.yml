@@ -104,44 +104,32 @@ google_analytics_tracking_id: "UA-115149018-1"
 
 # Front Matter Defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ''
     values:
       title: Les Cabris Explorateurs
       image:
         featured: /assets/img/header-home-1920.jpg
         cover: true
-  -
-    scope:
+  - scope:
       path: ''
-      type: 'pages'
+      type: pages
     values:
       show_meta: false
-      author: bfiorini
-  -
-    scope:
+  - scope:
       path: _posts
       type: posts
     values:
       layout: post
       show_meta: true
       author: alex
-  -
-    scope:
-      path: ''
-      type: routes
-    values:
-      layout: page
-      header: no
-      sitemap: false
-  -
-    scope:
+  - scope:
       path: ''
       type: areas
     values:
       layout: area
       header: no
+      dataTable: true
 
 
 #       ______            _
