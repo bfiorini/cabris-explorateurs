@@ -22,6 +22,13 @@ permalink: "/sitemap/"
     <li><a href="{{ post.url | relative_url}}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
     {% endfor %}
   </ul>
+  <li>Toutes les catégories</li>
+  <ul>
+    {% for category in site.data.categories %}
+    {% assign slug = category.name | downcase %}
+    <li><a href="{{ site.category_base_path | relative_url | append: slug }}">{{ category.name | widont }}</a></li>
+    {% endfor %}
+  </ul>
 </ul>
 
 <h2>Escalade</h2>
