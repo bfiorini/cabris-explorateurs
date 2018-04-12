@@ -1,7 +1,11 @@
 - name: "Contact"
   url: "/contact/"
-  title: "Contact"
+
+- name: "Plan"
+  url: "/sitemap/"
 
 - name: "Licences"
   url: "/licences/"
-  title: "Licences"
+
+- name: "Données personnelles"
+  url: "/privacy/"

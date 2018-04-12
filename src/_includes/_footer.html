@@ -20,9 +20,9 @@
       <div class="small-12 medium-2 medium-offset-1 columns">
         <h5 class="shadow-black">{{ site.data.language.services }}</h5>
         <ul class="no-bullet shadow-black">
-          {% for service_item in site.data.services %}
-          <li {% if service_item.class %}class="{{ service_item.class }}"{% endif %}>
-            <a href="{{ service_item.url | relative_url }}" title="{{ service_item.title }}">{{ service_item.name }}</a>
+          {% for service in site.data.services %}
+          <li {% if service.class %}class="{{ service.class }}"{% endif %}>
+            <a href="{{ service.url | relative_url }}" title="{{ service.name }}">{{ service.name }}</a>
           </li>
           {% endfor %}
         </ul>
