@@ -99,16 +99,10 @@ google_analytics_tracking_id: "UA-115149018-1"
 defaults:
   - scope:
       path: ''
-    values:
-      title: Les Cabris Explorateurs
-      image:
-        featured: /assets/img/header-home-1920.jpg
-        cover: true
-  - scope:
-      path: ''
       type: pages
     values:
       show_meta: false
+      title: Les Cabris Explorateurs
   - scope:
       path: _posts
       type: posts
