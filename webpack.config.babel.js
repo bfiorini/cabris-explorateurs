@@ -10,9 +10,7 @@ export default {
   entry: {
     main: path.resolve(__dirname, 'src/_assets/js/main.js'),
     gallery: path.resolve(__dirname, 'src/_assets/js/gallery.js'),
-    datatables: path.resolve(__dirname, 'src/_assets/js/datatables.js'),
-    rss: path.resolve(__dirname, 'src/_assets/styles/rss.scss'),
-    atom: path.resolve(__dirname, 'src/_assets/styles/atom.scss')
+    datatables: path.resolve(__dirname, 'src/_assets/js/datatables.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist/assets/'),
