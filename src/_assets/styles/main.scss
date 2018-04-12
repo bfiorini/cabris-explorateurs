@@ -1,33 +1,24 @@
 @charset "utf-8";
 
-@import "~foundation-sites/scss/foundation/functions";
-@import "01_settings_colors.scss";
-@import "02_settings_typography.scss";
-@import "03_settings_mixins_media_queries.scss";
-@import "04_settings_global.scss";
 @import "~foundation-sites/scss/normalize";
 
+@import "colors";
+@import "settings";
+
 @import "~foundation-sites/scss/foundation/components/top-bar";
-@import "~foundation-sites/scss/foundation/components/accordion";
-@import "~foundation-sites/scss/foundation/components/alert-boxes";
-@import "~foundation-sites/scss/foundation/components/breadcrumbs";
 @import "~foundation-sites/scss/foundation/components/buttons";
 @import "~foundation-sites/scss/foundation/components/dropdown";
 @import "~foundation-sites/scss/foundation/components/forms";
 @import "~foundation-sites/scss/foundation/components/grid";
 @import "~foundation-sites/scss/foundation/components/inline-lists";
-@import "~foundation-sites/scss/foundation/components/panels";
 @import "~foundation-sites/scss/foundation/components/side-nav";
-@import "~foundation-sites/scss/foundation/components/type";
 @import "~foundation-sites/scss/foundation/components/visibility";
 
-@import "06_typography.scss";
-@import "07_layout.scss";
-@import "09_elements.scss";
+@import "06_typography";
+@import "07_layout";
+@import "09_elements";
 
-@import "11_syntax-highlighting.scss";
-
-@import "lazyload.scss";
-@import "homepage.scss";
-@import "entries.scss";
-@import "post-intro.scss";
+@import "lazyload";
+@import "homepage";
+@import "entries";
+@import "post-intro";
