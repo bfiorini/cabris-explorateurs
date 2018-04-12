@@ -1,8 +1,8 @@
-<nav id="post-nav" class="t60">
+<nav id="post-nav" class="t60 clearfix">
   {% if page.previous.url %}
-  <a class="button small radius medium-5 small-12 columns" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
+  <a class="radius button small left medium-5 small-12" href="{{ page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
-  <a class="button small radius medium-5 medium-offset-2 small-12 columns" href="{{ page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
+  <a class="radius button small right medium-5 small-12" href="{{ page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </nav>
