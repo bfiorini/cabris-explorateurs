@@ -18,7 +18,7 @@ Check typography variables › _3_typography_settings.scss
 
 */
 
-
+@import "~foundation-sites/scss/foundation/components/type";
 
 /* Links
 ------------------------------------------------------------------- */
@@ -48,7 +48,10 @@ a:active {
 
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
-
+// control hyphenation in body paragraphs
+// use value for the hyphens css property
+// https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
+$body-hyphenation: auto;
 p {
     -webkit-hyphens: $body-hyphenation;
     -moz-hyphens: $body-hyphenation;
@@ -100,11 +103,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: $font-size-h1;
     margin-top: 0;
 }
 h2 {
-    font-size: $font-size-h2;
     margin: 1.563em 0 0 0;
 }
 .blog-index h2,
@@ -112,15 +113,12 @@ h2 {
     margin-top: 0;
 }
 h3 {
-    font-size: $font-size-h3;
     margin: 1.152em 0 0 0;
 }
 h4 {
-    font-size: $font-size-h4;
     margin: 1.152em 0 0 0;
 }
 h5 {
-    font-size: $font-size-h5;
     margin: 1em 0 0 0;
 }
 
@@ -308,21 +306,6 @@ mark {
 }
 
 
-/* Additional typographical elements
-------------------------------------------------------------------- */
-
-.sans           { font-family: $font-family-sans-serif; }
-.serif          { font-family: $font-family-serif; }
-
-.font-size-h1   { font-size: $font-size-h1; }
-.font-size-h2   { font-size: $font-size-h2; }
-.font-size-h3   { font-size: $font-size-h3; }
-.font-size-h4   { font-size: $font-size-h4; }
-.font-size-h5   { font-size: $font-size-h5; }
-.font-size-p    { font-size: $font-size-p; }
-
-
-
 /* Footnotes
 ------------------------------------------------------------------- */
 
@@ -338,7 +321,7 @@ mark {
     margin-top: 60px;
 }
 .footnotes ol {
-    font-size: $font-size-small;
+    font-size: $small-font-size;
 }
 .footnotes p {
     font-size: inherit;
