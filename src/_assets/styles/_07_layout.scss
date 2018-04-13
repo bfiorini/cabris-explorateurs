@@ -46,16 +46,16 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #navigation {
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 
-    [class^='icon-']:before, [class*=' icon-']:before {
-        margin-right: rem-calc(8);
-    }
+  [class^='icon-']:before, [class*=' icon-']:before {
+    margin-right: rem-calc(8);
+  }
 
-    .top-bar .title-area .name h1 a {
-        width: auto;
-    }
+  .top-bar .title-area .name h1 a {
+    width: auto;
+  }
 }
 
 
@@ -73,56 +73,56 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #masthead {
-    //background-color: $primary-color;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  //background-color: $primary-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #masthead-no-image-header {
-    background-color: $primary-color;
+  background-color: $primary-color;
 }
 #masthead-with-text {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: rem-calc(54);
-    font-family: $header-font-family;
-    color: #fff;
-    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: rem-calc(54);
+  font-family: $header-font-family;
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 #masthead-no-image-header {
-    height: 175px;
+  height: 175px;
 }
 #masthead-no-image-header #logo img {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 /* Masthead › small-only
 ------------------------------------------------------------------- */
 
 @media #{$small-only} {
-    #logo img {
-        display: none;
-    }
-    #masthead {
-        height: 200px;
-    }
-    #masthead-with-pattern {
-        padding: 15px 0;
-    }
-    #masthead-with-background-color {
-        padding: 15px 0;
-    }
-    #masthead-with-text {
-        height: 220px;
-        padding: 30px 0;
-        font-size: rem-calc(36);
-    }
-    #masthead-no-image-header {
-        display: none;
-    }
+  #logo img {
+    display: none;
+  }
+  #masthead {
+    height: 200px;
+  }
+  #masthead-with-pattern {
+    padding: 15px 0;
+  }
+  #masthead-with-background-color {
+    padding: 15px 0;
+  }
+  #masthead-with-text {
+    height: 220px;
+    padding: 30px 0;
+    font-size: rem-calc(36);
+  }
+  #masthead-no-image-header {
+    display: none;
+  }
 }
 
 
@@ -130,22 +130,22 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$medium-only} {
-    #logo img {
-        margin-top: 60px;
-    }
-    #masthead {
-        height: 280px;
-    }
-    #masthead-with-pattern {
-        padding: 20px 0;
-    }
-    #masthead-with-background-color {
-        padding: 20px 0;
-    }
-    #masthead-with-text {
-        padding: 60px 0;
-        height: 300px;
-    }
+  #logo img {
+    margin-top: 60px;
+  }
+  #masthead {
+    height: 280px;
+  }
+  #masthead-with-pattern {
+    padding: 20px 0;
+  }
+  #masthead-with-background-color {
+    padding: 20px 0;
+  }
+  #masthead-with-text {
+    padding: 60px 0;
+    height: 300px;
+  }
 }
 
 
@@ -153,22 +153,22 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$large-only} {
-    #logo img {
-        margin-top: 80px;
-    }
-    #masthead {
-        height: 310px;
-    }
-    #masthead-with-pattern {
-        padding: 30px 0;
-    }
-    #masthead-with-background-color {
-        padding: 30px 0;
-    }
-    #masthead-with-text {
-        height: 330px;
-        padding: 60px 0;
-    }
+  #logo img {
+    margin-top: 80px;
+  }
+  #masthead {
+    height: 310px;
+  }
+  #masthead-with-pattern {
+    padding: 30px 0;
+  }
+  #masthead-with-background-color {
+    padding: 30px 0;
+  }
+  #masthead-with-text {
+    height: 330px;
+    padding: 60px 0;
+  }
 }
 
 
@@ -176,36 +176,36 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$xlarge-up} {
-    #logo img {
-        margin-top: 110px;
-    }
-    #masthead {
-        height: 380px;
-    }
-    #masthead-with-pattern {
-        padding: 45px 0;
-    }
-    #masthead-with-background-color {
-        padding: 45px 0;
-    }
-    #masthead-with-text {
-        padding: 95px 0;
-        height: 400px;
-    }
+  #logo img {
+    margin-top: 110px;
+  }
+  #masthead {
+    height: 380px;
+  }
+  #masthead-with-pattern {
+    padding: 45px 0;
+  }
+  #masthead-with-background-color {
+    padding: 45px 0;
+  }
+  #masthead-with-text {
+    padding: 95px 0;
+    height: 400px;
+  }
 }
 
 
 #title-image-small {
-    height: 240px;
+  height: 240px;
 }
 #title-image-large {
-    height: 520px;
+  height: 520px;
 }
 #title-image-index-small {
-    height: 120px;
+  height: 120px;
 }
 #title-image-index-large {
-    height: 260px;
+  height: 260px;
 }
 
 
@@ -214,9 +214,9 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #breadcrumb {
-    background: scale-color($grey-1, $lightness: 55%);
-    border-top: 1px solid scale-color($grey-1, $lightness: 45%);
-    border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
+  background: scale-color($grey-1, $lightness: 55%);
+  border-top: 1px solid scale-color($grey-1, $lightness: 45%);
+  border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
 }
 .breadcrumbs>.current {
   font-weight: bold;
@@ -227,30 +227,30 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #page-meta, #page-meta a {
-    color: $grey-5;
+  color: $grey-5;
 }
 
 #page-meta .button {
-    background: $grey-5;
-    border: 0;
+  background: $grey-5;
+  border: 0;
 }
 #page-meta .button {
-    color: #fff;
+  color: #fff;
 }
 #page-meta .button:hover {
-    background: $primary-color;
+  background: $primary-color;
 }
 .meta-info p {
   font-size: rem-calc(13);
   color: scale-color($grey-1, $lightness: 40%);
 }
   .meta-info a {
-    text-decoration: underline;
-    color: scale-color($grey-1, $lightness: 40%);
+  text-decoration: underline;
+  color: scale-color($grey-1, $lightness: 40%);
   }
   .meta-info a:hover {
-    text-decoration: none;
-    color: $secondary-color;
+  text-decoration: none;
+  color: $secondary-color;
   }
 
 
@@ -259,83 +259,83 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #up-to-top {
-    padding: 160px 0 10px 0;
-}
-#up-to-top a {
+  padding: 160px 0 10px 0;
+
+  a {
     font-size: 24px;
     padding: 5px;
     border-radius: 3px;
-}
-#up-to-top a:hover {
-    background: $grey-2;
-}
 
+    &:hover {
+      background: $grey-2;
+    }
+
+  }
+
+}
 
 
 /* Footer
 ------------------------------------------------------------------- */
 
-#footer-content p,
-#footer-content li {
-    font-size: rem-calc(13);
-    font-weight: 300;
-}
-
 #footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background: $footer-bg;
-    color: $footer-color;
-    }
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: $footer-bg;
+  color: $footer-color;
 
-    #footer a {
-        color: $footer-link-color;
-    }
-    #footer h4,
-    #footer h5 {
-        letter-spacing: 1px;
-        color: #fff;
-        text-transform: uppercase;
-    }
+  a {
+    color: $footer-link-color;
+  }
 
+  h4, h5 {
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+}
 
 
 /* Subfooter
 ------------------------------------------------------------------- */
 
 #subfooter {
-    background: $subfooter-bg;
-    color: $subfooter-color;
-    padding-top: 30px;
-    padding-bottom: 10px;
+  background: $subfooter-bg;
+  color: $subfooter-color;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  ul.inline-list {
+    float: left;
+  }
+
+  .credits a {
+    color: $subfooter-link-color;
+    border: 0;
+    text-transform: uppercase;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .social-icons li a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $subfooter-bg;
+    background: $subfooter-color;
+    text-align: center;
+
+    &:hover {
+      background: $subfooter-bg;
+      color: #fff;
+    }
+
+  }
+
 }
-    #subfooter-left ul.inline-list {
-        float: left;
-    }
-    #subfooter .credits a {
-        color: $subfooter-link-color;
-        border: 0;
-        text-transform: uppercase;
-        &:hover {
-            color: #fff;
-        }
-    }
-
-    #subfooter .social-icons li a {
-        font-size: rem-calc(23);
-        display: block;
-        width: 36px;
-        border-radius: 50%;
-        color: $subfooter-bg;
-        background: $subfooter-color;
-        text-align: center;
-    }
-    #subfooter .social-icons li a:hover {
-        background: $subfooter-bg;
-        color: #fff;
-    }
-
-
 
 /* CSS-Classes to add margin at top or bottom
 ------------------------------------------------------------------- */
