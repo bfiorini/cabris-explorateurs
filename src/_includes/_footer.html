@@ -34,14 +34,14 @@
     <nav class="row">
       <section id="subfooter-left" class="small-12 medium-6 columns credits">
         <p><small>
-          Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>,
-          theme by <a href="http://phlow.de/">Phlow</a>.
+          Created with <a href="http://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>,
+          theme by <a href="http://phlow.de/" target="_blank" rel="noopener">Phlow</a>.
         </small></p>
       </section>
       <section id="subfooter-right" class="small-12 medium-6 columns">
         <ul class="inline-list social-icons">
         {% for social_item in site.data.socialmedia %}
-          <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+          <li><a href="{{ social_item.url }}" target="_blank" rel="noopener" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
         {% endfor %}
         </ul>
       </section>
