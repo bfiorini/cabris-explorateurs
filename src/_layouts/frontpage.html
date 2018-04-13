@@ -5,55 +5,55 @@ format: frontpage
 
 {% include _masthead.html %}
 
-{% unless site.posts == empty %}
-<div class="row">
-  <h2 class="text-center t30">
-    {{ site.data.language.more_articles | widont }}
-  </h2>
-</div>
-<div class="row">
-  {% for post in site.posts limit:6 %}
-  {% assign post_image = post.image.featured %}
-  <div class="small-12 medium-4 columns homepage-block cover t30">
-    <a href="{{ post.url | relative_url }}" title="{{ post.title | escape_once }}">
-      <div class="homepage-block-image">
-        {% include responsive_picture.html file=post_image alt=post.title %}
+<main>
+  <section>
+    <h2 class="text-center t30">
+      {{ site.data.language.more_articles | widont }}
+    </h2>
+    <div class="row">
+      {% for post in site.posts limit:6 %}
+      {% assign post_image = post.image.featured %}
+      <div class="small-12 medium-4 columns homepage-block cover t30">
+        <a href="{{ post.url | relative_url }}" title="{{ post.title | escape_once }}">
+          <div class="homepage-block-image">
+            {% include responsive_picture.html file=post_image alt=post.title %}
+          </div>
+          <div class="homepage-block-inner text-center">
+            {{ post.title | widont }}
+          </div>
+        </a>
       </div>
-      <div class="homepage-block-inner text-center">
-        {{ post.title | widont }}
+      {% endfor %}
+    </div>
+    <div class="row t30">
+      <div class="text-center columns small-4 small-offset-4 end">
+        <a class="button small radius expand" href="{{ '/blog/' | relative_url }}">
+          <strong>{{ site.data.language.archive }}</strong>
+        </a>
       </div>
-    </a>
-  </div>
-  {% endfor %}
-</div>
-{% endunless %}
+    </div>
+  </section>
 
-
-<div class="row text-center t30">
-  <a class="button small radius" href="{{ '/blog/' | relative_url }}">
-    <strong>{{ site.data.language.archive }} ›</strong>
-  </a>
-</div>
-
-{% unless site.categories == empty %}
-<div class="row">
-  <h2 class="text-center t30">
-    {{ site.data.language.categories | widont }}
-  </h2>
-</div>
-<div class="row">
-  {% for category in site.data.categories limit:3 %}
-  {% assign slug = category.name | downcase %}
-  <div class="small-12 medium-4 columns homepage-block cover t30">
-    <a href="{{ site.category_base_path | relative_url | append: slug }}" title="{{ category.name }}">
-      <div class="homepage-block-image">
-        {% include responsive_picture.html file=category.image alt=category.name %}
+  <section>
+    <div class="row">
+      <h2 class="text-center t30">
+        {{ site.data.language.categories | widont }}
+      </h2>
+    </div>
+    <div class="row">
+      {% for category in site.data.categories limit:3 %}
+      {% assign slug = category.name | downcase %}
+      <div class="small-12 medium-4 columns homepage-block cover t30">
+        <a href="{{ site.category_base_path | relative_url | append: slug }}" title="{{ category.name }}">
+          <div class="homepage-block-image">
+            {% include responsive_picture.html file=category.image alt=category.name %}
+          </div>
+          <div class="homepage-block-inner text-center">
+            {{ category.name | widont }}
+          </div>
+        </a>
       </div>
-      <div class="homepage-block-inner text-center">
-        {{ category.name | widont }}
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-</div>
-{% endunless %}
+      {% endfor %}
+    </div>
+  </section>
+</main>
