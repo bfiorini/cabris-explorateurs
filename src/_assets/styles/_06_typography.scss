@@ -93,37 +93,6 @@ a[href*="/assets/img/"]:focus {
 }
 
 
-/* Headlines
-------------------------------------------------------------------- */
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: $header-font-family;
-    font-weight: normal;
-    padding: 0;
-}
-
-h1 {
-    margin-top: 0;
-}
-h2 {
-    margin: 1.563em 0 0 0;
-}
-.blog-index h2,
-.frontpage h2 {
-    margin-top: 0;
-}
-h3 {
-    margin: 1.152em 0 0 0;
-}
-h4 {
-    margin: 1.152em 0 0 0;
-}
-h5 {
-    margin: 1em 0 0 0;
-}
-
-
-
 /* Images
 ------------------------------------------------------------------- */
 
