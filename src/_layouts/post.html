@@ -21,7 +21,7 @@ format: post
 
       {% if page.gallery.size > 0 %}
       <aside>
-        <h5><span class="icon-camera"></span> Gallerie d'images</h5>
+        <h5><span class="icon-camera"></span> {{ site.data.language.gallery }}</h5>
         {% include sections/page-gallery.html %}
       </aside>
       {% endif %}
