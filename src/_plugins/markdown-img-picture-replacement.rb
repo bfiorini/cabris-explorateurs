@@ -9,8 +9,8 @@ Jekyll::Hooks.register :posts, :pre_render do |post, payload|
     if payload['site']['markdown_ext'].include? docExt
       newContent = post.content.gsub(
         /\!\[(.+)\]\((.+)\)/,
-        '<a href="\2">{% include responsive_picture.html file="\2" alt="\1" %}</a>'
-        )
+        '<a href="\2">{% include components/responsive-picture.html file="\2" alt="\1" %}</a>'
+      )
       post.content = newContent
     end
   end

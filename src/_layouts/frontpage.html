@@ -16,7 +16,7 @@ format: frontpage
       <div class="small-12 medium-4 columns homepage-block cover t30">
         <a href="{{ post.url | relative_url }}" title="{{ post.title | escape_once }}">
           <div class="homepage-block-image">
-            {% include responsive_picture.html file=post_image alt=post.title %}
+            {% include components/responsive-picture.html file=post_image alt=post.title %}
           </div>
           <div class="homepage-block-inner text-center">
             {{ post.title | widont }}
@@ -46,7 +46,7 @@ format: frontpage
       <div class="small-12 medium-4 columns homepage-block cover t30">
         <a href="{{ site.category_base_path | relative_url | append: slug }}" title="{{ category.name }}">
           <div class="homepage-block-image">
-            {% include responsive_picture.html file=category.image alt=category.name %}
+            {% include components/responsive-picture.html file=category.image alt=category.name %}
           </div>
           <div class="homepage-block-inner text-center">
             {{ category.name | widont }}

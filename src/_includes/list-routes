@@ -45,7 +45,9 @@
       <td>{{ route.gear }}</td>
       <td>{{ route.time }}</td>
       <td>{{ route.rock }}</td>
-      <td data-order="{{ route.rating }}">{% include rating rating=route.rating %}</td>
+      <td data-order="{{ route.rating }}">
+        {% include components/rating.html rating=route.rating %}
+      </td>
     </tr>
     {% endunless %}
     {% endfor %}
