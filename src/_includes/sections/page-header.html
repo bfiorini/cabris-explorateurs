@@ -7,7 +7,7 @@
   <div class="page-header-image">
     {% assign f = image | split: '.' %}
     <noscript><img src="{{ f[0] | relative_url }}-1024.{{ f[1] }}"></noscript>
-    <img sizes="100vw"
+    <img data-sizes="auto"
       src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
       data-srcset="{{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
                    {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
