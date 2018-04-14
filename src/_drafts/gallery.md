@@ -42,4 +42,4 @@ permalink:
 #      caption: Description – not necessary
 ---
 
-{% include gallery.html %}
+{% include sections/page-gallery.html %}

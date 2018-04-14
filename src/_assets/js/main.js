@@ -1,8 +1,6 @@
 import 'fastclick';
 import 'imports-loader?this=>window!foundation-sites/js/vendor/modernizr';
 import 'foundation-sites/js/foundation/foundation';
-import 'foundation-sites/js/foundation/foundation.alert';
-import 'foundation-sites/js/foundation/foundation.accordion';
 import 'foundation-sites/js/foundation/foundation.dropdown';
 import 'foundation-sites/js/foundation/foundation.topbar';
 import 'lazysizes';

@@ -3,7 +3,7 @@ layout: default
 format: post
 ---
 
-{% include post-intro.html %}
+{% include sections/post-intro.html %}
 
 <div class="row">
   <div class="medium-10 medium-offset-1 columns end">
@@ -22,15 +22,15 @@ format: post
       {% if page.gallery.size > 0 %}
       <aside>
         <h5><span class="icon-camera"></span> Gallerie d'images</h5>
-        {% include gallery.html %}
+        {% include sections/page-gallery.html %}
       </aside>
       {% endif %}
 
       <footer>
-        {% include _meta_information.html %}
-        {% include related.html %}
+        {% include sections/page-meta-info.html %}
+        {% include sections/post-related.html %}
       </footer>
     </article>
-    {% include post-pager.html %}
+    {% include sections/post-pager.html %}
   </div>
 </div>
