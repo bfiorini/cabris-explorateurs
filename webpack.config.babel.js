@@ -6,14 +6,24 @@ import ManifestPlugin from 'webpack-manifest-plugin'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
 
+const paths = {
+  src: {
+    assets: 'src/_assets/',
+    js: 'src/_assets/js/'
+  },
+  dist: {
+    assets: 'dist/assets/'
+  }
+}
+
 export default {
   entry: {
-    main: path.resolve(__dirname, 'src/_assets/js/main.js'),
-    gallery: path.resolve(__dirname, 'src/_assets/js/gallery.js'),
-    datatables: path.resolve(__dirname, 'src/_assets/js/datatables.js')
+    main: path.resolve(__dirname, paths.src.js, 'main.js'),
+    gallery: path.resolve(__dirname, paths.src.js, 'gallery.js'),
+    datatables: path.resolve(__dirname, paths.src.js, 'datatables.js')
   },
   output: {
-    path: path.resolve(__dirname, 'dist/assets/'),
+    path: path.resolve(__dirname, paths.dist.assets),
     filename: 'js/[name].[chunkhash].js',
     publicPath: '/assets/'
   },
@@ -78,14 +88,16 @@ export default {
     },
   },
   plugins: [
-    //new CleanWebpackPlugin('dist/assets'),
+    new CleanWebpackPlugin([paths.dist.assets], {
+      exclude: ['img']
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
     }),
     new CopyWebpackPlugin([{
-      from: path.resolve(__dirname, 'src/_assets/icons'),
-      to: path.resolve(__dirname, 'dist/assets/icons')
+      from: path.resolve(__dirname, paths.src.assets, 'icons'),
+      to: path.resolve(__dirname, paths.dist.assets, 'icons')
     }]),
     new webpack.HashedModuleIdsPlugin(),
     new ExtractTextPlugin({
