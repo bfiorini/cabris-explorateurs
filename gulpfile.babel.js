@@ -8,7 +8,7 @@ const paths = {
   images: {
     src: 'images/**',
     dist: 'dist/images/',
-    cache: '.cache/',
+    cache: '.img-cache/',
   }
 }
 

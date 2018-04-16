@@ -4,7 +4,7 @@
         "**/.git": true,
         "**/node_modules": true,
         "**/.sass-cache": true,
-        "**/.cache": true,
+        "**/.img-cache": true,
     },
     "editor.tabSize": 2
 }
