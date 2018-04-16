@@ -5,5 +5,5 @@ dist
 .jekyll-metadata
 node_modules
 yarn-error.log
-.img-cache
+.cache
 src/_data/assets.json

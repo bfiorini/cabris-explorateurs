@@ -1,8 +1,8 @@
 - name: Escalade
-  image: /assets/img/SDC12423.jpg
+  image: /images/SDC12423.jpg
 - name: Randonnée
-  image: /assets/img/IMG_20171101_121712.jpg
+  image: /images/IMG_20171101_121712.jpg
 - name: Vanlife
-  image: /assets/img/IMG_20180324_100141.jpg
+  image: /images/IMG_20180324_100141.jpg
 - name: Voyage
-  image: /assets/img/20170620_201151.jpg
+  image: /images/20170620_201151.jpg

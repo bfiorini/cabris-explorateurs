@@ -17,6 +17,6 @@ description: >-
   style assez semblable entre les voies. Exposé plein sud. 
 
 
-  [Benjamin est sur le fil](/assets/img/benjamin-est-sur-le-fil.jpg)
+  [Benjamin est sur le fil](/images/benjamin-est-sur-le-fil.jpg)
 ---
 

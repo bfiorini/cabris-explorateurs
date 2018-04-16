@@ -71,6 +71,7 @@ source: src
 destination: dist
 keep_files:
   - assets
+  - images
 include:
   - pages
 exclude:

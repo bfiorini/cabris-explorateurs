@@ -88,9 +88,7 @@ export default {
     },
   },
   plugins: [
-    new CleanWebpackPlugin([paths.dist.assets], {
-      exclude: ['img']
-    }),
+    new CleanWebpackPlugin(paths.dist.assets),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'

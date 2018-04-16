@@ -83,11 +83,11 @@ p.button a {
 }
 
 /* No decoration for images links !! */
-a[href*="/assets/img/"],
-a[href*="/assets/img/"]:hover,
-a[href*="/assets/img/"]:visited,
-a[href*="/assets/img/"]:active,
-a[href*="/assets/img/"]:focus {
+a[href*="/images/"],
+a[href*="/images/"]:hover,
+a[href*="/images/"]:visited,
+a[href*="/images/"]:active,
+a[href*="/images/"]:focus {
     text-decoration: none;
     border: 0 none;
 }

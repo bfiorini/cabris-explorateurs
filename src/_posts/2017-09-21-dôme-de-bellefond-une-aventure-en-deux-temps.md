@@ -9,7 +9,7 @@ categories:
 image:
   caption: ''
   cover: true
-  featured: /assets/img/header-bellefond.jpg
+  featured: /images/header-bellefond.jpg
 date: '2017-10-19 12:00:00'
 ---
 Un jeudi de beau temps, me voilà partie pour une petite balade : le Dôme de Bellefond par la Dent de Crolles. L’ambiance de cette fin de mois d’Octobre est magnifique, la vue dégagée jusqu’au Mont Blanc, et les falaises vertigineuses… Mais se promener seule sur des chemins de crêtes un peu scabreux peut ébranler les plus vaillants, et le passage de la cheminée du Paradis est ma foi un peu impressionnant ; surtout quand à mi-chemin de la cheminée on se trompe d’itinéraire et qu’on débouche sur une vire qui finit en style traversée dans les calanques (avec des rochers loin en contrebas à la place de la mer). Un demi-tour penaud plus tard, je rentre à la maison avec un goût de reviens-y… Mais non sans avoir vu deux troupeaux de chamois curieux (douze au total !)

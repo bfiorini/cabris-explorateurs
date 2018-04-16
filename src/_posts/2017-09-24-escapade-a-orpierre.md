@@ -7,7 +7,7 @@ excerpt: >-
 categories:
   - Escalade
 image:
-  featured: /assets/img/header-orpierre.jpg
+  featured: /images/header-orpierre.jpg
   caption: '[Orpierre Hautes-Alpes](https://orpierre.collectivites.hautes-alpes.fr/)'
   cover: true
 ---
@@ -16,6 +16,6 @@ Nous revoilà dans les Baronnies, pour aller visiter la fameuse ville d’Orpier
 Nous avons eu un très beau temps, et surtout une chaleur étouffante sur les falaises, même en cette fin de mois de Septembre ! Et quand on dit que les falaises sont renommées dans le monde entier, c’est vrai : nous avons grimpé tour à tour aux côtés d’espagnols, d’allemands et de néo-zélandais. Sans oublier le CAF de Paris, évidemment. Moralité : énormément de monde au pied des voies, qui ne sont pas si nombreuses dans le 6a max, ce qui limite le choix... même en arrivant a 8h30 le matin. 
 
 
-![Benjamin est sur le fil](/assets/img/benjamin-est-sur-le-fil.jpg)
+![Benjamin est sur le fil](/images/benjamin-est-sur-le-fil.jpg)
 
 Nous avons été très bien accueillis au Béal d’Or. Beaucoup de vans garés sur le parking de la falaisse du Quiquillon où nous avons passé la majorité de notre temps !
