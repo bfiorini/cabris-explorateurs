@@ -7,7 +7,7 @@ excerpt: >-
 categories:
   - Escalade
 image:
-  featured: /images/header-orpierre.jpg
+  path: /images/header-orpierre.jpg
   caption: '[Orpierre Hautes-Alpes](https://orpierre.collectivites.hautes-alpes.fr/)'
   cover: true
 ---

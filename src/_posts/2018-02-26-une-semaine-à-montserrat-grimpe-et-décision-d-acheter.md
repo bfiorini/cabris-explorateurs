@@ -13,7 +13,7 @@ categories:
 image:
   caption: ''
   cover: true
-  featured: /images/20180121_164902.jpg
+  path: /images/20180121_164902.jpg
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Aïe... Le voyage aurait-il mal commencé ?

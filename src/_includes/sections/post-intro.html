@@ -1,9 +1,9 @@
-{% assign featured_image = page.image.featured %}
+{% assign image = page.image.path %}
 
-<header class="post-intro {% if featured_image and page.image.cover %}cover{% endif %}">
-  {% if featured_image %}
+<header class="post-intro {% if image and page.image.cover %}cover{% endif %}">
+  {% if image %}
   <div class="post-intro-image">
-    {% assign f = featured_image | split: '.' %}
+    {% assign f = image | split: '.' %}
     <noscript><img src="{{ f[0] | relative_url }}-1024.{{ f[1] }}"></noscript>
     <img data-sizes="auto"
       src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"

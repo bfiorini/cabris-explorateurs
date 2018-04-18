@@ -68,6 +68,7 @@ plugins:
   - jekyll-typogrify
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
 excerpt_separator: "<!--more-->"
 source: src
 destination: dist
@@ -97,6 +98,10 @@ webmaster_verifications:
 #  baidu: ''
 
 google_analytics_tracking_id: "UA-115149018-1"
+
+# Plugin: Feed (jekyll-feed)
+# feed:
+#   path: feed.xml
 
 # Front Matter Defaults
 defaults:

@@ -5,9 +5,9 @@
     </h2>
   </header>
 
-  {% if post.image.featured %}
+  {% if post.image.path %}
   <section class="entry-image">
-    {% assign f = post.image.featured | split: '.' %}
+    {% assign f = post.image.path | split: '.' %}
     {% assign title = post.title | escape_once %}
     <a href="{{ post.url | relative_url }}" title="{{ title }}">
       <noscript>

@@ -9,7 +9,7 @@ categories:
   - Vanlife
 image:
   cover: true
-  featured: /images/preparation_marguerite.jpg
+  path: /images/preparation_marguerite.jpg
 date: '2018-03-25 02:28:21'
 gallery:
   - caption: Premier repas de Marguerite...

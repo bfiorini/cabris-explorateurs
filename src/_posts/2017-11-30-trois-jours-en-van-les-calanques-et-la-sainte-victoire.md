@@ -10,7 +10,7 @@ categories:
 image:
   caption: ''
   cover: true
-  featured: /images/header_calanques_vanlife.jpg
+  path: /images/header_calanques_vanlife.jpg
 date: '2017-11-30 11:08:20'
 ---
 Certain.e.s le savent déjà, nous avons le projet de nous acheter un van, pour partir en toute liberté à la découverte de nouveaux horizons. De renseignement en lecture, de lecture en discussion, de blog en forum, nous avons fini par découvrir que la première étape, c'était de louer pour essayer. Parce que paraît-il, on finit parfois par se rendre compte au bout de deux nuits que sur le papier c'était bien joli, mais qu'en fait, ça le fait pas, mais pas du tout. 
