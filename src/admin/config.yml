@@ -1,0 +1,150 @@
+backend:
+  name: github
+  repo: bfiorini/cabris-explorateurs
+  # Branch to update (optional; defaults to master)
+  branch: master
+
+# Enable editorial workflow
+publish_mode: editorial_workflow
+
+# Media files will be stored in the repo under images
+media_folder: "images/"
+public_folder: "/images/"
+
+collections:
+  - name: posts
+    label: Blog Posts
+    folder: src/_posts
+    sort: date:desc
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - name: author
+        label: Author
+        widget: select
+        default: alex
+        options:
+        - alex
+        - bfiorini
+      - label: "Titre"
+        name: "title"
+        widget: "string"
+        tagname: "h1"
+      - label: Categories
+        name: categories
+        widget: list
+        default: [Escalade, Randonnée, Vanlife, Voyage]
+        # Hard-coded waiting for https://github.com/netlify/netlify-cms/pull/1100
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: markdown
+      - label: Body
+        name: body
+        widget: markdown
+      - name: image
+        label: Image
+        widget: object
+        fields:
+        - {label: "Featured", name: "path", widget: "image"}
+        - {label: "Caption", name: "caption", widget: "markdown", required: false}
+        - {label: "Cover", name: "cover", widget: "boolean", default: true}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - name: gallery
+        label: Gallery
+        widget: list
+        required: false
+        fields:
+            - label: Image
+              name: image_url
+              widget: image
+            - label: Caption
+              name: caption
+              required: false
+
+  - name: regions
+    label: Régions
+    folder: src/_regions
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: Nom, name: title, widget: string, tagname: h1}
+  - name: areas
+    label: Sites
+    folder: src/_areas
+    create: true
+    slug: '{{region}}-{{slug}}'
+    fields:
+      - label: Nom
+        name: title
+        widget: string
+        tagname: h1
+      - name: region
+        label: Région
+        widget: relation
+        collection: regions
+        searchFields: [title]
+        valueField: title
+      - label: Description
+        name: body
+        widget: markdown
+        required: false
+  - name: routes
+    label: Voies
+    folder: src/_routes
+    create: true
+    slug: '{{area}}-{{slug}}'
+    fields:
+      - label: Nom
+        name: title
+        widget: string
+        tagname: h1
+      - name: area
+        label: Site
+        widget: relation
+        collection: areas
+        searchFields: [title]
+        valueField: title
+      - label: Cotation
+        name: difficulty
+        widget: string
+      - label: 'Hauteur (en mètres)'
+        name: height
+        widget: number
+      - label: 'Nombre de longueurs'
+        name: pitches
+        widget: string
+      - label: Équipement
+        name: gear
+        widget: select
+        default: Rapproché
+        options:
+        - Rapproché
+        - Aéré
+        - Aéré à compléter
+        - Vétuste
+        - Terrain d'aventure
+      - label: Durée
+        name: time
+        widget: string
+        required: false
+      - label: Rocher
+        name: rock
+        widget: select
+        default: Calcaire
+        options:
+        - Calcaire
+        - Granite
+        - Poudingue
+        - Grès
+        - Gabbro
+        - Gneiss
+      - label: note
+        name: rating
+        widget: number
+        valueType: int
+        min: 0
+        max: 3
+      - label: Description
+        name: description
+        widget: markdown
+        required: false
