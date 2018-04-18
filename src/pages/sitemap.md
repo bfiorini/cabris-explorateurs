@@ -3,7 +3,7 @@ layout: page
 title: "Plan du site"
 subheadline: ""
 excerpt: ""
-permalink: "/sitemap/"
+permalink: "/plan/"
 ---
 
 <h2>Pages</h2>
