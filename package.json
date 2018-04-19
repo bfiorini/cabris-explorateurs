@@ -11,7 +11,7 @@
     "prestart": "run-s clean",
     "start": "run-p webpack:dev images:dev jekyll:dev",
     "clean": "shx rm -rf dist/",
-    "clean:cache": "shx rm -rf .img-cache",
+    "clean:cache": "shx rm -rf .img-cache/",
     "clean:all": "run-p clean clean:cache",
     "webpack": "webpack -p",
     "webpack:dev": "webpack -d -w",
