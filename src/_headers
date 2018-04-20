@@ -30,10 +30,7 @@ hints_paths:
   Link: </assets/fonts/iconfont.woff>; rel=preload; as=font
   Link: <//ajax.googleapis.com/>; rel=preconnect; crossorigin
   Link: <//fonts.googleapis.com/>; rel=preconnect; crossorigin
-  Link: <//fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2>; rel=preload; as=font; crossorigin
-  Link: <//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2>; rel=preload; as=font; crossorigin
-  Link: <//fonts.gstatic.com/s/volkhov/v9/SlGQmQieoJcKemNecTUEhQ.woff2>; rel=preload; as=font; crossorigin
-  Link: <//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2>; rel=preload; as=font; crossorigin
+  Link: <//fonts.gstatic.com/>; rel=preconnect; crossorigin
 {% endfor %}
 
 /*.webmanifest
