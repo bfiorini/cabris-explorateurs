@@ -27,7 +27,6 @@ hints_paths:
   Link: <{{ site.data.assets['manifest.js'] | relative_url }}>; rel=preload; as=script
   Link: <{{ site.data.assets['commons.js']  | relative_url }}>; rel=preload; as=script
   Link: <{{ site.data.assets['main.js']     | relative_url }}>; rel=preload; as=script
-  Link: </assets/fonts/iconfont.woff>; rel=preload; as=font
   Link: <//ajax.googleapis.com/>; rel=preconnect; crossorigin
   Link: <//fonts.googleapis.com/>; rel=preconnect; crossorigin
   Link: <//fonts.gstatic.com/>; rel=preconnect; crossorigin
