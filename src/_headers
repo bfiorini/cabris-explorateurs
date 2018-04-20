@@ -1,0 +1,21 @@
+---
+source: https://github.com/lodash/lodash.com/blob/master/_headers
+---
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Link: <{{ site.data.assets['main.css']    | relative_url }}>; rel=preload; as=style; pr=1.0
+  Link: <{{ site.data.assets['manifest.js'] | relative_url }}>; rel=preload; as=script; pr=1.0
+  Link: <{{ site.data.assets['commons.js']  | relative_url }}>; rel=preload; as=script; pr=1.0
+  Link: <{{ site.data.assets['main.js']     | relative_url }}>; rel=preload; as=script; pr=1.0
+  Link: </assets/fonts/iconfont.woff>; rel=preload; as=font; pr=1.0
+  Link: <//ajax.googleapis.com/>; rel=preconnect; pr=1.0; crossorigin
+  Link: <//fonts.googleapis.com/>; rel=preconnect; pr=1.0; crossorigin
+  Link: <//fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2>; rel=preload; as=font; pr=1.0; crossorigin
+  Link: <//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2>; rel=preload; as=font; pr=1.0; crossorigin
+  Link: <//fonts.gstatic.com/s/volkhov/v9/SlGQmQieoJcKemNecTUEhQ.woff2>; rel=preload; as=font; pr=1.0; crossorigin
+  Link: <//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2>; rel=preload; as=font; pr=1.0; crossorigin
+
+/*.webmanifest
+  Content-Type: application/manifest+json
