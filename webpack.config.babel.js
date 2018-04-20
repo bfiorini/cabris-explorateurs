@@ -3,6 +3,7 @@ import CopyWebpackPlugin from 'copy-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import ManifestPlugin from 'webpack-manifest-plugin'
+import WorkboxPlugin from 'workbox-webpack-plugin'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
 
@@ -105,5 +106,10 @@ export default {
     new ManifestPlugin({
       fileName: '../../src/_data/assets.json'
     }),
+    new WorkboxPlugin.InjectManifest({
+      swSrc: path.resolve(__dirname, paths.src.js, 'sw.js'),
+      swDest: '../sw.js',
+      importsDirectory: 'js'
+    })
   ]
 }
