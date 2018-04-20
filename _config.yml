@@ -75,7 +75,6 @@ destination: dist
 keep_files:
   - assets
   - images
-  - sw.js
 include:
   - pages
   - _headers
