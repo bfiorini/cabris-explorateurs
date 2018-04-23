@@ -63,8 +63,7 @@
     "justifiedGallery": "^3.7.0",
     "lazysizes": "^4.0.2",
     "lg-zoom": "^1.1.0",
-    "lightgallery": "^1.6.9",
-    "picturefill": "^3.0.2"
+    "lightgallery": "^1.6.9"
   },
   "browserslist": [
     "last 2 versions",
