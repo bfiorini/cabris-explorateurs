@@ -2,7 +2,6 @@ import webpack from 'webpack'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
-import ManifestPlugin from 'webpack-manifest-plugin'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
 
@@ -24,7 +23,7 @@ export default {
   },
   output: {
     path: path.resolve(__dirname, paths.dist.assets),
-    filename: 'js/[name].[chunkhash].js',
+    filename: 'js/[name].js',
     publicPath: '/assets/'
   },
   module: {
@@ -99,11 +98,8 @@ export default {
     }]),
     new webpack.HashedModuleIdsPlugin(),
     new ExtractTextPlugin({
-      filename: 'css/[name].[chunkhash].css',
+      filename: 'css/[name].css',
       allChunks: true
-    }),
-    new ManifestPlugin({
-      fileName: '../../src/_data/assets.json'
-    }),
+    })
   ]
 }

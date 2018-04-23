@@ -1,13 +1,13 @@
-<script src="{{ site.data.assets['manifest.js'] | relative_url }}" async></script>
-<script src="{{ site.data.assets['commons.js'] | relative_url }}" async></script>
-<script src="{{ site.data.assets['main.js'] | relative_url }}" async></script>
+<script src="{{ '/assets/js/manifest.js' | relative_url }}" async></script>
+<script src="{{ '/assets/js/commons.js'  | relative_url }}" async></script>
+<script src="{{ '/assets/js/main.js'     | relative_url }}" async></script>
 
 {% if page.dataTable == true %}
-<script src="{{ site.data.assets['datatables.js'] | relative_url }}" async></script>
+<script src="{{ '/assets/js/datatables.js' | relative_url }}" async></script>
 {% endif %}
 
 {% if page.gallery.size > 0 or page.layout == 'post' %}
-<script src="{{ site.data.assets['gallery.js'] | relative_url }}" async></script>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}" async></script>
 {% endif %}
 
 {% if jekyll.environment == 'production' and site.google_analytics_tracking_id %}

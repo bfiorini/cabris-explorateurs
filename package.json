@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "bundle update && yarn upgrade",
     "prebuild": "run-s clean",
-    "build": "run-s webpack images jekyll",
+    "build": "run-p webpack images jekyll",
     "prestart": "run-s clean",
     "start": "run-p webpack:dev images:dev jekyll:dev",
     "clean": "shx rm -rf dist/",
@@ -52,8 +52,7 @@
     "shx": "^0.2.2",
     "style-loader": "^0.21.0",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14",
-    "webpack-manifest-plugin": "^2.0.0"
+    "webpack-cli": "^2.0.14"
   },
   "dependencies": {
     "datatables.net-responsive-zf": "^2.2.1",
