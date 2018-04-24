@@ -1,17 +1,27 @@
 <div id="page-meta" class="t30">
   <p>
-    <span class="pr20 icon-edit">{% include author id=page.author %}</span>
+    <span class="pr20 icon-edit">
+      {% include components/author.html id=page.author %}
+    </span>
 
     {% if page.date %}
-    <span class="pr20 icon-calendar">{% include datetime value=page.date %}</span>
+    <span class="pr20 icon-calendar">
+      {% include components/datetime.html value=page.date %}
+    </span>
     {% endif %}
 
     {% if page.categories != empty %}
-    <span class="pr20 icon-archive">{% include categories values=page.categories %}</span>
+    <span class="pr20 icon-archive">
+      {% include components/categories.html values=page.categories %}
+    </span>
     {% endif %}
 
     <br />
 
-    <span>{% for tag in page.tags %}<span class="icon-price-tag pr10">{{tag}}</span>{% endfor %}</span>
+    <span>
+      {% for tag in page.tags %}
+      <span class="icon-price-tag pr10">{{tag}}</span>
+      {% endfor %}
+    </span>
   </p>
 </div>

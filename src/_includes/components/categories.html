@@ -2,7 +2,7 @@
 *
 *   This include prints a list of categories.
 *
-*   Example: {% include categories values=post.categories %}
+*   Example: {% include components/categories.html values=post.categories %}
 *
 {% endcomment %}
 
@@ -11,5 +11,5 @@
 {% for category in categories %}
 {% assign slug = category | downcase %}
 <a href="{{ site.category_base_path | relative_url | append: slug }}">{{ category }}</a>
-{% unless forloop.last %}, {% endunless %}
+{%- unless forloop.last -%}, {%- endunless -%}
 {% endfor %}

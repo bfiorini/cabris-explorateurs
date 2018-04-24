@@ -21,7 +21,7 @@
   {% endif %}
 
   <footer class="entry-meta">
-    {{ site.data.language.by }} {% include author id=post.author %} &middot; {% include datetime value=post.date %} &middot; {% include categories values=post.categories %}
+    {{ site.data.language.by }} {% include components/author.html id=post.author %} &middot; {% include components/datetime.html value=post.date %} &middot; {% include components/categories.html values=post.categories %}
   </footer>
 
   <section class="entry-excerpt">

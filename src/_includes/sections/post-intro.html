@@ -30,9 +30,13 @@
       </h1>
       {% if page.show_meta %}
       <div class="post-intro-meta columns small-12">
-        <span class="pr20 icon-edit">{% include author id=page.author %}</span>
+        <span class="pr20 icon-edit">
+          {% include components/author.html id=page.author %}
+        </span>
         {% if page.date %}
-        <span class="pr20 icon-calendar">{% include datetime value=page.date %}</span>
+        <span class="pr20 icon-calendar">
+          {% include components/datetime.html value=page.date %}
+        </span>
         {% endif %}
       </div>
       {% endif %}
