@@ -21,7 +21,11 @@
   {% endif %}
 
   <footer class="entry-meta">
-    {{ site.data.language.by }} {% include components/author.html id=post.author %} &middot; {% include components/datetime.html value=post.date %} &middot; {% include components/categories.html values=post.categories %}
+    {% capture author %}{{ site.data.language.by }} {% include components/author.html id=post.author %}{% endcapture %}
+    {% capture datetime %}{% include components/datetime.html value=post.date %}{% endcapture %}
+    {% capture categories %}{% include components/categories.html values=post.categories %}{% endcapture %}
+    {% assign meta = site.data.init.array | push:author | push:datetime | push:categories %}
+    {{ meta | join: ' &middot; ' }}
   </footer>
 
   <section class="entry-excerpt">
