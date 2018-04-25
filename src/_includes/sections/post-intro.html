@@ -2,9 +2,9 @@
 
 <header class="post-intro {% if image and page.image.cover %}cover{% endif %}">
   {% if image %}
-  <div class="post-intro-image">
+  <figure>
     {% assign f = image | split: '.' %}
-    <noscript><img src="{{ f[0] | relative_url }}-1024.{{ f[1] }}"></noscript>
+    <noscript><img src="{{ f[0] | relative_url }}-1440.{{ f[1] }}"></noscript>
     <img data-sizes="auto"
       src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
       data-srcset="{{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
@@ -14,18 +14,19 @@
                    {{ f[0] | relative_url }}-1600.{{ f[1] }} 1600w,
                    {{ f[0] | relative_url }}-1920.{{ f[1] }} 1920w"
       alt="{{ page.title }}"
-      class="lazyload blur-up">
+      class="lazyload blur-up"
+      itemprop="image">
     {% if page.image.caption and page.image.caption != '' %}
-    <div class="image-caption">
+    <figcaption>
       <small>{{ page.image.caption | markdownify | remove: '<p>' | remove: '</p>' }}</small>
-    </div>
+    </figcaption>
     {% endif %}
-  </div>
+  </figure>
   {% endif %}
 
   <div class="post-intro-inner">
     <div class="post-intro-text row">
-      <h1 class="post-intro-title columns small-12">
+      <h1 class="post-intro-title columns small-12" itemprop="name">
         {{ page.title | default: site.title | markdownify | strip_html | widont }}
       </h1>
       {% if page.show_meta %}

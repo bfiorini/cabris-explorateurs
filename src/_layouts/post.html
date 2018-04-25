@@ -3,12 +3,12 @@ layout: default
 format: post
 ---
 
-{% include sections/post-intro.html %}
+<article itemscope itemtype="http://schema.org/Article">
 
-<div class="row">
-  <div class="medium-10 medium-offset-1 columns end">
-    <article itemscope itemtype="http://schema.org/Article">
+  {% include sections/post-intro.html %}
 
+  <div class="row">
+    <div class="medium-10 medium-offset-1 columns end">
       {% if page.excerpt %}
       <p class="excerpt" itemprop="description">
         {{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
@@ -20,17 +20,22 @@ format: post
       </div>
 
       {% if page.gallery.size > 0 %}
-      <aside>
+      <section>
         <h5><span class="icon-camera"></span> {{ site.data.language.gallery }}</h5>
         {% include sections/page-gallery.html %}
-      </aside>
+      </section>
       {% endif %}
 
       <footer>
         {% include sections/page-meta-info.html %}
-        {% include sections/post-related.html %}
       </footer>
-    </article>
-    {% include sections/post-pager.html %}
+
+      <aside>
+        {% include sections/post-related.html %}
+      </aside>
+
+      {% include sections/post-pager.html %}
+
+    </div>
   </div>
-</div>
+</article>
