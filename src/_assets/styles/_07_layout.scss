@@ -46,7 +46,6 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #navigation {
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 
   [class^='icon-']:before, [class*=' icon-']:before {
@@ -56,15 +55,6 @@ body.video cite { color: #fff; }
   .top-bar .title-area .name h1 a {
     width: auto;
   }
-}
-
-
-
-/* Search
-------------------------------------------------------------------- */
-
-.no-js form#search {
-  display: none;
 }
 
 
