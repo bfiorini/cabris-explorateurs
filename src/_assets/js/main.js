@@ -1,4 +1,3 @@
-import 'fastclick';
 import 'imports-loader?this=>window!foundation-sites/js/vendor/modernizr';
 import 'foundation-sites/js/foundation/foundation';
 import 'foundation-sites/js/foundation/foundation.dropdown';

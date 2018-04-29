@@ -57,7 +57,6 @@
   "dependencies": {
     "datatables.net-responsive-zf": "^2.2.1",
     "datatables.net-zf": "^1.10.16",
-    "fastclick": "^1.0.6",
     "foundation-sites": "^5.5.3",
     "jquery": "^3.3.1",
     "justifiedGallery": "^3.7.0",
