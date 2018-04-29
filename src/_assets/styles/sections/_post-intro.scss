@@ -2,13 +2,11 @@
 .post-intro {
   position: relative;
   overflow: hidden;
-  display: block;
   width: 100%;
   margin-bottom: 2rem;
 
   figure {
     position: relative;
-    display: block;
     margin-bottom: 3rem;
     padding-top: percentage(1/4);
     width: 100%;
@@ -49,10 +47,6 @@
       .post-intro-title {
         font-size: 1.9rem;
       }
-    }
-
-    .post-intro-meta {
-      display: block;
     }
   }
 }
