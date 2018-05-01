@@ -11,6 +11,9 @@
   }
 
   .entry-image {
+    @media #{$small-only} {
+      @include grid-column($collapse:true);
+    }
     img {
       width: 100%;
       max-height: 182px;
