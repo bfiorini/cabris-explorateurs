@@ -48,6 +48,31 @@ a:active {
 
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
+
+h1 {
+  font-size: 2.441em;
+}
+
+h2 {
+  font-size: 1.953em;
+}
+
+h3 {
+  font-size: 1.563em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.152em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: inherit;
+}
 // control hyphenation in body paragraphs
 // use value for the hyphens css property
 // https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
@@ -61,13 +86,11 @@ p {
   /* Non standard for webkit */
   word-break: normal;
 }
-p a,
-article a {
+p a {
   font-weight: bold;
   border-bottom: 1px dotted;
 }
-p a:hover,
-article a:hover {
+p a:hover {
   border-bottom: 2px solid;
 }
 p a.button,
