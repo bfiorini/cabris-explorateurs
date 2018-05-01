@@ -135,8 +135,8 @@ $body-font-color: #111;
 
 // We use these to control text direction settings
 // $text-direction: ltr;
-// $opposite-direction: right;
-// $default-float: left;
+$opposite-direction: right;
+$default-float: left;
 // $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
@@ -1460,7 +1460,7 @@ $topbar-menu-link-color: #000;
 $topbar-menu-icon-color: #000;
 $topbar-menu-link-color-toggled: $ci-6;
 $topbar-menu-icon-color-toggled: $ci-6;
-// $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
+$topbar-menu-icon-position: $default-float; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;

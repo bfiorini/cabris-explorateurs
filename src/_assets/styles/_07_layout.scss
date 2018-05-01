@@ -48,12 +48,9 @@ body.video cite { color: #fff; }
 #navigation {
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 
-  [class^='icon-']:before, [class*=' icon-']:before {
-    margin-right: rem-calc(8);
-  }
-
   .top-bar .title-area .name h1 a {
     width: auto;
+    text-align: center;
   }
 }
 

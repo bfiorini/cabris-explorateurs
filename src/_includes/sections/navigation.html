@@ -1,14 +1,16 @@
 <div id="navigation" class="contain-to-grid sticky">
-  <nav class="top-bar" data-topbar
+  <nav class="top-bar" role="navigation" data-topbar
     data-options="scrolltop: false; mobile_show_parent_link: false; custom_back_text: false"
     itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Menu">
     <ul class="title-area">
+      <li class="toggle-topbar menu-icon">
+        <a href="#" title="Menu"><span></span></a>
+      </li>
       <li class="name">
         <h1 class="show-for-small-only">
-          <a href="{{ '/' | absolute_url }}" class="icon-tree"> {{ site.title }}</a>
+          <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
         </h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#" title="Menu"><span></span></a></li>
     </ul>
     <section class="top-bar-section">
       {% assign sides = site.data.navigation | group_by:"side" | sort:"name" %}
