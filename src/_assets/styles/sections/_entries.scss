@@ -1,0 +1,23 @@
+/* Blog entries */
+
+.entry {
+  h2 {
+    word-wrap: break-word;
+  }
+
+  .entry-meta {
+    font-style: italic;
+    @include subheader;
+  }
+
+  .entry-image {
+    img {
+      width: 100%;
+      max-height: 182px;
+      overflow: hidden;
+      display: block;
+      object-fit: cover;
+      font-family: "object-fit: cover"; // lazysizes object fit polyfill
+    }
+  }
+}

@@ -11,7 +11,7 @@
   {%- for item in page.gallery -%}
   {%- assign f = item.image_url | split: '.' -%}
   <a href="{{ f[0] | relative_url }}.{{ f[1] }}">
-    <img src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}"
+    <img src="{{ f[0] | relative_url }}-150.{{ f[1] }}"
       alt="{{ item.caption | markdownify | remove: '<p>' | remove: '</p>' }}">
   </a>
   {%- endfor -%}

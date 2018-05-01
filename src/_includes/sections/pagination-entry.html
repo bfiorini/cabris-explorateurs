@@ -1,36 +1,42 @@
-<article class="entry">
-  <header class="entry-header">
-    <h2 class="entry-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title | widont}}</a>
-    </h2>
-  </header>
-
+<article class="entry row b60">
   {% if post.image.path %}
-  <section class="entry-image">
+  <section class="entry-image small-12 medium-4 column">
     {% assign f = post.image.path | split: '.' %}
     {% assign title = post.title | escape_once %}
     <a href="{{ post.url | relative_url }}" title="{{ title }}">
       <noscript>
-        <img src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}" alt="{{ title }}">
+        <img src="{{ f[0] | relative_url }}-250.{{ f[1] }}" alt="{{ title }}">
       </noscript>
       <img src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
-        data-src="{{ f[0] | relative_url }}-thumb.{{ f[1] }}"
+        data-sizes="auto"
+        data-srcset="{{ f[0] | relative_url }}-250.{{ f[1] }} 250w,
+                     {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
+                     {{ f[0] | relative_url }}-480.{{ f[1] }} 480w,
+                     {{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
+                     {{ f[0] | relative_url }}-768.{{ f[1] }} 768w"
         alt="{{ title }}" class="lazyload fade-in">
     </a>
   </section>
   {% endif %}
+  <div class="entry-content small-12 medium-8 column">
+    <header class="entry-header">
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title | widont}}</a>
+      </h2>
+    </header>
 
-  <footer class="entry-meta">
-    {% capture author %}{{ site.data.language.by }} {% include components/author.html id=post.author %}{% endcapture %}
-    {% capture datetime %}{% include components/datetime.html value=post.date %}{% endcapture %}
-    {% capture categories %}{% include components/categories.html values=post.categories %}{% endcapture %}
-    {% assign meta = site.data.init.array | push:author | push:datetime | push:categories %}
-    {{ meta | join: ' &middot; ' }}
-  </footer>
+    <section class="entry-excerpt">
+      <p>
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    </section>
 
-  <section class="entry-excerpt">
-    <p>
-      {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-    </p>
-  </section>
+    <footer class="entry-meta">
+      {% capture datetime %}{% include components/datetime.html value=post.date %}{% endcapture %}
+      {% capture author %}{{ site.data.language.by }} {% include components/author.html id=post.author %}{% endcapture %}
+      {% capture categories %}{% include components/categories.html values=post.categories %}{% endcapture %}
+      {% assign meta = site.data.init.array | push:datetime | push:author | push:categories %}
+      {{ meta | join: ' &middot; ' }}
+    </footer>
+  </div>
 </article>
