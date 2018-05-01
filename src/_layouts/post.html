@@ -26,16 +26,9 @@ format: post
       </section>
       {% endif %}
 
-      <footer>
-        {% include sections/page-meta-info.html %}
-      </footer>
-
-      <aside>
-        {% include sections/post-related.html %}
-      </aside>
-
+      {% include sections/page-meta-info.html %}
+      {% include sections/post-related.html %}
       {% include sections/post-pager.html %}
-
     </div>
   </div>
 </article>
