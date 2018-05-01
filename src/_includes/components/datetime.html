@@ -5,9 +5,20 @@
 *   Example: {% include components/datetime.html value=post.date %}
 *
 {% endcomment %}
-
 {% assign datetime = include.value %}
-
 <time datetime="{{ datetime | date_to_xmlschema }}" itemprop="datePublished">
-  {{ datetime | date: "%Y-%m-%d" }}
+  {{ datetime
+    | date: "%-d %B %Y"
+    | replace:"January","Janvier"
+    | replace:"February","Février"
+    | replace:"March","Mars"
+    | replace:"April","Avril"
+    | replace:"May","Mai"
+    | replace:"June","Juin"
+    | replace:"July","Juillet"
+    | replace:"August","Août"
+    | replace:"September","Septembre"
+    | replace:"October","Octobre"
+    | replace:"November","Novembre"
+    | replace:"December","Décembre" }}
 </time>
