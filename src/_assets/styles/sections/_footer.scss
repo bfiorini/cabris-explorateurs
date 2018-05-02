@@ -1,0 +1,86 @@
+/* Jump to top
+------------------------------------------------------------------- */
+
+#up-to-top {
+  padding: 160px 0 10px 0;
+
+  a {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 3px;
+
+    &:hover {
+      background: $grey-2;
+    }
+
+  }
+
+}
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: $footer-bg;
+  color: $footer-color;
+  text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
+
+  a {
+    color: $footer-link-color;
+  }
+
+  h5 {
+    margin: 1em 0 0 0;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+}
+
+
+/* Subfooter
+------------------------------------------------------------------- */
+
+@import "~foundation-sites/scss/foundation/components/inline-lists";
+
+#subfooter {
+  background: $subfooter-bg;
+  color: $subfooter-color;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  .social-icons {
+    float: left;
+    @include inline-list;
+  }
+
+  .credits a {
+    color: $subfooter-link-color;
+    border: 0;
+    text-transform: uppercase;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .social-icons li a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $subfooter-bg;
+    background: $subfooter-color;
+    text-align: center;
+
+    &:hover {
+      background: $subfooter-bg;
+      color: #fff;
+    }
+
+  }
+
+}

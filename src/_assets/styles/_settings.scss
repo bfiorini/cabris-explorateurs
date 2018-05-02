@@ -732,7 +732,7 @@ $list-side-margin: 1.3rem;
 // 13. Inline Lists
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-inline-list-classes: $include-html-classes;
+$include-html-inline-list-classes: false;
 
 // We use this to control the margins and padding of the inline list.
 // $inline-list-top-margin: 0;
