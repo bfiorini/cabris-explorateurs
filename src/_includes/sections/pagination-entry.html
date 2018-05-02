@@ -18,6 +18,7 @@
     </a>
   </section>
   {% endif %}
+
   <div class="entry-content small-12 medium-8 column">
     <header class="entry-header">
       <h2>
@@ -32,11 +33,11 @@
     </section>
 
     <footer class="entry-meta">
-      {% capture datetime %}{% include components/datetime.html value=post.date %}{% endcapture %}
-      {% capture author %}{{ site.data.language.by }} {% include components/author.html id=post.author %}{% endcapture %}
-      {% capture categories %}{% include components/categories.html values=post.categories %}{% endcapture %}
-      {% assign meta = site.data.init.array | push:datetime | push:author | push:categories %}
-      {{ meta | join: ' &middot; ' }}
+      <p>
+        {{ site.data.language.by }} {% include components/author.html id=post.author %}
+        {{ site.data.language.on_date }} {% include components/datetime.html value=post.date %}
+        &middot; {% include components/categories.html values=post.categories %}
+      </p>
     </footer>
   </div>
 </article>
