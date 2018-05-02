@@ -7,7 +7,7 @@
 <footer id="footer-content" class="bg-grau">
   <div id="footer">
     <div class="row">
-      <div class="small-12 medium-9 columns">
+      <div class="small-12 medium-8 columns">
         <h5>{{ site.data.language.info_website }}</h5>
         <p>
           {{ site.description }}
@@ -16,9 +16,9 @@
       </div>
 
 
-      <div class="small-12 medium-2 medium-offset-1 columns">
+      <div class="small-12 medium-3 medium-offset-1 columns">
         <h5>{{ site.data.language.services }}</h5>
-        <ul>
+        <ul class="no-bullet">
           {% for service in site.data.services %}
           <li {% if service.class %}class="{{ service.class }}"{% endif %}>
             <a href="{{ service.url | relative_url }}" title="{{ service.name }}">{{ service.name }}</a>
