@@ -40,13 +40,15 @@
     text-rendering: optimizeLegibility;
     font-family: $header-font-family;
 
-    .post-intro-title {
-      line-height: 1;
-    }
     @media #{$small-only} {
       .post-intro-title {
         font-size: 1.9rem;
       }
+    }
+
+    .post-intro-meta {
+      font-style: italic;
+      @include subheader;
     }
   }
 }
@@ -92,15 +94,15 @@
       padding-bottom: 1rem;
 
       .post-intro-text {
-        color: #fff;
         text-shadow: 0 2px 3px rgba(0,0,0,.4);
 
         .post-intro-title {
           color: #fff;
+          line-height: 1;
         }
-
-        @media #{$small-only} {
-          .post-intro-meta {
+        .post-intro-meta {
+          color: #fff;
+          @media #{$small-only} {
             display: none;
           }
         }
