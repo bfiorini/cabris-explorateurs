@@ -1,4 +1,8 @@
 .sidebar {
+  @media #{$small-only} {
+    display: none !important;
+  }
+
   h4 {
     @include line-on-sides;
   }
