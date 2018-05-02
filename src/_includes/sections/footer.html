@@ -8,9 +8,8 @@
   <div id="footer">
     <div class="row">
       <div class="small-12 medium-9 columns">
-        <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-
-        <p class="shadow-black">
+        <h5>{{ site.data.language.info_website }}</h5>
+        <p>
           {{ site.description }}
           <a href="{{ '/info/' | relative_url }}">{{ site.data.language.more }}</a>
         </p>
@@ -18,8 +17,8 @@
 
 
       <div class="small-12 medium-2 medium-offset-1 columns">
-        <h5 class="shadow-black">{{ site.data.language.services }}</h5>
-        <ul class="no-bullet shadow-black">
+        <h5>{{ site.data.language.services }}</h5>
+        <ul>
           {% for service in site.data.services %}
           <li {% if service.class %}class="{{ service.class }}"{% endif %}>
             <a href="{{ service.url | relative_url }}" title="{{ service.name }}">{{ service.name }}</a>

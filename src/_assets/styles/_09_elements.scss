@@ -1,24 +1,21 @@
 @charset "utf-8";
 /* TOC
 
-- Shadows
 - Side-Nav
 
 */
 
 
-/* Shadows
-------------------------------------------------------------------- */
-
-.shadow-no      {text-shadow: rgba(0, 0, 0, 0) 0 0 0;}
-.shadow-black   {text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;}
-.shadow-white   {text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;}
-
-
 /* Side-Nav
 ------------------------------------------------------------------- */
 
-.side-nav li.title { text-transform: uppercase;}
-.side-nav li { border-top: 1px solid $grey-3;}
-.side-nav li a:not(.button) { border-bottom: 0; padding: 0.4375rem 0rem; }
-.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus { background: $grey-1; }
+.side-nav li:not(:first-of-type) {
+  border-top: 1px dotted $grey-3;
+}
+.side-nav li a:not(.button) {
+  border-bottom: 0; padding: 0.4375rem 0rem;
+}
+.side-nav li a:not(.button):hover,
+.side-nav li a:not(.button):focus {
+  background: $grey-1;
+}

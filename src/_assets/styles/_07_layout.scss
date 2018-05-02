@@ -20,28 +20,6 @@
 
 
 
-/* Adjustments: Video Layout
-------------------------------------------------------------------- */
-
-body.video,
-body.video #masthead-no-image-header { background: #000; }
-body.video #masthead-no-image-header { margin-bottom: 60px; }
-body.video h1,
-body.video h2,
-body.video h3,
-body.video h4,
-body.video h5,
-body.video h6,
-body.video p,
-body.video a,
-body.video blockquote:before,
-body.video blockquote:after,
-body.video cite a, { color: #fff; }
-body.video cite a:visited, { color: #fff; }
-body.video cite { color: #fff; }
-
-
-
 /* Navigation
 ------------------------------------------------------------------- */
 
@@ -52,19 +30,6 @@ body.video cite { color: #fff; }
     width: auto;
     text-align: center;
   }
-}
-
-
-/* Breadcrumb
-------------------------------------------------------------------- */
-
-#breadcrumb {
-  background: scale-color($grey-1, $lightness: 55%);
-  border-top: 1px solid scale-color($grey-1, $lightness: 45%);
-  border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
-}
-.breadcrumbs>.current {
-  font-weight: bold;
 }
 
 
@@ -89,14 +54,14 @@ body.video cite { color: #fff; }
   font-size: rem-calc(13);
   color: scale-color($grey-1, $lightness: 40%);
 }
-  .meta-info a {
+.meta-info a {
   text-decoration: underline;
   color: scale-color($grey-1, $lightness: 40%);
-  }
-  .meta-info a:hover {
+}
+.meta-info a:hover {
   text-decoration: none;
   color: $secondary-color;
-  }
+}
 
 
 
@@ -128,6 +93,7 @@ body.video cite { color: #fff; }
   padding-bottom: 20px;
   background: $footer-bg;
   color: $footer-color;
+  text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
 
   a {
     color: $footer-link-color;
@@ -186,26 +152,11 @@ body.video cite { color: #fff; }
 /* CSS-Classes to add margin at top or bottom
 ------------------------------------------------------------------- */
 
-.t10 { margin-top: 10px !important; }
-.t15 { margin-top: 15px !important; }
-.t20 { margin-top: 20px !important; }
 .t30 { margin-top: 30px !important; }
-.t50 { margin-top: 50px !important; }
 .t60 { margin-top: 60px !important; }
-.t70 { margin-top: 70px !important; }
-.t80 { margin-top: 80px !important; }
-.t90 { margin-top: 90px !important; }
 
-.b15 { margin-bottom: 15px !important; }
 .b20 { margin-bottom: 20px !important; }
-.b30 { margin-bottom: 30px !important; }
 .b60 { margin-bottom: 60px !important; }
 
-.l15 { margin-left: 15px !important; }
-.r15 { margin-right: 15px !important; }
-
-.pl20 { padding-left: 20px !important; }
-.pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
-
