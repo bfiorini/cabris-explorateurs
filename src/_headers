@@ -27,7 +27,7 @@ hints_paths:
   Link: <{{ '/assets/js/manifest.js' | relative_url }}>; rel=preload; as=script
   Link: <{{ '/assets/js/commons.js'  | relative_url }}>; rel=preload; as=script
   Link: <{{ '/assets/js/main.js'     | relative_url }}>; rel=preload; as=script
-  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov&subset=latin,latin>; rel=preload; as=style; crossorigin
+  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov&subset=latin,latin>; rel=preload; as=style
   Link: <//fonts.gstatic.com>; rel=preconnect; crossorigin
 {% endfor %}
 
