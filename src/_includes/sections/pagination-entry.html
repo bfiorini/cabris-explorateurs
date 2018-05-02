@@ -26,12 +26,6 @@
       </h2>
     </header>
 
-    <section class="entry-excerpt">
-      <p>
-        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-      </p>
-    </section>
-
     <footer class="entry-meta">
       <p>
         {{ site.data.language.by }} {% include components/author.html id=post.author %}
@@ -39,5 +33,11 @@
         &middot; {% include components/categories.html values=post.categories %}
       </p>
     </footer>
+
+    <section class="entry-excerpt">
+      <p>
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    </section>
   </div>
 </article>
