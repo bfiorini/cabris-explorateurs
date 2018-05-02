@@ -16,6 +16,8 @@
 
 {% include sections/favicons.html %}
 
+<link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov&subset=latin,latin" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
 
 {% if page.dataTable == true %}
@@ -25,19 +27,6 @@
 {% if page.gallery.size > 0 or page.layout == 'post' %}
 <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
 {% endif %}
-
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>
-  WebFont.load({
-    google: {
-      families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
-    }
-  });
-</script>
-
-<noscript>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
-</noscript>
 
 <title>{{ title }}</title>
 {% if site.plugins contains 'jekyll-seo-tag' %}
