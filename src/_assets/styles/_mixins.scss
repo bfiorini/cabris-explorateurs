@@ -8,3 +8,32 @@
 @mixin radius {
   border-radius: $global-radius;
 }
+
+@mixin line-on-sides($line-color: $grey-3, $margin: 16px) {
+  overflow: hidden;
+  text-align: center;
+
+  span {
+    display: inline-block;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      border-bottom: 1px solid;
+      border-color: $line-color;
+      width: 600px;
+      margin: 0 $margin;
+    }
+
+    &::before {
+      right: 100%;
+    }
+
+    &::after {
+      left: 100%;
+    }
+  }
+}

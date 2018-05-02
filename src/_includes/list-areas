@@ -28,6 +28,5 @@
     </li>
     {% endunless %}
   {% endfor %}
-  <li>&nbsp;</li>
 </ul>
 
