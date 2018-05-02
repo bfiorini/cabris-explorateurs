@@ -8,7 +8,7 @@ format: post
   {% include sections/post-intro.html %}
 
   <div class="row">
-    <div class="medium-10 medium-offset-1 columns end">
+    <div class="medium-9 column">
       {% if page.excerpt %}
       <p class="excerpt" itemprop="description">
         {{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
@@ -29,6 +29,9 @@ format: post
       {% include sections/page-meta-info.html %}
       {% include sections/post-related.html %}
       {% include sections/post-pager.html %}
+    </div>
+    <div class="medium-3 column">
+      {% include sections/sidebar.html %}
     </div>
   </div>
 </article>
