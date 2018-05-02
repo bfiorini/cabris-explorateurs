@@ -1,15 +1,5 @@
 /* Homepage layout */
-
-
 @import "~foundation-sites/scss/foundation/components/type";
-
-.homepage-post-image {
-  img {
-    width: 100%;
-  }
-}
-
-/* Cover variant */
 
 .homepage-block {
   &.cover {
@@ -20,6 +10,7 @@
       position: relative;
       height: 182px;
       img {
+        @include radius;
         width: 100%;
         height: 100%;
         font-family: "object-fit: cover"; // lazysizes object-fit polyfill

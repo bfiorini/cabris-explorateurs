@@ -119,21 +119,16 @@ a[href*="/images/"]:focus {
 /* Images
 ------------------------------------------------------------------- */
 
-img { border-radius: $global-radius;}
-
-img.alignleft,
 img.left {
   float: left;
   margin:5px 15px 5px 0;
 }
 
-img.alignright,
 img.right {
   float: right;
   margin:5px 0 5px 15px;
 }
 
-img.aligncenter,
 img.center {
   display: block;
   margin:0 auto 10px;
@@ -149,7 +144,7 @@ figcaption {
   font-size: rem-calc(13);
   padding-top: rem-calc(2);
 }
-figcaption a{
+figcaption a {
   border-bottom: 1px dotted $grey-4;
   color: $grey-10;
 }
@@ -170,29 +165,6 @@ td {
 td.rating,th.rating {
   min-width: 4rem;
 }
-
-
-
-/* Code
-------------------------------------------------------------------- */
-
-pre {
-  overflow: auto;
-  margin-bottom: rem-calc(20);
-  padding: 5px;
-  background-color: $code-background-color;
-  border-radius: $global-radius;
-}
-pre code {
-  padding: rem-calc(2) rem-calc(5) rem-calc(1) rem-calc(0);
-  border: 0;
-}
-
-code {
-  font-size: rem-calc(14);
-  line-height: 1.5;
-}
-
 
 
 /* Lists
@@ -235,50 +207,52 @@ article dl dd   { line-height: 1.6; margin-bottom: rem-calc(12); margin-left: re
 ------------------------------------------------------------------- */
 
 blockquote {
-    font-style: italic;
-    position: relative;
-    border: none;
-    margin: 0 30px 30px 30px;
-    color:  $grey-11;
+  font-style: italic;
+  position: relative;
+  border: none;
+  margin: 0 30px 30px 30px;
+  color:  $grey-11;
 }
 
-    blockquote p {font-style: italic; color: $grey-10; }
+blockquote p {font-style: italic; color: $grey-10; }
 
-    blockquote:before {
-        display:block;content:"\00BB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        left:-25px;
-        top: auto;
-        color: $grey-11;
-    }
-    blockquote:after {
-        display:block;
-        content:"\00AB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        right:-10px;
-        bottom: 20px;
-        color: $grey-11;
-    }
-    blockquote cite:before {
-        content:"\2014 \0020"
-    }
-    blockquote cite a,blockquote cite a:visited {
-        color: $grey-10;
-    }
+blockquote:before {
+  display:block;content:"\00BB";
+  font-size:80px;
+  line-height: 0;
+  position:absolute;
+  left:-25px;
+  top: auto;
+  color: $grey-11;
+}
+blockquote:after {
+  display:block;
+  content:"\00AB";
+  font-size:80px;
+  line-height: 0;
+  position:absolute;
+  right:-10px;
+  bottom: 20px;
+  color: $grey-11;
+}
+blockquote cite:before {
+  content:"\2014 \0020"
+}
+blockquote cite a,blockquote cite a:visited {
+  color: $grey-10;
+}
+
 cite {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
-button, .button {
-    letter-spacing: 1px;
+button,
+.button {
+  letter-spacing: 1px;
 }
 
 mark {
-    background-color: scale-color($warning-color, $lightness: 60%);
+  background-color: scale-color($warning-color, $lightness: 60%);
 }
 
 
@@ -293,6 +267,9 @@ mark {
 }
 .excerpt {
   font-size: rem-calc(20);
+}
+.post-body img {
+  @include radius;
 }
 
 
