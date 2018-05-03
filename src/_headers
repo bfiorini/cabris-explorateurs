@@ -23,12 +23,9 @@ hints_paths:
 
 {% for path in hints_paths %}
 {{ path }}
-  Link: <{{ '/assets/css/main.css'   | relative_url }}>; rel=preload; as=style
-  Link: <{{ '/assets/js/manifest.js' | relative_url }}>; rel=preload; as=script
-  Link: <{{ '/assets/js/commons.js'  | relative_url }}>; rel=preload; as=script
-  Link: <{{ '/assets/js/main.js'     | relative_url }}>; rel=preload; as=script
-  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov&subset=latin,latin>; rel=preload; as=style
-  Link: <//fonts.gstatic.com>; rel=preconnect; crossorigin
+  Link: <//fonts.gstatic.com>;rel=preconnect;crossorigin
+  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400i|Volkhov>;rel=preload;as=style
+  Link: <{{ '/assets/css/main.css' | relative_url }}>;rel=preload;as=style
 {% endfor %}
 
 /*.webmanifest
