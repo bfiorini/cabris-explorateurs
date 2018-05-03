@@ -17,15 +17,15 @@ hints_paths:
 
 {% assign hints_paths = page.hints_paths %}
 {% for cat in site.categories %}
-  {% capture path %}/{{ cat[0] | downcase }}*{% endcapture %}
+  {% capture path %}/{{ cat[0] | downcase | uri_escape }}*{% endcapture %}
   {% assign hints_paths = hints_paths | push:path %}
 {% endfor %}
 
 {% for path in hints_paths %}
 {{ path }}
-  Link: <//fonts.gstatic.com>;rel=preconnect;crossorigin
-  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400i|Volkhov>;rel=preload;as=style
-  Link: <{{ '/assets/css/main.css' | relative_url }}>;rel=preload;as=style
+  Link: <//fonts.gstatic.com>; rel=preconnect; crossorigin
+  Link: <//fonts.googleapis.com/css?family=Lato:400,700,400i|Volkhov>; rel=preload; as=style
+  Link: <{{ '/assets/css/main.css' | relative_url }}>; rel=preload; as=style
 {% endfor %}
 
 /*.webmanifest
