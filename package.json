@@ -18,7 +18,9 @@
     "images": "gulp build",
     "images:dev": "gulp watch",
     "jekyll": "bundle exec jekyll build",
-    "jekyll:dev": "bundle exec jekyll serve --config _config.yml,_config_dev.yml"
+    "jekyll:dev": "bundle exec jekyll serve --config _config.yml,_config_dev.yml",
+    "deploy": "firebase deploy",
+    "predeploy": "run-s build"
   },
   "repository": {
     "type": "git",
