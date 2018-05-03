@@ -10,6 +10,6 @@
 
 {% for category in categories %}
 {% assign slug = category | downcase %}
-<a href="{{ site.category_base_path | relative_url | append: slug }}">{{ category }}</a>
+<a href="{{ site.category_base_path | relative_url | append: slug }}/">{{ category }}</a>
 {%- unless forloop.last -%}, {%- endunless -%}
 {% endfor %}

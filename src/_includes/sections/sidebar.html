@@ -4,7 +4,7 @@
 		{% for category in site.data.categories%}
 		{% assign slug = category.name | downcase %}
 		<li>
-			<a href="{{ site.category_base_path | relative_url | append: slug }}"
+			<a href="{{ site.category_base_path | relative_url | append: slug }}/"
 				title="{{ category.name }}">
 				{{ category.name | widont }}
 			</a>

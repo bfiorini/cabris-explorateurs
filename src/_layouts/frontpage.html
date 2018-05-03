@@ -44,7 +44,7 @@ format: frontpage
       {% for category in site.data.categories limit:3 %}
       {% assign slug = category.name | downcase %}
       <div class="small-12 medium-4 columns homepage-block cover t30">
-        <a href="{{ site.category_base_path | relative_url | append: slug }}" title="{{ category.name }}">
+        <a href="{{ site.category_base_path | relative_url | append: slug }}/" title="{{ category.name }}">
           <div class="homepage-block-image">
             {% include components/responsive-picture.html file=category.image alt=category.name %}
           </div>
