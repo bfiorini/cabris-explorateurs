@@ -3,7 +3,7 @@ source: https://github.com/lodash/lodash.com/blob/master/_headers
 hints_paths:
   - /
   - /blog*
-  - /voie*
+  - /voies*
   - /sites*
   - /contact*
   - /info/
