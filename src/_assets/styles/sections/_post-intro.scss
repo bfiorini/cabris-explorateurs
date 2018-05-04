@@ -92,19 +92,17 @@
       bottom: 0;
       left: 0;
       padding-bottom: 1rem;
+      text-shadow: 0 2px 3px rgba(0,0,0,.4);
 
-      .post-intro-text {
-        text-shadow: 0 2px 3px rgba(0,0,0,.4);
+      h1 {
+        color: #fff;
+        line-height: 1;
+      }
 
-        .post-intro-title {
-          color: #fff;
-          line-height: 1;
-        }
-        .post-intro-meta {
-          color: #fff;
-          @media #{$small-only} {
-            display: none;
-          }
+      .post-intro-meta {
+        color: #fff;
+        @media #{$small-only} {
+          display: none;
         }
       }
     }
