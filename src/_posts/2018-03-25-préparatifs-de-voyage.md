@@ -1,12 +1,11 @@
 ---
 author: alex
 title: Préparatifs de voyage
-excerpt: >-
-  De l'idée au départ... Où en sommes-nous ?  
-  
-  Dernière mise à jour : 25 mars 2018
 categories:
   - Vanlife
+excerpt: |-
+  De l'idée au départ... Où en sommes-nous ?\
+  Dernière mise à jour : 3 juin 2018
 image:
   cover: true
   path: /images/preparation_marguerite.jpg
@@ -20,7 +19,7 @@ gallery:
       Le décollage des autocollants d'origine : armés d'un sèche-cheveux pour
       amollir la colle, et de dissolvant pour éliminer les traces récalcitrantes
     image_url: /images/decollage2.jpg
-  - caption: 'Quelque part entre Niort et Clermont Ferrand... L''homme et la bête.'
+  - caption: Quelque part entre Niort et Clermont Ferrand... L'homme et la bête.
     image_url: /images/retour_grenoble.jpg
   - caption: >-
       Le premier trajet, c'est aussi les premières réparations... Benjamin est
@@ -97,3 +96,11 @@ Le 17 et 18 mars, nous avons pris soin de la belle, lui enlevant la plupart de s
 ![Décollage imminent](/images/decollage.jpg)
 
 Maintenant, l'idée est de prendre Marguerite dès que nous pouvons, et de réfléchir aux petits aménagements à faire pour le quotidien. Nous avons déjà pallié à la dureté du matelas en mettant une couette supplémentaire sur le matelas (plus économique qu'un surmatelas, et utile en cas de froid intensif !)
+
+### Avril - Mai : Dernière ligne droite
+
+Les mois d'avril et mai ont été consacrés aux préparatifs finaux : faire le choix des affaires que nous prendrions avec nous, ranger et rendre l'appartement, vendre nos meubles, chercher un endroit où stocker nos affaires restantes, régler les affaires administratives... Tout en essayant Marguerite de temps à autres.
+
+La fin du mois de mai était intense : deux semaines à déménager nos affaires à droite à gauche, à tout nettoyer dans l'appartement... Mais finalement nous avons réussi ! Nous voilà le 3 juin, après un dernier trajet pour aller déposer la voiture de Benjamin chez sa mère, un petit arrêt à Chamonix et nous partons demain vers de nouvelles aventures ! Le jeu en valait la chandelle car maintenant nous partons l'esprit léger. 
+
+A bientôt...
