@@ -15,6 +15,7 @@
       @include grid-column($collapse:true);
     }
     img {
+      @include radius;
       width: 100%;
       max-height: 182px;
       overflow: hidden;
@@ -24,3 +25,4 @@
     }
   }
 }
+
