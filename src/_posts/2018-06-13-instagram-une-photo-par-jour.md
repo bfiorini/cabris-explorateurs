@@ -4,8 +4,8 @@ title: 'Instagram : une photo par jour !'
 categories:
   - Voyage
 excerpt: >-
-  Chaque jour une nouvelle photo sur notre page Instgram
-  [@cabrisexplorateurs](https://www.instagram.com/cabrisexplorateurs/) !
+  Chaque jour une nouvelle photo sur notre page Instagram
+  [@cabrisexplorateurs](https://www.instagram.com/cabrisexplorateurs/)
 image:
   cover: true
   path: /images/post_instagram.jpg
@@ -15,4 +15,4 @@ Un jour avant notre départ, nous avons voulu mettre en ligne une photo qu'on a 
 
 On s'est même lancé le défi de publier une photo par jour !
 
-Voila notre page Instgram: [@cabrisexplorateurs](https://www.instagram.com/cabrisexplorateurs/)
+Voila notre page Instagram: [@cabrisexplorateurs](https://www.instagram.com/cabrisexplorateurs/)
