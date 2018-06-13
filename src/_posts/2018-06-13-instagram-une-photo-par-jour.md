@@ -3,7 +3,9 @@ author: bfiorini
 title: 'Instagram : une photo par jour !'
 categories:
   - Voyage
-excerpt: Chaque jour une nouvelle photo.
+excerpt: >-
+  Chaque jour une nouvelle photo sur notre page Instgram
+  [@cabrisexplorateurs](https://www.instagram.com/cabrisexplorateurs/) !
 image:
   cover: true
   path: /images/post_instagram.jpg
