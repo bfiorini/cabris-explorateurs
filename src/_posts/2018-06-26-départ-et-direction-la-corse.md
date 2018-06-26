@@ -23,7 +23,7 @@ Munis de quelques cartons, nous nous dirigeons vers Montbéliard pour passer che
 
 A Valentigney (près de Montbéliard), petit arrêt de quelques jours pour se reposer de l’action incessante du mois de Mai : vidage d’appartement et vagues de déménagement. C’est aussi l’occasion de passer à la fête des voisins, et de rencontrer le couple de la maison d’à côté qui a aussi le projet de partir en camping-car avec leurs deux filles. A chaque fois que nous parlons de notre projet, tout le monde nous dit que c’est le bon moment pour nous de partir : pas d’enfants, pas de maison, pas d’emprunt, etc. Cette famille nous permet de confirmer ce qu'on pensait : c’est toujours le bon moment de partir, tout est question de motivation !
 
-Deux jours plus tard, nous voilà à nouveau sur la route. Un petit arrêt touristique pour voir le Saut du Doubs, et nous voilà repartis pour Chamonix via la Suisse. On ne réalise pas encore vraiment que nous sommes partis…
+Deux jours plus tard, nous voilà à nouveau sur la route. Un petit arrêt touristique pour voir le Saut du Doubs, puis direction Chamonix via la Suisse. Nous ne réalisons pas encore vraiment que nous sommes partis…
 
 ![Le Saut du Doubs](/images/20180602_130239.jpg)
 
