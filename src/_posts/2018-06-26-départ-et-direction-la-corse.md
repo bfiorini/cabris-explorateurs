@@ -2,11 +2,9 @@
 author: alex
 title: Départ et direction la Corse
 categories:
-  - Escalade
-  - Randonnée
   - Vanlife
   - Voyage
-excerpt: L'aventure commence
+excerpt: 'Première semaine de notre voyage : de Grenoble à la Corse.'
 image:
   cover: true
   path: /images/photo_couverture_depart.jpg
@@ -14,8 +12,8 @@ date: '2018-06-25 05:08:10'
 gallery:
   - caption: Vue sur la vallée de Chamonix depuis la tête de Balme. "La vue est belle."
     image_url: /images/20180603_115326.jpg
-  - caption: Fleurs
-    image_url: /images/20180603_111816.jpg
+  - caption: C'est partiiiiiii !
+    image_url: /images/photo_couverture_depart.jpg
 ---
 ## Départ de Grenoble
 
