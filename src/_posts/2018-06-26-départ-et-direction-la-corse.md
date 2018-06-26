@@ -11,6 +11,9 @@ image:
   cover: true
   path: /images/20180604_120802.jpg
 date: '2018-06-25 05:08:10'
+gallery:
+  - caption: Le saut du Doubs
+    image_url: /images/20180602_130239.jpg
 ---
 ## Départ de Grenoble
 
