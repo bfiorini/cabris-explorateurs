@@ -3,13 +3,11 @@ author: alex
 title: Préparatifs de voyage
 categories:
   - Vanlife
-excerpt: |-
-  De l'idée au départ...\ 
-  Dernière mise à jour : 3 juin 2018
+excerpt: De l'idée au départ...
 image:
   cover: true
   path: /images/preparation_marguerite.jpg
-date: '2018-03-25 02:28:21'
+date: '2018-06-03 10:00:00'
 gallery:
   - caption: Premier repas de Marguerite...
     image_url: /images/premier_repas.jpg
