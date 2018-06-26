@@ -3,7 +3,7 @@ author: alex
 title: Préparatifs de voyage
 categories:
   - Vanlife
-excerpt: De l'idée au départ...
+excerpt: "De l'idée au départ...\\\r\nDernière mise à jour : 3 juin 2018"
 image:
   cover: true
   path: /images/preparation_marguerite.jpg
