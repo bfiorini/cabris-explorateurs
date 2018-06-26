@@ -16,7 +16,7 @@ gallery:
     image_url: /images/20180602_130239.jpg
   - caption: Benjamin est au pied du mur
     image_url: /images/img_20180603_114330.jpg
-  - caption: Vue sur la vallée de Chamonix depuis la tête de Balme
+  - caption: Vue sur la vallée de Chamonix depuis la tête de Balme. "La vue est belle."
     image_url: /images/20180603_115326.jpg
 ---
 ## Départ de Grenoble
