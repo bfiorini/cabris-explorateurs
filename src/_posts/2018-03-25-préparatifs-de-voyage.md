@@ -4,7 +4,7 @@ title: Préparatifs de voyage
 categories:
   - Vanlife
 excerpt: |-
-  De l'idée au départ...\
+  De l'idée au départ...
   Dernière mise à jour : 3 juin 2018
 image:
   cover: true
