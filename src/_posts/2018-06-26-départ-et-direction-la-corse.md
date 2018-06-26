@@ -8,7 +8,7 @@ excerpt: 'Première semaine de notre voyage : de Grenoble à la Corse.'
 image:
   cover: true
   path: /images/photo_couverture_depart.jpg
-date: '2018-06-25 05:08:10'
+date: '2018-06-26 10:00:00'
 gallery:
   - caption: Vue sur la vallée de Chamonix depuis la tête de Balme. "La vue est belle."
     image_url: /images/20180603_115326.jpg
