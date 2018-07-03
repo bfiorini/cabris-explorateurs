@@ -1,5 +1,5 @@
 import 'datatables.net-zf';
-import 'datatables.net-responsive-zf'
+import 'datatables.net-responsive-zf';
 
 import '../styles/datatables.scss';
 
