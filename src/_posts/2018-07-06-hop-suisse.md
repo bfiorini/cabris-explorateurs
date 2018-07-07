@@ -27,7 +27,7 @@ gallery:
     image_url: /images/img_20180701_164440.jpg
   - caption: 'Redescente de la voie du miroir '
     image_url: /images/20180701_171315.jpg
-  - caption: 'La Suisse, ses vaches '
+  - caption: 'La Suisse, ses vaches carillonnantes dans les alpages'
     image_url: /images/img_20180701_175916.jpg
 ---
 ## L'Italie entre la Corse et la Suisse
