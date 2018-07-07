@@ -33,7 +33,7 @@ Nous avons rencontré au pied de la voie un couple qui s’apprêtait à la fair
 
 La première longueur était en excellent rocher et logique à suivre. En haut, pour le bonheur d’Alexandra, il fallait faire un « pas » au-dessus du vide. Précisons qu’en fait de « vide » il s’agissait juste de devoir franchir une brèche entre deux rochers, large d’un mètre et profonde d’environ deux ou trois mètres. La terreur prend le pas sur la raison. Benjamin franchit l’obstacle d’un pas élégant et sûr, et se place de l’autre côté pour assurer une Alexandra pleine d’appréhension. 
 
-Un **pas **désigne généralement un mouvement ou une succession de mouvements un peu plus difficile que le reste de la voie. 
+Un **pas** désigne généralement un mouvement ou une succession de mouvements un peu plus difficile que le reste de la voie. 
 
 Pour franchir le pas, il fallait se suspendre à des anneaux de corde, faire un grand pas en arrière et poser le pied sur le rocher d’en face. A la fin de sa première tentative, Alexandra se tenait pendue, les jambes ballantes dans le vide, telle une poupée de chiffon. Après être remontée penaude au niveau du départ, elle a fini par réussir, tremblante, à arriver de l’autre côté.  
 
