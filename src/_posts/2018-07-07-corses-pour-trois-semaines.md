@@ -31,15 +31,13 @@ Notre objectif des premiers jours : s’entraîner à grimper en terrain d’ave
 
 Mûs par notre désir de confirmer notre entraînement, nous grimpons la grande voie de Croce Leccia, dans le massif de Bavella. Une pluie de grêle nous surprend alors que nous arrivons en haut, moment épique où Benjamin grimpe dans des lichens humides tandis qu’Alexandra l’assure depuis le haut, au sommet d’une butte totalement exposée aux éléments. Mais cela ne dure que quelques minutes, et au sommet une vue magnifique nous attend. 
 
-![Presque en haut de Croce Leccia !](/images/20180611_153917.jpg)
-
 Le lendemain, la brume a envahi les montagnes, et nous redescendons vers la côte pour trouver le soleil. 
 
 ### Roccapina
 
 Objectif : profiter du mauvais temps annoncé pour se poser dans un petit camping tranquille, faire un peu de lessive, de ménage, mettre à jour notre site… Nous arrivons  au camping Kevano près de la plage de Roccapina, et nageons avec palmes, masque et tuba pour finir la journée. Peu de poissons en vue.
 
-La nuit suivante a été assez agitée ! Nous avons été envahis par les moustiques : dès qu’on en tuait un, il en surgissait deux à la place. Nous avons fini par nous demander s’il n’y avait pas une ouverture quelque part dans notre van qui les laissait rentrer… Le lendemain, nous avons vérifié : internet nous a dit que les moustiques rentrent en fait la journée se reposer à l’intérieur, et ne se réveillent que dans la nuit, au fur et à mesure… En tout cas, les moustiques, c’est comme le rhume : c’est quand on en a qu’on se rend compte du bonheur que c’est quand on est tranquilles ! Le lendemain, nous essayons de profiter d'une éclaircie entre deux averses pour aller faire un tour en vélo. C'est raté : nous nous faisons totalement saucer. 
+La nuit suivante a été assez agitée ! Nous avons été envahis par les moustiques : dès qu’on en tuait un, il en surgissait deux à la place. Nous avons fini par nous demander s’il n’y avait pas une ouverture quelque part dans notre van qui les laissait rentrer… Le lendemain, nous avons vérifié : internet nous a dit que les moustiques rentrent en fait la journée se reposer à l’intérieur, et ne se réveillent que dans la nuit, au fur et à mesure… En tout cas, les moustiques, c’est comme le rhume : c’est quand on en a qu’on se rend compte du bonheur que c’est quand on est tranquille ! Le lendemain, nous essayons de profiter d'une éclaircie entre deux averses pour aller faire un tour en vélo. C'est raté : nous nous faisons totalement saucer. 
 
 ![Le seul rayon de soleil de la journée ! Au bord du Golfe de Figari. ](/images/img_20180613_175938.jpg)
 
@@ -53,7 +51,7 @@ La journée, nous voulons aller observer nos amis les poissons, mais la mer est 
 
 ![C'est beau Campomore... ](/images/img_20180615_133932.jpg)
 
-### Travail au bord de la Rivière
+## Travail au bord de la Rivière
 
 Alex reçoit un contrat de travail le lundi, on se pose donc dans un camping à la ferme deux jours pour avoir de l’électricité (et capter internet !). Baignades dans la rivière et ambiance reposante dans cet immense domaine. Benjamin rencontre un cochon sauvage : ce n’est donc pas un mythe, ils existent ! 
 
