@@ -21,6 +21,8 @@ gallery:
     image_url: /images/20180608_162104.jpg
   - caption: C'est parti pour le Terrain d'Aventure !
     image_url: /images/20180610_094836.jpg
+  - caption: Presque au sommet de Croce Leccia
+    image_url: /images/20180611_153941.jpg
   - caption: Oh ! Un trou
     image_url: /images/img_20180611_104949.jpg
   - caption: La ferme de la Rivière
