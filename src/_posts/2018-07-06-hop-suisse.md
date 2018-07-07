@@ -8,12 +8,27 @@ excerpt: >-
   Après la Corse, nous avons garé notre Van en plein milieu des Alpes suisse
   pendant une petite semaine.
 image:
+  caption: Col de Grimsel
   cover: true
   path: /images/20180629_085943.jpg
 date: '2018-07-06 06:05:40'
 gallery:
+  - caption: 'La falaise où Benjamin a grimpé, sur la route du Simplon'
+    image_url: /images/20180628_120857.jpg
+  - caption: La vue du col du Simplon
+    image_url: /images/img_20180628_141829.jpg
+  - caption: Col de Grimsel... Cherchez le chamois !
+    image_url: /images/img_20180629_092744.jpg
   - caption: Vue depuis le col de Grimsel
     image_url: /images/20180629_094406.jpg
+  - caption: Une des cascades vers Wengen
+    image_url: /images/img_20180629_155153.jpg
+  - caption: Benjamin arrive en haut du Miroir !
+    image_url: /images/img_20180701_164440.jpg
+  - caption: 'Redescente de la voie du miroir '
+    image_url: /images/20180701_171315.jpg
+  - caption: 'La Suisse, ses vaches '
+    image_url: /images/img_20180701_175916.jpg
 ---
 ## L'Italie entre la Corse et la Suisse
 
@@ -55,4 +70,8 @@ Le matin, nous allons à la ferme voisine chercher du lait frais au distributeur
 
 ## Villard et le miroir de l'Argentine
 
-Nous traversons Gstaad, puis filons vers Solalex, près de Villard dans le canton de Vaud, pour faire une grande voie repérée la veille : le miroir de l'Argentine.
+Nous traversons Gstaad, puis filons vers Solalex, près de Villard dans le canton de Vaud, pour faire une grande voie repérée la veille : le miroir de l'Argentine. 5A max, une dalle immense parcourue de fissures... Ça semble parfait. Nous dormons sur le parking des départs de randonnées, et notre sortie dure 11h30 : une grosse journée dans une super voie ! 
+
+![Ambiance de folie dans le miroir de l'Argentine !](/images/img_20180701_141144.jpg)
+
+Puis c'est le retour vers Chamonix, en passant par le barrage d'Emosson.
