@@ -33,7 +33,7 @@ Nous avons rencontré au pied de la voie un couple qui s’apprêtait à la fair
 
 La première longueur était en excellent rocher et logique à suivre. En haut, pour le bonheur d’Alexandra, il fallait faire un « pas » au-dessus du vide. Précisons qu’en fait de « vide » il s’agissait juste de devoir franchir une brèche entre deux rochers, large d’un mètre et profonde d’environ deux ou trois mètres. La terreur prend le pas sur la raison. Benjamin franchit l’obstacle d’un pas élégant et sûr, et se place de l’autre côté pour assurer une Alexandra pleine d’appréhension. 
 
-Un **pas **désigne généralement un mouvement ou une succession de mouvements un peu plus difficile que le reste de la voie. 
+Un **pas** désigne généralement un mouvement ou une succession de mouvements un peu plus difficile que le reste de la voie. 
 
 Pour franchir le pas, il fallait se suspendre à des anneaux de corde, faire un grand pas en arrière et poser le pied sur le rocher d’en face. A la fin de sa première tentative, Alexandra se tenait pendue, les jambes ballantes dans le vide, telle une poupée de chiffon. Après être remontée penaude au niveau du départ, elle a fini par réussir, tremblante, à arriver de l’autre côté.  
 
@@ -53,7 +53,7 @@ En haut, nous retrouvons le couple qui escalade la longueur suivante – qu’on
 
 Un **rappel** est souvent la conclusion d’une voie : On passe la corde dans un anneau qui est fixé à un relais fixe, généralement constitué de deux points reliés par une cordelette ou une chaîne. On tire sur un brin de la corde jusqu’à ce que son milieu soit au niveau de l’anneau, et on descend sur les deux brins à la fois, en s’assurant soi-même. 
 
-![En attendant qu'on résolve un problème technique, si vous avez le cou souple vous pouvez admirer Alexandra en rappel](/images/20180622_150654.jpg)
+![Alexandra en rappel](/images/20180622_150654.jpg)
 
 Il y a plusieurs sortes de **relais**. Les relais étant des postes où les grimpeurs seront fixés pour assurer l’autre, ils doivent être particulièrement solides. Ils sont donc souvent constitués de deux points au minimum. Dans une voie équipée au préalable, les deux points peuvent être des spits, reliés entre eux par une chaîne ou une sangle surtout s’il s’agit d’un relais de rappel. S’ils ne sont pas reliés, le premier de cordée doit faire une manipulation en arrivant pour les relier. En terrain d’aventure, il peut n’y avoir qu’un seul point en place, voire aucun : c’est alors au grimpeur de tête de placer les points (parfois plus de deux), afin de construire un relais solide. 
 
