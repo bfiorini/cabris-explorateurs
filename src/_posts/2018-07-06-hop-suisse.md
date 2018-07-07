@@ -35,18 +35,24 @@ En route vers le Col du Simplon, Benjamin repère une falaise au bord de la nati
 
 Le passage du col du Simplon nous amène directement dans le Valais Suisse. Nous traversons de très jolis petits villages où les maisons sont entièrement couvertes de bois. Une petite nuit au bord du jeune Rhône, où nous faisons un brin de toilette, et nous continuons la route vers le Canton de Berne.
 
+![Alexandra se lave les pieds dans un petit Rhône glacial](/images/20180628_182646.jpg)
+
 Nous continuons de remonter toute la vallée du Rhône jusqu'au col de Grimsel, qui surplombe plus ou moins le glacier source du fleuve (le Glacier du Rhône). La route du col passe au bord de deux jolis lacs de montagne qui reflètent le paysage alentour. La descente vers Interlaken est splendide : d'immenses parois de granit entourent toute la vallée, et les grimpeurs sont partout où l'on regarde (quand on prend les jumelles). 
 
-![Alexandra se lave les pieds dans un petit Rhône glacial](/images/20180628_182646.jpg)
+![Redescente après le col du Grimsel](/images/img_20180629_094014.jpg)
 
 ## Les Alpes bernoises
 
-Interlaken
+La descente sur Interlaken est tout aussi splendide : les paysages deviennent verts, sauvages, nous sommes au fond de la vallée et les montagnes s'élèvent autour de nous, puis, au détour d'un chemin, le lac de Brienz apparaît, d'un bleu intense... Les mots nous manquent pour décrire la beauté de ces paysages. 
 
 ![Le lac de Brienz, un peu avant Interlaken](/images/img_20180629_111603.jpg)
 
-Wengen
+Nous déjeunons au bord du lac (enfin un lac auquel on peut accéder !), puis montons vers la vallée qui est au pied de la Jungfrau, proche de Wengen. Nous nous mettons dans un petit camping très mignon, où l'herbe est tondue uniformément et les géraniums décorent le moindre recoin. Nous sommes entourés de falaises, d'où coulent des cascades et sautent les base-jumpers. 
 
 ![Notre camping non loin de Wengen](/images/img_20180630_092545.jpg)
 
+Le matin, nous allons à la ferme voisine chercher du lait frais au distributeur (excellent !), puis nous passons à Grindelwald voir le pied de l'Eiger. La région est trop touristique pour nous. Nous nous sauvons vers le canton de Vaud. 
+
 ## Villard et le miroir de l'Argentine
+
+Nous traversons Gstaad, puis filons vers Solalex, près de Villard dans le canton de Vaud, pour faire une grande voie repérée la veille : le miroir de l'Argentine.
