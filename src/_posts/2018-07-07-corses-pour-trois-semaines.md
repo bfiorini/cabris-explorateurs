@@ -31,6 +31,14 @@ gallery:
     image_url: /images/img_20180618_180159.jpg
   - caption: 'Pont gênois '
     image_url: /images/20180620_134702.jpg
+  - caption: Sympa le bureau !
+    image_url: /images/img_20180619_114156.jpg
+  - caption: Un Cairnarbre corse
+    image_url: /images/img_20180621_121743.jpg
+  - caption: Après le trou de la bombe
+    image_url: /images/img_20180624_114818.jpg
+  - caption: Entraînement à la fissure au Ponte Grossu
+    image_url: /images/img_20180625_111339_01.jpg
 ---
 ### Le Sud
 
