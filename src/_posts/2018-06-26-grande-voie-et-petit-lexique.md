@@ -53,7 +53,7 @@ En haut, nous retrouvons le couple qui escalade la longueur suivante – qu’on
 
 Un **rappel** est souvent la conclusion d’une voie : On passe la corde dans un anneau qui est fixé à un relais fixe, généralement constitué de deux points reliés par une cordelette ou une chaîne. On tire sur un brin de la corde jusqu’à ce que son milieu soit au niveau de l’anneau, et on descend sur les deux brins à la fois, en s’assurant soi-même. 
 
-![En attendant qu'on résolve un problème technique, si vous avez le cou souple vous pouvez admirer Alexandra en rappel](/images/20180622_150654.jpg)
+![Alexandra en rappel](/images/20180622_150654.jpg)
 
 Il y a plusieurs sortes de **relais**. Les relais étant des postes où les grimpeurs seront fixés pour assurer l’autre, ils doivent être particulièrement solides. Ils sont donc souvent constitués de deux points au minimum. Dans une voie équipée au préalable, les deux points peuvent être des spits, reliés entre eux par une chaîne ou une sangle surtout s’il s’agit d’un relais de rappel. S’ils ne sont pas reliés, le premier de cordée doit faire une manipulation en arrivant pour les relier. En terrain d’aventure, il peut n’y avoir qu’un seul point en place, voire aucun : c’est alors au grimpeur de tête de placer les points (parfois plus de deux), afin de construire un relais solide. 
 
