@@ -10,6 +10,27 @@ image:
   cover: true
   path: /images/couverture_corse.jpg
 date: '2018-07-07 05:30:12'
+gallery:
+  - caption: >-
+      Allez hop ! On écosse les petits pois ! Au camping à la ferme près de
+      Porto-Vecchio
+    image_url: /images/20180606_130321.jpg
+  - caption: 'Première tentative de pêche, près de Porto-Vecchio. Infructueuse.'
+    image_url: /images/20180606_194620.jpg
+  - caption: Vue dans le chemin qui mène a la plage du petit Sperone
+    image_url: /images/20180608_162104.jpg
+  - caption: C'est parti pour le Terrain d'Aventure !
+    image_url: /images/20180610_094836.jpg
+  - caption: Oh ! Un trou
+    image_url: /images/img_20180611_104949.jpg
+  - caption: La ferme de la Rivière
+    image_url: /images/20180618_193710.jpg
+  - caption: La rivière de la ferme
+    image_url: /images/20180619_185240.jpg
+  - caption: Benjamin se baigne ferme dans la rivière !
+    image_url: /images/img_20180618_180159.jpg
+  - caption: 'Pont gênois '
+    image_url: /images/20180620_134702.jpg
 ---
 ### Le Sud
 
