@@ -17,9 +17,11 @@ gallery:
 ---
 ## L'Italie entre la Corse et la Suisse
 
-À la suite de nos trois semaines en Corse, nous avons débarqué du ferry à Savona, un port situé à proximité de Gênes, en Italie. Nous avons longé la magnifique côte italienne pendant quelques dizaines de kilomètres avant de prendre direction plein Nord. Ceci nous a permis de traversé la grande plaine du Pô, avec ses rizières et champs divers à perte de vue.
+À la suite de nos trois semaines en Corse, nous avons débarqué du ferry à Savona, un port situé à proximité de Gênes, en Italie. Nous sommes arrivés tard, et nous dirigeons vers une aire de parking pour camping car. Il y avait beaucoup de monde, sur ce parking en bord de route... C'est différent du camping sauvage ou des campings en pleine nature ! 
 
-Nous sommes alors arrivé sur la rive du Lac Majeur. C'était très beau, mais beaucoup trop riche à notre goût, nous avons donc continué notre chemin après une courte halte pour déguster une "gelato".
+Le lendemain, départ tôt pour longer la côte italienne pendant quelques dizaines de kilomètres avant de prendre direction plein Nord. C'était magnifique : mer transparente, jolis fronts de mer avec des maisons aux facades peintes de couleurs chaudes... Nous avons ensuite traversé la grande plaine du Pô, avec ses rizières et champs divers à perte de vue.
+
+Cela nous a amené sur la rive du Lac Majeur. C'était très beau, mais trop ostentatoire et luxueux à notre goût. Les hôtels 5 étoiles et les immenses propriétés en bord de lac laissaient très peu d'accès à l'eau. Nous avons donc continué notre chemin après une courte halte pour déguster une "gelato".
 
 ![Lago Maggiore](/images/img_20180627_170606.jpg)
 
