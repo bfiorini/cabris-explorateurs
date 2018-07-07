@@ -2,8 +2,6 @@
 author: alex
 title: Corses pour trois semaines
 categories:
-  - Escalade
-  - Randonnée
   - Vanlife
   - Voyage
 excerpt: 'Escalade, rando, baignades et pêche entre mer et montagne'
@@ -15,7 +13,7 @@ date: '2018-07-07 05:30:12'
 ---
 ### Le Sud
 
-Nous arrivons à Bastia le 6 juin. Pas encore complètement fixés sur notre destination, nous feuilletons le Guide du Routard qui indique qu’il y a énormément de monde dans le Sud de la Corse en haute saison, car la région est jolie. Nous choisissons donc de commencer notre visite par là. Par ailleurs, avant de partir, nous avons cherché sur internet ce qu’il en était de faire du camping sauvage en Corse… Et nous n’avons pas été rassurés : cela fourmillait d’articles et de forums où les camping-caristes déclaraient s’être fait caillasser leur camping-car par des Corses agressisf, ou insulter/klaxonner toute la nuit. Pas très engageant ! Nous n’avons pas prévu le budget pour dormir en camping pendant trois semaines, mais dans les endroits touristiques, il faudra faire avec…
+Nous arrivons à Bastia le 6 juin. Pas encore complètement fixés sur notre destination, nous feuilletons le Guide du Routard qui indique qu’il y a énormément de monde dans le Sud de la Corse en haute saison, car la région est jolie. Nous choisissons donc de commencer notre visite par là. Par ailleurs, avant de partir, nous avons cherché sur internet ce qu’il en était de faire du camping sauvage en Corse… Et nous n’avons pas été rassurés : cela fourmillait d’articles et de forums où les camping-caristes déclaraient s’être fait caillasser leur camping-car par des Corses agressisfs, ou insulter/klaxonner toute la nuit. Pas très engageant ! Nous n’avons pas prévu le budget pour dormir en camping pendant trois semaines, mais dans les endroits touristiques, il faudra faire avec…
 
 Nous passons une première nuit au Camping à la ferme U Paradisu, près de Porto-Vecchio : bon marché et sympa, près d’un minuscule port. Le lendemain, pluie : nous visitons Porto-Vecchio sous des trombes d’eau.
 
