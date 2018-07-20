@@ -9,7 +9,7 @@ image:
   caption: Jolis rochers à l'Ospedale
   cover: true
   path: /images/couverture_corse.jpg
-date: '2018-07-06 06:30:12'
+date: '2018-07-01 06:30:00'
 gallery:
   - caption: >-
       Allez hop ! On écosse les petits pois ! Au camping à la ferme près de
