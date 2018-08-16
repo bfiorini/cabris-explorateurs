@@ -28,7 +28,7 @@ gallery:
     image_url: /images/20180718_160032.jpg
   - caption: 'Kalle, 28 degrés à l''ombre. La mer est turquoise, le ciel immaculé... '
     image_url: /images/20180718_123115.jpg
-  - caption: 'Le soleil de minuit, avec un beau coucher de soleil'
+  - caption: 'Le soleil de presque-minuit, avec un beau coucher de soleil'
     image_url: /images/20180719_233343.jpg
   - caption: >-
       Une journée en camping c'est : une douche chaude, du ménage dans
@@ -40,7 +40,7 @@ gallery:
       Quand on pêche un poisson, on lève les filets ! La planche à découper en
       granit, c'est joli mais pas hyper pratique. 
     image_url: /images/20180720_201549.jpg
-  - caption: Benjamin poursuivi par un poison en colère
+  - caption: Benjamin poursuivi par un poisson en colère
     image_url: /images/20180722_154949.jpg
   - caption: Et Alexandra gravit hardiment des fissures
     image_url: /images/20180722_153309.jpg
@@ -72,7 +72,7 @@ gallery:
     image_url: /images/20180728_181805.jpg
   - caption: Des fjords et des montagnes qui en surgissent
     image_url: /images/20180728_174248.jpg
-  - caption: 'Au milieu des marécages Norvégiens, le paysage reste plutôt chouette. '
+  - caption: 'Au milieu des marécages norvégiens, le paysage reste plutôt chouette. '
     image_url: /images/20180728_185806.jpg
   - caption: >-
       Quelque part au Sud de Vestvågøy, encore une fois, on est frappés par la
@@ -122,7 +122,7 @@ Pour les non-grimpeurs, Kalle est une petite plage de sable, mignonne, bordée d
 
 ![Vers le petit lac d'eau douce](/images/20180722_172257.jpg)
 
-Pour les grimpeurs, c'est un lieu d'entraînement idéal : les falaises sont basses (une vingtaine de mètres tout au plus), il y a de nombreuses voies d'escalade très faciles, tout au bord de la mer. Les autres sites d'escalade sont à quelques kilomètres en voiture, ce qui fait du lieu un camp de base idéal pour rayonner. Nous y rencontrons des Suédois et des Belges avec qui nous discutons de nos journées, ce que nous avons fait, ils nous conseillent des voies ou des techniques... L'ambiance est très calme pour un camping en pleine nature. Le seul inconvénient est le manque de douche - pour nous, pas de problème car nous avons une douche dans Marguerite. Pour les autres, ce n'est pas un problème non plus - ils se baignent nus dans la mer ou dans le lac d'eau douce, ça donne une ambiance un peu naturiste et nous nous apercevons que les Scandinaves sont tout à fait à l'aise avec la nudité - ça change de la France !
+Pour les grimpeurs, c'est un lieu d'entraînement idéal : les falaises sont basses (une vingtaine de mètres tout au plus), il y a de nombreuses voies d'escalade très faciles, tout au bord de la mer. Les autres sites d'escalade sont à quelques kilomètres en voiture, ce qui fait du lieu un camp de base parfait pour rayonner. Nous y rencontrons des Suédois et des Belges avec qui nous discutons de nos journées, ce que nous avons fait, ils nous conseillent des voies ou des techniques... L'ambiance est très calme pour un camping en pleine nature. Le seul inconvénient est le manque de douche - pour nous, pas de problème car nous avons une douche dans Marguerite. Pour les autres, ce n'est pas un problème non plus - ils se baignent nus dans la mer ou dans le lac d'eau douce, ça donne une ambiance un peu naturiste et nous nous apercevons que les Scandinaves sont tout à fait à l'aise avec la nudité - ça change de la France !
 
 Au niveau de l'escalade, on prend un peu une claque le premier jour en s'attaquant à une voie sensée être tout à fait dans nos cordes (N4+ en norvégien, soit 4a+ en France), on revoit nos ambitions à la baisse... On a été un peu rassurés en apprenant que la difficultée de la voie était en fait particulièrement sous-estimée. Heureusement que ce spot de grimpe regorge de voies faciles, on pratique beaucoup et on progresse jusqu'à se sentir suffisamment à l'aise pour faire une petite grande voie tout en terrain d'aventure. 
 
@@ -132,11 +132,11 @@ L'ambiance est magique, nous sommes juste au-dessus de l'eau, on entend le bruit
 
 ![23 heures. Il fait enfin assez frais pour qu'on grimpe !](/images/20180718_214614.jpg)
 
-Il y a une chose à laquelle on ne s'attendait pas, c'était la chaleur ! Et ici, les températures se ressentent de manière particulièrement intense : certains jours le thermomètre avoisine les 30 degrés et nous sommes terrassés par la chaleur ; quand il fait 13 degrés nous tremblons de froid en doudoune... et nous sommes ravis d'avoir Marguerite ! Quant aux locaux et aux touristes, difficile de savoir s'ils ne sont très habitués à une telle chaleur ou s'ils veulent grimper coûte que coûte, mais nous les voyons partir vers midi pour grimper en plein soleil, alors que nous restons prudemment à l'ombre, haletants... 
+Il y a une chose à laquelle on ne s'attendait pas, c'était la chaleur ! Et ici, les températures se ressentent de manière particulièrement intense : certains jours le thermomètre avoisine les 30 degrés et nous sommes terrassés par la chaleur ; quand il fait 13 degrés nous tremblons de froid en doudoune... et nous sommes ravis d'avoir Marguerite ! Quant aux locaux et aux touristes, difficile de savoir s'ils sont très habitués à une telle chaleur ou s'ils veulent grimper coûte que coûte, mais nous les voyons partir vers midi pour grimper en plein soleil, alors que nous restons prudemment à l'ombre, haletants... 
 
 Nous avons aussi fait un peu de tourisme, en allant visiter la jolie ville voisine de Henningsvær, "La Venise des Lofoten". C'est un joli village parsemé sur un archipel avec des maisons sur pilotis, de toutes les couleurs. 
 
-Pour le confort, deux haltes dans un camping ne nous ont pas fait de mal, c'était l'occasion de vider nos eaux usées (pas facile de trouver de quoi faire aux Lofoten), de prendre une douche chaude (quel luxe !!) et de faire des lessives. Première douche chaude depuis notre départ de Chamonix d'ailleurs, ça faisait 12 jours, et ça faisait beaucoup de bien... Ce qui n'ôte rien au confort de pouvoir se doucher - à l'eau glacée, certes - dans Marguerite ! Nous pensions au début que la salle de bains était juste une perte de place mais que nenni. 
+Pour le confort, deux haltes dans un camping ne nous ont pas fait de mal, c'était l'occasion de vider nos eaux usées (pas facile de trouver de quoi faire aux Lofoten), de prendre une douche chaude (quel luxe !!) et de faire des lessives. Première douche chaude depuis notre départ de Chamonix d'ailleurs, 12 jours plus tôt, et ça a fait beaucoup de bien... Ce qui n'ôte rien au confort de pouvoir se doucher - à l'eau glacée, certes - dans Marguerite ! Nous pensions au début que la salle de bains était juste une perte de place mais que nenni. 
 
 Dans ce camping, nous rencontrons un couple de Bourgoin-Jallieu, près de Grenoble, le monde est petit ! L'homme est un pêcheur et nous prodigue des conseils bien utiles. Nous voilà repartis bien armés pour nous pourvoir du matériel adéquat, et la pêche s'avère fructueuse à Kalle, quand Alexandra pêche un énorme lieu noir (et le dépèce tant bien que mal sur les rochers du bord de mer). Il nous fera trois repas. 
 
@@ -160,7 +160,7 @@ Autre fait surprenant : nous avons beaucoup de mal à trier nos déchets pour le
 
 Une fois n'est pas coutume, nous sommes partis randonner. Direction la jolie plage de Kvalvika. Mais déjà, quand on s'approche du parking du départ de la balade, les choses s'annoncent ardues : il y a deux personnes, probablement employés par les parcs nationaux, qui nous indiquent que le parking est plein et qu'il faut qu'on aille se garer trois kilomètres plus loin. Qu'à cela ne tienne, c'est l'occasion d'utiliser nos vélos ! 
 
-Il fait une chaleur torride, et en Norvège, qu'on se le dise, on ne s'embarasse pas de lacets sur les chemins de randonnée. Ça monte dans le dru ! Mais le jeu en vaut la chandelle, nous passons un col et surplombons une magnifique et immense plage de sable jaune, avec une mer transparente et bordée d'herbe verte où sont quelques tentes. A l'extrémité, une falaise de 600 mètres de haut domine l'océan. 
+Il fait une chaleur torride, et en Norvège, qu'on se le dise, on ne s'embarasse pas de lacets sur les chemins de randonnée. Ça monte dans le dru ! Mais le jeu en vaut la chandelle, nous passons un col et surplombons une magnifique et immense plage de sable doré, avec une mer transparente et bordée d'herbe verte où sont quelques tentes. A l'extrémité, une falaise de 600 mètres de haut domine l'océan. 
 
 La montée ayant été rude, on brûle d'envie de se rafraîchir dans la mer qui nous tend les bras... Mais il ne faut pas oublier que nous sommes au-dessus du Cercle Polaire Arctique, et on a l'impression de se plonger dans un torrent de montagne. Benjamin ne se sent pas de se tremper les pieds et Alexandra ne réussit qu'à se mouiller jusqu'aux genoux. 
 
@@ -180,7 +180,7 @@ Le lendemain, on décide de prendre un petit chemin de randonnée qui part du bo
 
 ![Le panneau de départ de la randonnée, plutôt énigmatique... ](/images/20180730_111704.jpg)
 
-Après une marche dans les sous-bois de bouleaux, nous arrivons à un lac de montagne aux eaux totalement transparentes. Nous sommes totalement seuls, les seuls bruits que nous entendons sont ceux de cloches de moutons, que nous n'avons d'ailleurs jamais réussi à trouver. Nous déjeunons au bord de l'eau et profitons de la chaleur pour nous baigner dans l'eau rafraichissante. 
+Après une marche dans les sous-bois de bouleaux, nous arrivons à un lac de montagne aux eaux transparentes. Nous sommes totalement seuls, les seuls bruits que nous entendons sont ceux de cloches de moutons, que nous n'avons d'ailleurs jamais réussi à trouver. Nous déjeunons au bord de l'eau et profitons de la chaleur pour nous baigner dans l'eau rafraichissante. 
 
 Après ces deux randonnées, nous retournons à notre camp de base, le camping de Kalle. Il y a énormément de touristes. La chaleur est écrasante. Après une journée restés enfermés dans Marguerite, profitant de son ombre, en faisant tant bien que mal circuler l'air, nous décidons de migrer vers des provinces moins touristiques et plus fraîches, et partons vers le massif de Stetind.
 
@@ -190,7 +190,7 @@ De la fraicheur, enfin ! Nous avons repéré quelques sites d'escalade assez cho
 
 ![Petit déj face à Eidetind. Plutôt sympa la vue !](/images/20180802_084952.jpg)
 
-Le premier jour, nous nous attaquons à Eidetind, en nous lançant dans une "petite grande voie" de 5 longueur qui nous permet de monter à mi-hauteur de la montagne (il était possible de continuer jusqu'en haut, mais cela aurait fait une très longue course à la journée). Nous nous faisons bien plaisir dans les fissures, sur un excellent rocher, enfin seuls ! En descendant, nous cueillons quelques myrtilles qui nous feront un petit goûter. 
+Le premier jour, nous nous attaquons à Eidetind, en nous lançant dans une "petite grande voie" de 5 longueurs qui nous permet de monter à mi-hauteur de la montagne (il était possible de continuer jusqu'en haut, mais cela aurait fait une très longue course à la journée). Nous nous faisons bien plaisir dans les fissures, sur un excellent rocher, enfin seuls ! En descendant, nous cueillons quelques myrtilles qui nous feront un petit goûter. 
 
 Depuis l'endroit où nous avons garé Marguerite, nous pouvons observer le jeu de la mer dans un fjord, qui se remplit et se vide deux fois par jour au rythme de la marée. Cela donne lieu à des courants impressionnants dans lesquels Benjamin trempe sa canne à pêche et nous ramène encore un gros poisson ! 
 
