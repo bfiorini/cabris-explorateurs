@@ -106,4 +106,8 @@ Après une journée de pluie, on part se balader sur une immense dalle de granit
 
 ![Un océan de granit](/images/20180804_123652.jpg)
 
-Nous finissons notre séjour dans la région par l'ascension de Halls Fortopp, l'antécime de Stetind, la montagne nationale norvégienne. Encore une fois, cela monte dans le dru
+Nous finissons notre séjour dans la région par l'ascension de Halls Fortopp, l'antécime de Stetind, la montagne nationale norvégienne. Encore une fois, cela monte dans le dru. 
+
+Pour rejoindre Stetind depuis Halls Fortopp, on peut faire une course d'arête, de difficulté modérée. C'était notre plan initial, mais une fois arrivée au départ, Alexandra ne se sentait plus trop de le faire. Nous avons donc fait demi-tour, non sans avoir pris le temps de savourer la vue magnifique ; le matos d'escalade était content d'avoir pris l'air sur 1 300 mètres de dénivelé. 
+
+A la redescente, nous pouvions admirer le lac de fonte des glaces qui était au-dessous de nous, réfléchissant les immenses parois de granit alentour et le grand ciel bleu. Au loin, on pouvait apercevoir les Lofoten. Une bien jolie conclusion à notre voyage au Nord du Cercle Polaire Arctique !
