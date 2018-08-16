@@ -87,7 +87,7 @@ gallery:
     image_url: /images/20180730_115349.jpg
   - caption: 'De ce petit lac isolé, on aperçoit, encore et toujours, des montagnes '
     image_url: /images/20180730_121736.jpg
-  - caption: Eidetind au coucher du soleil
+  - caption: 'Eidetind et couleurs nocturnes, vers 3h du matin'
     image_url: /images/20180802_034912.jpg
   - caption: Wahou !! C'est ça qu'on va grimper ??
     image_url: /images/20180802_110958.jpg
@@ -105,7 +105,7 @@ gallery:
     image_url: /images/20180805_153551.jpg
   - caption: Des parois de granit immenses
     image_url: /images/20180805_153606.jpg
-  - caption: 'Partout, des montagnes toutes pointues !!!'
+  - caption: 'L''immensité de Stetind, montagne nationale de Norvège'
     image_url: /images/20180805_162153.jpg
 ---
 Après une montée éclair vers le Nord, nous sommes arrivés dans l'archipel des Lofoten, un de nos objectifs du voyage. Ces îles ont la réputation d'être magnifiques, et d'offrir un superbe environnement pour grimper entièrement sur coinceurs pour tout le vocabulaire d'escalade, faites un petit tour vers l'article [Grande Voie, Petit Lexique](https://www.cabris-explorateurs.com/escalade/grande-voie-et-petit-lexique/)). Quoi de mieux pour nous entraîner ? Nous avons donc l'intention d'y passer autant de temps que nécessaire, pour découvrir les paysages environnants, grimper et randonner. 
