@@ -132,13 +132,13 @@ L'ambiance est magique, nous sommes juste au-dessus de l'eau, on entend le bruit
 
 ![23 heures. Il fait enfin assez frais pour qu'on grimpe !](/images/20180718_214614.jpg)
 
-Il y a une chose à laquelle on ne s'attendait pas, c'était la chaleur ! Et ici, les températures se ressentent de manière particulièrement intense : certains jours le thermomètre avoisine les 30 degrés et nous sommes terrassés par la chaleur ; quand il fait 13 degrés nous tremblons de froid en doudoune... et nous sommes ravis d'avoir Marguerite ! Quant aux locaux et aux touristes, difficile de savoir s'ils ne sont très habitués à une telle chaleur ou s'ils veulent grimper coûte que coûte, mais nous les voyons partir vers midi pour grimper en plein soleil, alors que nous restons prudemment à l'ombre, haletant... 
+Il y a une chose à laquelle on ne s'attendait pas, c'était la chaleur ! Et ici, les températures se ressentent de manière particulièrement intense : certains jours le thermomètre avoisine les 30 degrés et nous sommes terrassés par la chaleur ; quand il fait 13 degrés nous tremblons de froid en doudoune... et nous sommes ravis d'avoir Marguerite ! Quant aux locaux et aux touristes, difficile de savoir s'ils ne sont très habitués à une telle chaleur ou s'ils veulent grimper coûte que coûte, mais nous les voyons partir vers midi pour grimper en plein soleil, alors que nous restons prudemment à l'ombre, haletants... 
 
 Nous avons aussi fait un peu de tourisme, en allant visiter la jolie ville voisine de Henningsvær, "La Venise des Lofoten". C'est un joli village parsemé sur un archipel avec des maisons sur pilotis, de toutes les couleurs. 
 
 Pour le confort, deux haltes dans un camping ne nous ont pas fait de mal, c'était l'occasion de vider nos eaux usées (pas facile de trouver de quoi faire aux Lofoten), de prendre une douche chaude (quel luxe !!) et de faire des lessives. Première douche chaude depuis notre départ de Chamonix d'ailleurs, ça faisait 12 jours, et ça faisait beaucoup de bien... Ce qui n'ôte rien au confort de pouvoir se doucher - à l'eau glacée, certes - dans Marguerite ! Nous pensions au début que la salle de bains était juste une perte de place mais que nenni. 
 
-Dans ce camping, nous rencontrons un couple de Bourgoin-Jallieu, près de Grenoble, le monde est petit ! Le mâle est un pêcheur et nous prodigue des conseils bien utiles. Nous voilà repartis bien armés pour nous pourvoir du matériel adéquat, et la pêche s'avère fructueuse à Kalle, quand Alexandra pêche un énorme lieu noir (et le dépèce tant bien que mal sur les rochers du bord de mer). Il nous fera trois repas. 
+Dans ce camping, nous rencontrons un couple de Bourgoin-Jallieu, près de Grenoble, le monde est petit ! L'homme est un pêcheur et nous prodigue des conseils bien utiles. Nous voilà repartis bien armés pour nous pourvoir du matériel adéquat, et la pêche s'avère fructueuse à Kalle, quand Alexandra pêche un énorme lieu noir (et le dépèce tant bien que mal sur les rochers du bord de mer). Il nous fera trois repas. 
 
 ![Mais il est énorme !!!! ](/images/20180720_221205_567.jpg)
 
@@ -152,7 +152,7 @@ Nous longeons l'immense plage de sable blanc de Ramberg, regardons les surfers (
 
 ![Le Fjord de Reine](/images/20180724_111555.jpg)
 
-Nous continuons nos observations de la Norvège : en voulant aller faire les courses le dimanche, nous découvrons un concept étrange. Les supermarchés sont ouverts le dimanche, mais ils ouvrent en fait un petit local séparé du magasin principal, pratiquant des "prix du dimanche", et avec un seul employé. 
+Nous continuons nos observations de la Norvège : en voulant aller faire les courses le dimanche, nous découvrons un concept étrange. Les supermarchés sont ouverts le dimanche, mais ils ouvrent en fait un petit local réduit et séparé du magasin principal, pratiquant des "prix du dimanche", et avec un seul employé. 
 
 Autre fait surprenant : nous avons beaucoup de mal à trier nos déchets pour le recyclage. Les norvégiens disposent chez eux de poubelles de tri sélectif, mais nous trouvons extrêmement peu de bennes qui nous permettent de trier. Finalement, en France on n'est pas si gaspilleurs ! 
 
