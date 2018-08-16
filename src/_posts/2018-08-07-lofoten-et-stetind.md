@@ -14,7 +14,7 @@ image:
   caption: 'Kalle, notre "camp de base"'
   cover: true
   path: /images/20180718_123115.jpg
-date: '2018-08-07 11:35:10'
+date: '2018-08-16 11:35:10'
 gallery:
   - caption: The Upside down
     image_url: /images/20180717_161404.jpg
