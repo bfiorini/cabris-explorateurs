@@ -62,4 +62,16 @@ Une fois n'est pas coutume, nous sommes partis randonner. Direction la jolie pla
 
 Il fait une chaleur torride, et en Norvège, qu'on se le dise, on ne s'embarasse pas de lacets sur les chemins de randonnée. Ça monte dans le dru ! Mais le jeu en vaut la chandelle, nous passons un col et surplombons une magnifique et immense plage de sable jaune, avec une mer transparente et bordée d'herbe verte où sont quelques tentes. A l'extrémité, une falaise de 600 mètres de haut domine l'océan. 
 
-La montée ayant été rude, on brûle d'envie de se rafraîchir dans la mer qui nous tend les bras... Mais il ne faut pas oublier que nous sommes au-dessus du Cercle Polaire Arctique, et on a l'impression de se plonger dans un torrent de montagne. Benjamin ne se sent pas de se tremper les pieds et Alexandra ne réussit qu'à se mouiller jusqu'aux genoux.
+La montée ayant été rude, on brûle d'envie de se rafraîchir dans la mer qui nous tend les bras... Mais il ne faut pas oublier que nous sommes au-dessus du Cercle Polaire Arctique, et on a l'impression de se plonger dans un torrent de montagne. Benjamin ne se sent pas de se tremper les pieds et Alexandra ne réussit qu'à se mouiller jusqu'aux genoux. 
+
+Maintenant qu'on s'est rafraîchi, il est temps de gravir la falaise ! Le sentier monte très, très raide. En haut, un rocher s'avance au-dessus du vide, et des touristes font la queue pour prendre une photo d'eux spectaculaire, quitte à prendre des risques assez insensés. 
+
+La descente se fait dans un environnement assez marécageux, comme souvent dans la région. La mousse est extrêmement épaisse et rebondissante, c'est plutôt ludique !
+
+### Gimsøy
+
+En rentrant de Kvalvika, on fait un détour par l'île de Gimsøy. Au nord de l'île, une montagne surgit de plaines marécageuses pour culminer à environ 400 mètres d'altitude, c'est toujours assez impressionnant. Les plages sont couvertes de sable blanc, et parfois des récifs gris viennent ponctuer le paysage. 
+
+Nous nous posons avec Marguerite au bord d'une route de campagne, sur un terrain couvert de trèfles (à 3, 4, 5 et même 6 feuilles !). La soirée est tranquille, nous sirotons un verre en admirant un magnifique arc-en-ciel qui effleure les montagnes de l'autre côté du fjord. 
+
+Le lendemain, on décide de prendre un petit chemin de randonnée qui part du bord de la route et mène vers une destination inconnue.
