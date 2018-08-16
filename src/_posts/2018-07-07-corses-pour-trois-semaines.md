@@ -24,23 +24,23 @@ gallery:
   - caption: Presque au sommet de Croce Leccia
     image_url: /images/20180611_153941.jpg
   - caption: Oh ! Un trou
-    image_url: /images/img_20180611_104949.jpg
+    image_url: /images/20180611_104949.jpg
   - caption: La ferme de la Rivière
     image_url: /images/20180618_193710.jpg
   - caption: La rivière de la ferme
     image_url: /images/20180619_185240.jpg
   - caption: Benjamin se baigne ferme dans la rivière !
-    image_url: /images/img_20180618_180159.jpg
+    image_url: /images/20180618_180159.jpg
   - caption: 'Pont gênois '
     image_url: /images/20180620_134702.jpg
   - caption: Sympa le bureau !
-    image_url: /images/img_20180619_114156.jpg
+    image_url: /images/20180619_114156.jpg
   - caption: Un Cairnarbre corse
-    image_url: /images/img_20180621_121743.jpg
+    image_url: /images/20180621_121743.jpg
   - caption: Après le trou de la bombe
-    image_url: /images/img_20180624_114818.jpg
+    image_url: /images/20180624_114818.jpg
   - caption: Entraînement à la fissure au Ponte Grossu
-    image_url: /images/img_20180625_111339_01.jpg
+    image_url: /images/20180625_111339_01.jpg
 ---
 ### Le Sud
 
@@ -70,7 +70,7 @@ Objectif : profiter du mauvais temps annoncé pour se poser dans un petit campin
 
 La nuit suivante a été assez agitée ! Nous avons été envahis par les moustiques : dès qu’on en tuait un, il en surgissait deux à la place. Nous avons fini par nous demander s’il n’y avait pas une ouverture quelque part dans notre van qui les laissait rentrer… Le lendemain, nous avons vérifié : internet nous a dit que les moustiques rentrent en fait la journée se reposer à l’intérieur, et ne se réveillent que dans la nuit, au fur et à mesure… En tout cas, les moustiques, c’est comme le rhume : c’est quand on en a qu’on se rend compte du bonheur que c’est quand on est tranquille ! Le lendemain, nous essayons de profiter d'une éclaircie entre deux averses pour aller faire un tour en vélo. C'est raté : nous nous faisons totalement saucer. 
 
-![Le seul rayon de soleil de la journée ! Au bord du Golfe de Figari. ](/images/img_20180613_175938.jpg)
+![Le seul rayon de soleil de la journée ! Au bord du Golfe de Figari. ](/images/20180613_175938.jpg)
 
 Départ le surlendemain, traversée de la jolie vallée de l’Ortolo sous la pluie et toute petite route sinueuse vers Sartène, pour acheter de l’anti-moustiques. 
 
@@ -80,7 +80,7 @@ Après Sartène, retour au camping des Roseaux où nous avions passé quelques j
 
 La journée, nous voulons aller observer nos amis les poissons, mais la mer est trop agitée. Qu’à cela ne tienne : nous les pêcherons. A la première tentative de pêche, Benjamin glisse et se retrouve dans l’eau tout habillé, il finit donc en slip ! Ça mord, mais les poissons sont vraiment trop petits, nous les relâchons. Enfin, un matin, ça y est : trois sars moyens, que nous cuisons au barbecue avec des courgettes. C’est bon, mais plein d’arêtes. 
 
-![C'est beau Campomore... ](/images/img_20180615_133932.jpg)
+![C'est beau Campomore... ](/images/20180615_133932.jpg)
 
 ## Travail au bord de la Rivière
 
@@ -94,7 +94,7 @@ Après notre séjour dans cette grande ferme bio au bord de la rivière, munis d
 
 Le lendemain, nous partons faire une grande voie, l’arête de Zonza en TA. Belle escalade sur du rocher de bonne qualité, avec de belles fissures, cheminées et dièdres. Voir l’article pour plus de détails ! La pluie rythme les jours suivants, nous sortons entre les gouttes pour prendre un peu l’air. 
 
-![Sur la variante alpine](/images/img_20180621_105900.jpg)
+![Sur la variante alpine](/images/20180621_105900.jpg)
 
 Une jolie balade nous amène vers le trou de la Bombe, d’où nous poursuivons vers le sommet voisin. Mais l’absence de douche se fait sentir : cela fait 5 jours que nous tenons uniquement avec l’eau de notre réservoir, que nous économisons en ne faisant que des toilettes de chat. Nous filons au camping de U Ponte Grossu, à la sortie du massif de Bavella. 
 

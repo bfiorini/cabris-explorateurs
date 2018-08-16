@@ -15,7 +15,7 @@ gallery:
   - caption: Le vent souffle !
     image_url: /images/20180622_140652.jpg
   - caption: 'Benjamin dans les rappels : "Regarde-moi cette vue comme elle est belle !"'
-    image_url: /images/img_20180622_151409.jpg
+    image_url: /images/20180622_151409.jpg
 ---
 Ce jour-là, nous avions prévu de faire une grande voie en Terrain d’Aventure partiel à Bavella, l’Arête de Zonza (5c max). 
 
@@ -47,7 +47,7 @@ Recherche d’itinéraire à nouveau, discussion : faut-il partir au-dessus dans
 
 Un **passage protégeable** est un passage dans lequel il sera facile de poser des coinceurs ou des sangles pour protéger une chute éventuelle. Si un passage est difficile à protéger mais néanmoins obligatoire, on dit qu’il est exposé, ou « expo ». On parle en revanche d’un passage « engagé » si un retour en arrière s’avère difficile. 
 
-![Ambiance purée de pois !](/images/img_20180622_140951.jpg)
+![Ambiance purée de pois !](/images/20180622_140951.jpg)
 
 En haut, nous retrouvons le couple qui escalade la longueur suivante – qu’on atteint après un court rappel. Le premier de cordée est dans un passage impressionnant et sa partenaire nous avoue être transie de froid à cause du vent. Alors que l’on s’apprête à prendre le petit rappel, les nuages arrivent et le brouillard nous enveloppe. Nous sommes battus par le vent, la visibilité est très fluctuante, Benjamin regarde Alexandra : « Tu veux continuer ? » « Non. » Nous savons que nous pouvons redescendre en trois rappels du point où nous sommes, la décision est prise. C’est fini pour aujourd’hui, nous redescendons au pied de la falaise, au soleil et à l’abri du vent. 
 

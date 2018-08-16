@@ -17,7 +17,7 @@ image:
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Aïe... Le voyage aurait-il mal commencé ?
-    image_url: /images/img_20180120_134413.jpg
+    image_url: /images/20180120_134413.jpg
   - caption: >-
       Benjamin en mission de sauvetage de notre pneu crevé... Malheureusement le
       kit anti-crevaison ne marchait pas. C'est fun de crever sous la pluie

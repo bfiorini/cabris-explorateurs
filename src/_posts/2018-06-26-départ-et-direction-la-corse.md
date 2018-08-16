@@ -31,7 +31,7 @@ Deux jours plus tard, nous voilà à nouveau sur la route. Un petit arrêt touri
 
 À Chamonix, nous profitons de notre liberté nouvellement acquise et d’une journée ensoleillée pour faire une petite rando à la Tête de Balme. L’occasion de se rendre compte qu’il reste encore une bonne quantité de neige en altitude, et de rebrousser sagement chemin quand notre sentier s’avère recouvert d’un raide névé ou d’un haut mur de neige.
 
-![Benjamin est au pied du mur](/images/img_20180603_114330.jpg)
+![Benjamin est au pied du mur](/images/20180603_114330.jpg)
 
 ## Ferry pour la Corse
 
