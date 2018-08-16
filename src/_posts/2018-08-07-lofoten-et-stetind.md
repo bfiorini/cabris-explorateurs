@@ -45,3 +45,21 @@ Pour le confort, deux haltes dans un camping ne nous ont pas fait de mal, c'éta
 Dans ce camping, nous rencontrons un couple de Bourgoin-Jallieu, près de Grenoble, le monde est petit ! Le mâle est un pêcheur et nous prodigue des conseils bien utiles. Nous voilà repartis bien armés pour nous pourvoir du matériel adéquat, et la pêche s'avère fructueuse à Kalle, quand Alexandra pêche un énorme lieu noir (et le dépèce tant bien que mal sur les rochers du bord de mer). Il nous fera trois repas. 
 
 Et en effet, heureusement que nous avons préparé le voyage en faisant des réserves de conserves en France. La nourriture est chère ici, et particulièrement les fruits et légumes qui sont tous importés, pas très mûrs, et se conservent sans broncher plusieurs jours dans notre réfrigérateur. Nous goûtons néanmoins quelques produits locaux, tels que le Kaviar (une espèce de tarama en tube à base de morue, très salé), et le Kulturmjølk, du lait fermenté pas mal avec des fruits et du sirop en dessert. Alexandra est obsédée par les "Kanelknute", ces patisseries roulées à la canelle, et en mange dès qu'elle en voit. Il faut dire que c'est très bon.
+
+### L'Ouest
+
+Entre deux sessions d'escalade, pour nous reposer, nous sommes partis faire un peu de tourisme vers les îles de l'Ouest, en allant vers Å. Les paysages sont changeants, c'est très vert, des montagnes surgissent de la mer, les fjords sont partout, la mer est limpide et d'un bleu turquoise, un régal pour les yeux !
+
+Nous longeons l'immense plage de sable blanc de Ramberg, regardons les surfers (c'est l'attraction locale), et nous arrêtons dans quelques villages touristiques. C'est un peu surprenant mais il y a en effet énormément de touristes sur ces îles. Le village de Å est entièrement converti en musée, dont les bâtiments de pêche se visitent moyennant le billet d'entrée ; celui de Nusfjord fait carrément payer l'entrée à pied dans le village, et à Reine nous n'arrivons pas à nous garer pour faire une petite balade, alors que pourtant il pleut et la balade est dans la brume ! 
+
+Nous continuons nos observations de la Norvège : en voulant aller faire les courses le dimanche, nous découvrons un concept étrange. Les supermarchés sont ouverts le dimanche, mais ils ouvrent en fait un petit local séparé du magasin principal, pratiquant des "prix du dimanche", et avec un seul employé. 
+
+Autre fait surprenant : nous avons beaucoup de mal à trier nos déchets pour le recyclage. Les norvégiens disposent chez eux de poubelles de tri sélectif, mais nous trouvons extrêmement peu de bennes qui nous permettent de trier. Finalement, en France on n'est pas si gaspilleurs ! 
+
+### Kvalvika
+
+Une fois n'est pas coutume, nous sommes partis randonner. Direction la jolie plage de Kvalvika. Mais déjà, quand on s'approche du parking du départ de la balade, les choses s'annoncent ardues : il y a deux personnes, probablement employés par les parcs nationaux, qui nous indiquent que le parking est plein et qu'il faut qu'on aille se garer trois kilomètres plus loin. Qu'à cela ne tienne, c'est l'occasion d'utiliser nos vélos ! 
+
+Il fait une chaleur torride, et en Norvège, qu'on se le dise, on ne s'embarasse pas de lacets sur les chemins de randonnée. Ça monte dans le dru ! Mais le jeu en vaut la chandelle, nous passons un col et surplombons une magnifique et immense plage de sable jaune, avec une mer transparente et bordée d'herbe verte où sont quelques tentes. A l'extrémité, une falaise de 600 mètres de haut domine l'océan. 
+
+La montée ayant été rude, on brûle d'envie de se rafraîchir dans la mer qui nous tend les bras... Mais il ne faut pas oublier que nous sommes au-dessus du Cercle Polaire Arctique, et on a l'impression de se plonger dans un torrent de montagne. Benjamin ne se sent pas de se tremper les pieds et Alexandra ne réussit qu'à se mouiller jusqu'aux genoux.
