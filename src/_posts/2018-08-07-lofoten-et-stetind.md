@@ -11,10 +11,102 @@ excerpt: >-
   grimper, randonner et découvrir le magnifique archipel des Lofoten et les
   montagnes du massif de Stetind.
 image:
-  caption: 'Pas les Lofoten, mais presque'
+  caption: 'Kalle, notre "camp de base"'
   cover: true
-  path: /images/20170620_201151.jpg
+  path: /images/20180718_123115.jpg
 date: '2018-08-07 11:35:10'
+gallery:
+  - caption: The Upside down
+    image_url: /images/20180717_161404.jpg
+  - caption: >-
+      Une de nos premières voies à Kalle. Une bonne douche froide et un
+      encouragement à bien travailler !
+    image_url: /images/20180717_175447.jpg
+  - caption: 'Vue depuis un de nos spots de grimpe à Kalle, presque les pieds dans l''eau'
+    image_url: /images/20180717_183147.jpg
+  - caption: Ça mord ??
+    image_url: /images/20180718_160032.jpg
+  - caption: 'Kalle, 28 degrés à l''ombre. La mer est turquoise, le ciel immaculé... '
+    image_url: /images/20180718_123115.jpg
+  - caption: 'Le soleil de minuit, avec un beau coucher de soleil'
+    image_url: /images/20180719_233343.jpg
+  - caption: >-
+      Une journée en camping c'est : une douche chaude, du ménage dans
+      Marguerite, des machines à gogo... Le luxe, quoi !
+    image_url: /images/20180720_115207.jpg
+  - caption: 'Henningsvær, "la Venise des Lofoten" '
+    image_url: /images/20180720_165456.jpg
+  - caption: >-
+      Quand on pêche un poisson, on lève les filets ! La planche à découper en
+      granit, c'est joli mais pas hyper pratique. 
+    image_url: /images/20180720_201549.jpg
+  - caption: Benjamin poursuivi par un poison en colère
+    image_url: /images/20180722_154949.jpg
+  - caption: Et Alexandra gravit hardiment des fissures
+    image_url: /images/20180722_153309.jpg
+  - caption: Typiquement typique
+    image_url: /images/20180721_152649.jpg
+  - caption: >-
+      Le petit lac d'eau douce de Kalle, où les Norvégiens se baignent après une
+      rude journée de grimpe
+    image_url: /images/20180725_185608.jpg
+  - caption: >-
+      Alexandra victorieuse en haut d'un bloc de granit ! Ouh yeah, il y a de
+      quoi être fière 
+    image_url: /images/20180723_135426.jpg
+  - caption: La plage de sable blanc de Ramberg
+    image_url: /images/20180723_163103.jpg
+  - caption: 'Benjamin, une miche de pain à la main, devant la sorcière / morue de Å'
+    image_url: /images/20180724_102637.jpg
+  - caption: 'Au col de Kvalvika, prêts à redescendre sur... '
+    image_url: /images/20180728_161212.jpg
+  - caption: '...La plage de sable doré, wahou'
+    image_url: /images/20180728_162325.jpg
+  - caption: 'Seul sur la plage, les pieds dans l''eau...'
+    image_url: /images/20180728_164355.jpg
+  - caption: >-
+      Sur le rocher qui surplombe la falaise de Ryten, au-dessus de Kvalvika, la
+      silhouette de Benjamin se découpe sur les eaux bleues de la Mer de Norvège
+    image_url: /images/20180728_181639.jpg
+  - caption: 'On ne se lasse pas de contempler ce paysage... '
+    image_url: /images/20180728_181805.jpg
+  - caption: Des fjords et des montagnes qui en surgissent
+    image_url: /images/20180728_174248.jpg
+  - caption: 'Au milieu des marécages Norvégiens, le paysage reste plutôt chouette. '
+    image_url: /images/20180728_185806.jpg
+  - caption: >-
+      Quelque part au Sud de Vestvågøy, encore une fois, on est frappés par la
+      couleur de la mer et les montagnes vertigineuses qui s'y jettent... On ne
+      s'en lasse pas ! 
+    image_url: /images/20180729_143421-01.jpg
+  - caption: C'est l'apéro !!! Bonheur sur Gimsøy
+    image_url: /images/20180729_184552.jpg
+  - caption: En contemplant un bel arc-en-ciel
+    image_url: /images/20180729_203945.jpg
+  - caption: Et puis une rando nous mène au bord d'un petit lac de montagne
+    image_url: /images/20180730_115349.jpg
+  - caption: 'De ce petit lac isolé, on aperçoit, encore et toujours, des montagnes '
+    image_url: /images/20180730_121736.jpg
+  - caption: Eidetind au coucher du soleil
+    image_url: /images/20180802_034912.jpg
+  - caption: Wahou !! C'est ça qu'on va grimper ??
+    image_url: /images/20180802_110958.jpg
+  - caption: 'Depuis le flanc de l''Eidetind, on se sent tout petit... '
+    image_url: /images/20180802_162501.jpg
+  - caption: 'Avant la pluie, Benjamin qui surplombe les fjords'
+    image_url: /images/20180804_135024.jpg
+  - caption: Depuis Halls Fortopp
+    image_url: /images/20180805_145459.jpg
+  - caption: 'Eh oui, ça monte dans le dru !'
+    image_url: /images/20180805_145638.jpg
+  - caption: Le lac de glacier au pied de Stetind... Magique.
+    image_url: /images/20180805_152807.jpg
+  - caption: 'Vue sur les Lofoten, au loin'
+    image_url: /images/20180805_153551.jpg
+  - caption: Des parois de granit immenses
+    image_url: /images/20180805_153606.jpg
+  - caption: 'Partout, des montagnes toutes pointues !!!'
+    image_url: /images/20180805_162153.jpg
 ---
 Après une montée éclair vers le Nord, nous sommes arrivés dans l'archipel des Lofoten, un de nos objectifs du voyage. Ces îles ont la réputation d'être magnifiques, et d'offrir un superbe environnement pour grimper entièrement sur coinceurs pour tout le vocabulaire d'escalade, faites un petit tour vers l'article [Grande Voie, Petit Lexique](https://www.cabris-explorateurs.com/escalade/grande-voie-et-petit-lexique/)). Quoi de mieux pour nous entraîner ? Nous avons donc l'intention d'y passer autant de temps que nécessaire, pour découvrir les paysages environnants, grimper et randonner. 
 
