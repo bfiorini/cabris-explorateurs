@@ -1,5 +1,5 @@
 ---
-title: 'Miroir d''Argentine : Voie Directe'
+title: 'Miroir d''Argentine - Voie Directe'
 area: Alpes vaudoises
 difficulty: 5a
 height: '450'
