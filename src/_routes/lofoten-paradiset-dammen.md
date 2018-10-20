@@ -7,6 +7,8 @@ pitches: '1'
 gear: Terrain d'aventure
 rock: Granite
 rating: 3
-description: Petit secteur de couennes en fissures.
+description: |-
+  Petit secteur de couennes en fissures. Parfait pour apprendre les verrous.
+  "Venstre risset" est plus dure et conti qu'il n'y parait, plutôt N5.
 ---
 
