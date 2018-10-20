@@ -1,10 +1,10 @@
 ---
-title: 'Miroir d''Argentine - Voie Directe'
+title: Miroir d'Argentine - Voie Directe
 area: Alpes vaudoises
 difficulty: 5a
 height: '450'
 pitches: '13'
-gear: Terrain d'aventure
+gear: Aéré à compléter
 rock: Calcaire
 rating: 3
 description: >-
