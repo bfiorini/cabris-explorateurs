@@ -1,5 +1,5 @@
 ---
-title: 'Punta di l’Acellù : Arête de Zonza'
+title: 'Punta di l''Acellù : Arête de Zonza'
 area: Aiguilles de Bavella
 difficulty: 5c
 height: '250'
