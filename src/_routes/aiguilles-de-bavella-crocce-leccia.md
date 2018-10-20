@@ -2,7 +2,7 @@
 title: Crocce Leccia
 area: Aiguilles de Bavella
 difficulty: 5c max
-height: '149'
+height: '150'
 pitches: '5'
 gear: Terrain d'aventure
 rock: Granite
