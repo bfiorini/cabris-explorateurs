@@ -2,5 +2,5 @@
 layout: frontpage
 permalink: /
 header:
-  image: /images/header-home.jpg
+  image: /images/cabris-explorateurs/header-home.jpg
 ---

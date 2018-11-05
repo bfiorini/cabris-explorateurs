@@ -13,30 +13,30 @@ categories:
 image:
   caption: ''
   cover: true
-  path: /images/20180121_164902.jpg
+  path: /images/cabris-explorateurs/20180121_164902.jpg
 date: '2018-02-26 02:56:44'
 gallery:
   - caption: Aïe... Le voyage aurait-il mal commencé ?
-    image_url: /images/20180120_134413.jpg
+    image_url: /images/cabris-explorateurs/20180120_134413.jpg
   - caption: >-
       Benjamin en mission de sauvetage de notre pneu crevé... Malheureusement le
       kit anti-crevaison ne marchait pas. C'est fun de crever sous la pluie
       glacée de janvier !
-    image_url: /images/benjamin_repare_pneu.jpg
+    image_url: /images/cabris-explorateurs/benjamin_repare_pneu.jpg
   - caption: >-
       Réveil au bord des étangs de Narbonne... un lever de soleil enchanteur, le
       chant des oiseaux et le clapotis de l'eau.
-    image_url: /images/lever_de_soleil_a_narbonne.jpg
+    image_url: /images/cabris-explorateurs/lever_de_soleil_a_narbonne.jpg
   - caption: Site de couenne à Collbató (Cam nou barris)
-    image_url: /images/couenne_collbato.jpg
+    image_url: /images/cabris-explorateurs/couenne_collbato.jpg
   - caption: Les parois de la face Nord
-    image_url: /images/parois_nord_original.jpg
+    image_url: /images/cabris-explorateurs/parois_nord_original.jpg
   - caption: 'Coucher de soleil côté Nord, avec un des monastères en contrebas'
-    image_url: /images/coucher_soleil_parois_nord.jpg
+    image_url: /images/cabris-explorateurs/coucher_soleil_parois_nord.jpg
   - caption: 'La cheminée de la très jolie voie Arlequí (V+), a Vermell del Xincarró '
-    image_url: /images/montserrat_cheminee_vermell.jpg
+    image_url: /images/cabris-explorateurs/montserrat_cheminee_vermell.jpg
   - caption: Super ambiance à Vermell del Xincarró dans le brouillard
-    image_url: /images/montserra_vermell_brouillard.jpg
+    image_url: /images/cabris-explorateurs/montserra_vermell_brouillard.jpg
 ---
 En [Décembre 2017]({% link _posts/2017-11-30-trois-jours-en-van-les-calanques-et-la-sainte-victoire.md %}), nous avions loué un van pour un long weekend et aller dans les Calanques. Le concept nous avait séduit, et la suite logique était de poursuivre l'expérience avec un van plus grand, qui correspondait mieux à ce que nous voudrions acheter, et sur une période plus longue. Nous voilà donc partis avec le grand frère de notre van précédent : 5m40 de long, 2m60 de haut, le Burstner 540 sur Fiat Ducato loué chez Alpes Evasion à Chambéry.
 
@@ -50,7 +50,7 @@ Pour couper le trajet, nous avions prévu de nous installer au bord des étangs 
 
 Arrivés à Montserrat, nous nous sommes posés au-dessus d'El Bruc, dans le parking d'un Office du Tourisme avec toilettes sèches - grand luxe.
 
-![Notre petit coin](/images/notre_petit_coin.jpg)
+![Notre petit coin](/images/cabris-explorateurs/notre_petit_coin.jpg)
 
  Première journée de grimpe à Collbató, secteur Cam Nou Barris : voies en une longueur, très sympa pour une rencontre avec le rocher local. Ensuite, nous avons changé de spot pour la nuit, pour nous poser près d'une grande aire de pique nique dont la route d'accès était fermée la nuit. Concrètement, cela voulait juste dire que la Guardia Civil passait à 22h pour nous notifier la fermeture de la route, et nous donner leur numéro de téléphone au cas où on voudrait sortir et que la barrière était fermée. Très cool ces espagnols !
 

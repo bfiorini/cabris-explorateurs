@@ -8,24 +8,24 @@ excerpt: |-
   Dernière mise à jour : 3 juin 2018
 image:
   cover: true
-  path: /images/preparation_marguerite.jpg
+  path: /images/cabris-explorateurs/preparation_marguerite.jpg
 date: '2018-06-03 10:00:00'
 gallery:
   - caption: Premier repas de Marguerite...
-    image_url: /images/premier_repas.jpg
+    image_url: /images/cabris-explorateurs/premier_repas.jpg
   - caption: ... et le nôtre à son bord !
-    image_url: /images/premier-repas-pour-nous.jpg
+    image_url: /images/cabris-explorateurs/premier-repas-pour-nous.jpg
   - caption: >-
       Le décollage des autocollants d'origine : armés d'un sèche-cheveux pour
       amollir la colle, et de dissolvant pour éliminer les traces récalcitrantes
-    image_url: /images/decollage2.jpg
+    image_url: /images/cabris-explorateurs/decollage2.jpg
   - caption: Quelque part entre Niort et Clermont Ferrand... L'homme et la bête.
-    image_url: /images/retour_grenoble.jpg
+    image_url: /images/cabris-explorateurs/retour_grenoble.jpg
   - caption: >-
       Le premier trajet, c'est aussi les premières réparations... Benjamin est
       profondément impliqué pour trouver les raisons du non-fonctionnement
       soudain de la pompe à eau. 
-    image_url: /images/pompe-eau.jpg
+    image_url: /images/cabris-explorateurs/pompe-eau.jpg
 ---
 ### Avril - Octobre 2017: naissance d'une idée
 
@@ -43,7 +43,7 @@ Ce qui était sûr, c'était que l'idée de partir nous donnait des papillons da
 
 ### Novembre 2017 : visite de concessionnaires
 
-![Visite des concessionnaires : c'est si grand un van ?!](/images/visite des concessionnaires.jpg)
+![Visite des concessionnaires : c'est si grand un van ?!](/images/cabris-explorateurs/visite des concessionnaires.jpg)
 
 J'ai profité de mon temps libre pour aller d'un concessionnaire à l'autre, voir quels étaient les différents formats de vente, les tailles, les aménagements... et surfer un peu sur le bon coin. Quand on n'a aucune idée de ce qui existe sur le marché, il vaut mieux mettre les pieds chez les concessionnaires. Il y a une multitude de vans en exposition, les vendeurs sont disponibles et prennent le temps d'expliquer, cela permet de se faire une meilleure idée de ce à quoi on peut prétendre et de ce qui est hors de question (avant de partir, je me disais qu'un four pourrait être super chouette... utopie.) 
 
@@ -51,7 +51,7 @@ J'ai trouvé assez difficile de trouver des infos sur internet sur quel type de 
 
 ### Décembre 2017 : location d'un van pour trois jours
 
-![Première location ](/images/header_calanques_vanlife.jpg)
+![Première location ](/images/cabris-explorateurs/header_calanques_vanlife.jpg)
 
 L'idée se concrétise. 
 
@@ -61,7 +61,7 @@ Première étape : louer un van pour quelques jours, histoire de voir si ça pou
 
 J'ai un peu insisté, et Benjamin a été partant pour une semaine de location dans un grand van. Nous sommes allé [une semaine fin janvier en Espagne](https://www.cabris-explorateurs.com/vanlife/escalade/une-semaine-%C3%A0-montserrat-grimpe-et-d%C3%A9cision-d-acheter/), pour grimper et randonner. 
 
-![Montserrat en fourgon](/images/notre_petit_coin.jpg)
+![Montserrat en fourgon](/images/cabris-explorateurs/notre_petit_coin.jpg)
 
 Les côtés positifs : le temps a été très clément au début, nous avions la super application Park4night pour trouver des endroits où dormir, le van était bien assez grand cette fois... 
 
@@ -93,7 +93,7 @@ Le 16 mars, nous avons récupéré Marguerite près de Nantes. Le feeling est su
 
 Le 17 et 18 mars, nous avons pris soin de la belle, lui enlevant la plupart de ses autocollants afin de passer plus inaperçus, enlevant aussi la TV qu'elle contenait... Et passant nos premières nuits en son sein. 
 
-![Décollage imminent](/images/decollage.jpg)
+![Décollage imminent](/images/cabris-explorateurs/decollage.jpg)
 
 Maintenant, l'idée est de prendre Marguerite dès que nous pouvons, et de réfléchir aux petits aménagements à faire pour le quotidien. Nous avons déjà pallié à la dureté du matelas en mettant une couette supplémentaire sur le matelas (plus économique qu'un surmatelas, et utile en cas de froid intensif !)
 
