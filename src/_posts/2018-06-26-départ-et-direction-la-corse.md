@@ -7,13 +7,13 @@ categories:
 excerpt: 'Première semaine de notre voyage : de Grenoble à la Corse.'
 image:
   cover: true
-  path: /images/photo_couverture_depart.jpg
+  path: /images/cabris-explorateurs/photo_couverture_depart.jpg
 date: '2018-06-26 10:00:00'
 gallery:
   - caption: Vue sur la vallée de Chamonix depuis la tête de Balme. "La vue est belle."
-    image_url: /images/20180603_115326.jpg
+    image_url: /images/cabris-explorateurs/20180603_115326.jpg
   - caption: C'est partiiiiiii !
-    image_url: /images/photo_couverture_depart.jpg
+    image_url: /images/cabris-explorateurs/photo_couverture_depart.jpg
 ---
 ## Départ de Grenoble
 
@@ -25,13 +25,13 @@ A Valentigney (près de Montbéliard), petit arrêt de quelques jours pour se re
 
 Deux jours plus tard, nous voilà à nouveau sur la route. Un petit arrêt touristique pour voir le Saut du Doubs, puis direction Chamonix via la Suisse. Nous ne réalisons pas encore vraiment que nous sommes partis…
 
-![Le Saut du Doubs](/images/20180602_130239.jpg)
+![Le Saut du Doubs](/images/cabris-explorateurs/20180602_130239.jpg)
 
 ## Interlude Chamoniard
 
 À Chamonix, nous profitons de notre liberté nouvellement acquise et d’une journée ensoleillée pour faire une petite rando à la Tête de Balme. L’occasion de se rendre compte qu’il reste encore une bonne quantité de neige en altitude, et de rebrousser sagement chemin quand notre sentier s’avère recouvert d’un raide névé ou d’un haut mur de neige.
 
-![Benjamin est au pied du mur](/images/20180603_114330.jpg)
+![Benjamin est au pied du mur](/images/cabris-explorateurs/20180603_114330.jpg)
 
 ## Ferry pour la Corse
 
@@ -41,4 +41,4 @@ Une nuit aux Gorges d’Agnielles entre Grenoble et Toulon et une petite session
 
 C’est l’aventure !
 
-![Départ de Toulon !](/images/20180605_211501.jpg)
+![Départ de Toulon !](/images/cabris-explorateurs/20180605_211501.jpg)

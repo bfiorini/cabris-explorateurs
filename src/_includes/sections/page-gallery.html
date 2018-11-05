@@ -9,9 +9,8 @@
 {% endcomment %}
 <div id="gallery">
   {%- for item in page.gallery -%}
-  {%- assign f = item.image_url | split: '.' -%}
-  <a href="{{ f[0] | relative_url }}.{{ f[1] }}">
-    <img src="{{ f[0] | relative_url }}-150.{{ f[1] }}"
+  <a href="{{ site.cld }}f_auto,q_auto{{ item.image_url }}">
+    <img src="{{ site.cld }}c_limit,f_auto,q_auto,w_150{{ item.image_url }}"
       alt="{{ item.caption | markdownify | remove: '<p>' | remove: '</p>' }}">
   </a>
   {%- endfor -%}

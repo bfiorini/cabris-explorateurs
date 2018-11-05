@@ -11,7 +11,7 @@ Jekyll::Hooks.register :posts, :pre_render do |post, payload|
         /\!\[(.+)\]\((.+)\)/,
         <<~EOS
           <figure>
-            <a href="\\2">
+            <a href="{{ site.cld }}f_auto,q_auto\\2">
               {% include components/responsive-picture.html file="\\2" alt="\\1" %}
             </a>
             <figcaption>\\1</figcaption>
