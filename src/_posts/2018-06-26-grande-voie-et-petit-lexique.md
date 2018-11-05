@@ -9,13 +9,13 @@ excerpt: >-
 image:
   caption: ''
   cover: true
-  path: /images/couverture_lexique.jpg
+  path: /images/cabris-explorateurs/couverture_lexique.jpg
 date: '2018-06-26 10:29:44'
 gallery:
   - caption: Le vent souffle !
-    image_url: /images/20180622_140652.jpg
+    image_url: /images/cabris-explorateurs/20180622_140652.jpg
   - caption: 'Benjamin dans les rappels : "Regarde-moi cette vue comme elle est belle !"'
-    image_url: /images/20180622_151409.jpg
+    image_url: /images/cabris-explorateurs/20180622_151409.jpg
 ---
 Ce jour-là, nous avions prévu de faire une grande voie en Terrain d’Aventure partiel à Bavella, l’Arête de Zonza (5c max). 
 
@@ -27,7 +27,7 @@ Nous nous sommes donc levés relativement tôt (7h30) pour prendre le chemin de 
 
 La matinée était venteuse ; le topo indiquait que la voie était très exposée au vent. La traversée du maquis couplée à l’idée de faire une voie ventée n’enchantait pas Alexandra, c’est sans entrain qu’elle a suivi Benjamin dans le maquis qui heureusement restait timide et se limitait à quelques buissons d’une quarantaine de centimètres de haut, disséminé entre des rochers. Benjamin prenait des bifurcations en suivant des cairns qui pour Alexandra ressemblaient plus à des tas de cailloux arrivés là au hasard. Au final, nous sommes arrivés au bon endroit, comme prévu par le topo.
 
-![Parés au départ !](/images/20180622_094953.jpg)
+![Parés au départ !](/images/cabris-explorateurs/20180622_094953.jpg)
 
 Nous avons rencontré au pied de la voie un couple qui s’apprêtait à la faire aussi. La recherche d’itinéraire semblait être la difficulté principale de la voie, nous avons laissé l’autre couple partir devant, en disant en blaguant qu’ils pourraient nous laisser passer quand ils en auraient marre de chercher leur chemin. 
 
@@ -37,7 +37,7 @@ Un **pas** désigne généralement un mouvement ou une succession de mouvements 
 
 Pour franchir le pas, il fallait se suspendre à des anneaux de corde, faire un grand pas en arrière et poser le pied sur le rocher d’en face. A la fin de sa première tentative, Alexandra se tenait pendue, les jambes ballantes dans le vide, telle une poupée de chiffon. Après être remontée penaude au niveau du départ, elle a fini par réussir, tremblante, à arriver de l’autre côté.  
 
-![La cordée nous précédant vient de franchir le pas](/images/20180622_100712.jpg)
+![La cordée nous précédant vient de franchir le pas](/images/cabris-explorateurs/20180622_100712.jpg)
 
 Belle fissure en deuxième longueur, vent violent au niveau du relais suivant. Benjamin, rejoignant Alexandra dont les vêtements battaient tels des drapeaux fiers et indépendants, lui a fait remarquer qu’en se déplaçant de 50 centimètres elle pouvait être tout à fait à l’abri du vent. Ah ! Oui. 
 
@@ -47,13 +47,13 @@ Recherche d’itinéraire à nouveau, discussion : faut-il partir au-dessus dans
 
 Un **passage protégeable** est un passage dans lequel il sera facile de poser des coinceurs ou des sangles pour protéger une chute éventuelle. Si un passage est difficile à protéger mais néanmoins obligatoire, on dit qu’il est exposé, ou « expo ». On parle en revanche d’un passage « engagé » si un retour en arrière s’avère difficile. 
 
-![Ambiance purée de pois !](/images/20180622_140951.jpg)
+![Ambiance purée de pois !](/images/cabris-explorateurs/20180622_140951.jpg)
 
 En haut, nous retrouvons le couple qui escalade la longueur suivante – qu’on atteint après un court rappel. Le premier de cordée est dans un passage impressionnant et sa partenaire nous avoue être transie de froid à cause du vent. Alors que l’on s’apprête à prendre le petit rappel, les nuages arrivent et le brouillard nous enveloppe. Nous sommes battus par le vent, la visibilité est très fluctuante, Benjamin regarde Alexandra : « Tu veux continuer ? » « Non. » Nous savons que nous pouvons redescendre en trois rappels du point où nous sommes, la décision est prise. C’est fini pour aujourd’hui, nous redescendons au pied de la falaise, au soleil et à l’abri du vent. 
 
 Un **rappel** est souvent la conclusion d’une voie : On passe la corde dans un anneau qui est fixé à un relais fixe, généralement constitué de deux points reliés par une cordelette ou une chaîne. On tire sur un brin de la corde jusqu’à ce que son milieu soit au niveau de l’anneau, et on descend sur les deux brins à la fois, en s’assurant soi-même. 
 
-![Alexandra en rappel](/images/20180622_150654.jpg)
+![Alexandra en rappel](/images/cabris-explorateurs/20180622_150654.jpg)
 
 Il y a plusieurs sortes de **relais**. Les relais étant des postes où les grimpeurs seront fixés pour assurer l’autre, ils doivent être particulièrement solides. Ils sont donc souvent constitués de deux points au minimum. Dans une voie équipée au préalable, les deux points peuvent être des spits, reliés entre eux par une chaîne ou une sangle surtout s’il s’agit d’un relais de rappel. S’ils ne sont pas reliés, le premier de cordée doit faire une manipulation en arrivant pour les relier. En terrain d’aventure, il peut n’y avoir qu’un seul point en place, voire aucun : c’est alors au grimpeur de tête de placer les points (parfois plus de deux), afin de construire un relais solide. 
 

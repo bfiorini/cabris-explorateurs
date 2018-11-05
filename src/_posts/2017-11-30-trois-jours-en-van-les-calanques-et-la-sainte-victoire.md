@@ -10,26 +10,26 @@ categories:
 image:
   caption: ''
   cover: true
-  path: /images/header_calanques_vanlife.jpg
+  path: /images/cabris-explorateurs/header_calanques_vanlife.jpg
 date: '2017-11-30 11:08:20'
 ---
 Certain.e.s le savent déjà, nous avons le projet de nous acheter un van, pour partir en toute liberté à la découverte de nouveaux horizons. De renseignement en lecture, de lecture en discussion, de blog en forum, nous avons fini par découvrir que la première étape, c'était de louer pour essayer. Parce que paraît-il, on finit parfois par se rendre compte au bout de deux nuits que sur le papier c'était bien joli, mais qu'en fait, ça le fait pas, mais pas du tout. 
 
 Nous nous sommes donc rappelé qu'en Corse, il y avait pas mal de vans Blacksheep. Alors, tout simplement, nous sommes allés voir sur leur [site](https://www.blacksheep-van.com/) et nous avons choisi le van de nos rêves (le California Confort, pour ceux qui se poseraient la question). Deux lits, un sur le toit relevable et un sur la banquette pliable, une cuisine à l'intérieur, et un chauffage stationnaire. Même si on va dans le sud, mine de rien la nuit, ça caille.
 
-![il fait froid, mais on est heureux car c'est l'apéro](/images/il-fait-froid-mais-on-est-heureux-car-c-est-l-apero.jpg)
+![il fait froid, mais on est heureux car c'est l'apéro](/images/cabris-explorateurs/il-fait-froid-mais-on-est-heureux-car-c-est-l-apero.jpg)
 
 Bon, il faut avouer que le début n'a pas été une franche victoire. A l'automne, ils vendent tous leurs vans, et pour la flotte d'hiver il ne reste que les invendus... En voyant notre van aux banquettes ravagées de taches indélébiles, aux portes de placard délabrées, et surtout avec le gaz qui ne marchait pas, on ne s'est tout de même pas démonté, on a négocié un jour de remboursement, et nous voilà sur la route de Die. Gonflés à bloc, et renseignés sur la durabilité des California.
 
 Lors d'un petit arrêt pique-nique (camembert avec vue et délicieux flans de la boulangerie en bas de chez nous, s'il vous plait), un monsieur vient nous voir en nous expliquant qu'il voulait voir le van pour l'acheter, et qu'il l'avait raté de peu car nous venions de partir avec. Il nous explique que l'autre van Blacksheep en vente était imprégné d'une odeur de cigarette froide. Charmant... Nous l'avons échappé belle.
 
-![camembert heureux d'avoir une si jolie vue](/images/camembert-heureux.jpg)
+![camembert heureux d'avoir une si jolie vue](/images/cabris-explorateurs/camembert-heureux.jpg)
 
 Bref, nous voilà de retour sur la route et armés de la super app' Parc4night, nous repérons un petit parking champêtre vers Aubagne. 
 
 Au menu : Vendredi, grimpe sur un joli petit mur dans la calanque de Port-Miou. Samedi, Balade dans les calanques magnifique, depuis Port-Miou jusqu'à dominer En-Vau, superbe. Samedi après-midi, départ pour la Sainte Victoire, où on trouve un joli sport au pied de la montagne, et balade le dimanche par un vent à décorner les boeufs, voire à les faire s'envoler. 
 
-![crapahutage au-dessus d'En Vau](/images/crapahutage.jpg)
+![crapahutage au-dessus d'En Vau](/images/cabris-explorateurs/crapahutage.jpg)
 
 En tout cas, le but de cette sortie étant de tester le van, je peux dire que la mission est accomplie.
 
@@ -65,4 +65,4 @@ Conclusion : un van comme ça pour partir en weekend, c'est idéal. Le Californi
 
 A bientôt pour de nouvelles aventures !
 
-![Benjamin contemple](/images/benjamin_contemple.jpg)
+![Benjamin contemple](/images/cabris-explorateurs/benjamin_contemple.jpg)

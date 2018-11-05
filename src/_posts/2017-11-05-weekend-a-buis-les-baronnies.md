@@ -7,7 +7,7 @@ excerpt: >-
 categories:
   - Escalade
 image:
-  path: /images/header-buis.jpg
+  path: /images/cabris-explorateurs/header-buis.jpg
   caption: '[Camptocamp / CC by-sa](https://www.camptocamp.org/images/154025/fr/vue-d-ensemble-rocher-st-julien-sud)'
   cover: true
 ---

@@ -1,19 +1,18 @@
 <article class="entry row b60">
   {% if post.image.path %}
   <section class="entry-image small-12 medium-4 column">
-    {% assign f = post.image.path | split: '.' %}
     {% assign title = post.title | escape_once %}
     <a href="{{ post.url | relative_url }}" title="{{ title }}">
       <noscript>
-        <img src="{{ f[0] | relative_url }}-250.{{ f[1] }}" alt="{{ title }}">
+        <img src="{{ site.cld }}c_limit,f_auto,q_auto,w_320{{ post.image.path }}" alt="{{ title }}">
       </noscript>
-      <img src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
+      <img src="{{ site.cld }}c_limit,f_auto,q_auto,w_40{{ post.image.path }}"
         data-sizes="auto"
-        data-srcset="{{ f[0] | relative_url }}-250.{{ f[1] }} 250w,
-                     {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
-                     {{ f[0] | relative_url }}-480.{{ f[1] }} 480w,
-                     {{ f[0] | relative_url }}-640.{{ f[1] }} 640w,
-                     {{ f[0] | relative_url }}-768.{{ f[1] }} 768w"
+        data-srcset="{{ site.cld }}c_limit,f_auto,q_auto,w_250{{ post.image.path }} 250w,
+                     {{ site.cld }}c_limit,f_auto,q_auto,w_320{{ post.image.path }} 320w,
+                     {{ site.cld }}c_limit,f_auto,q_auto,w_480{{ post.image.path }} 480w,
+                     {{ site.cld }}c_limit,f_auto,q_auto,w_640{{ post.image.path }} 640w,
+                     {{ site.cld }}c_limit,f_auto,q_auto,w_768{{ post.image.path }} 768w"
         alt="{{ title }}" class="lazyload fade-in">
     </a>
   </section>
