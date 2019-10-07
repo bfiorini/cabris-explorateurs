@@ -29,7 +29,7 @@ upload_dir: images/cabris-explorateurs
 public_path: https://res.cloudinary.com/bfiorini/image/upload
 front_matter_path: ''
 use_front_matter_path: false
-file_template: 'images/cabris-explorateurs/:filename:'
+file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
