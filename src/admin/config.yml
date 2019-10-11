@@ -11,6 +11,13 @@ publish_mode: editorial_workflow
 media_folder: "images/"
 public_folder: "/images/"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: bfiorini
+    api_key: 243964751613559
+  output_filename_only: true
+
 collections:
   - name: posts
     label: Blog Posts

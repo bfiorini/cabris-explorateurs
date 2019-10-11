@@ -7,15 +7,15 @@
 {% endcomment %}
 {%- assign file = include.file -%}
 {%- assign alt = include.alt -%}
-<noscript><img src="{{ site.cld }}c_limit,f_auto,q_auto,w_1440{{ file }}" alt="{{ alt | escape_once }}"></noscript>
-<img src="{{ site.cld }}c_limit,f_auto,q_auto,w_40{{ file }}"
+<noscript><img src="{{ site.cld }}c_limit,f_auto,q_auto,w_1440/{{ file }}" alt="{{ alt | escape_once }}"></noscript>
+<img src="{{ site.cld }}c_limit,f_auto,q_auto,w_40/{{ file }}"
   data-sizes="auto"
-  data-srcset="{{ site.cld }}c_limit,f_auto,q_auto,w_320{{ file }} 320w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_480{{ file }} 480w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_640{{ file }} 640w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_768{{ file }} 768w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_1024{{ file }} 1024w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_1440{{ file }} 1440w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_1600{{ file }} 1600w,
-               {{ site.cld }}c_limit,f_auto,q_auto,w_1920{{ file }} 1920w"
+  data-srcset="{{ site.cld }}c_limit,f_auto,q_auto,w_320/{{ file }} 320w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_480/{{ file }} 480w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_640/{{ file }} 640w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_768/{{ file }} 768w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_1024/{{ file }} 1024w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_1440/{{ file }} 1440w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_1600/{{ file }} 1600w,
+               {{ site.cld }}c_limit,f_auto,q_auto,w_1920/{{ file }} 1920w"
   alt="{{ alt | escape_once }}" class="lazyload fade-in">
